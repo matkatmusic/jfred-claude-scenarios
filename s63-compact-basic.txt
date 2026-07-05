@@ -1,0 +1,11 @@
+session: s63-compact-basic
+model: claude-opus-4-6[1m]
+ponytail: ultra
+---
+- [ ] 1. Say: `Write a file called 'greet.py' with a module docstring and a documented function 'greet(name)' that returns a "Hello, <name>!" string.`
+- [ ] 2. Say: `Edit 'greet.py'. Add a documented function 'farewell(name)' that returns a "Goodbye, <name>." string.`
+- [ ] 3. /compact
+- [ ] 4. Say: `Edit 'greet.py'. Add a documented function 'shout(name)' that returns the greeting from 'greet' in uppercase.`
+- [ ] 5. Say: `Thanks.`
+- [ ] 6. Exit
+- [ ] 7. Record: JSONL filename

@@ -1,0 +1,13 @@
+session: s25-script-rename-multi-file
+model: claude-opus-4-6[1m]
+ponytail: ultra
+---
+- [ ] 1. Say: `Write a file called 'geo_core.py' — a small geometry module, at least 100 lines long, with a module docstring and these terse-named functions, each documented: 'area(w, h)' returns w * h; 'perim(w, h)' returns 2 * (w + h); 'vol(w, h, d)' returns w * h * d; 'diag(w, h)' returns the rectangle diagonal; 'scale(w, h, k)' returns (w * k, h * k). Also write 'geo_report.py' that imports 'geo_core' and defines 'build_report(shapes)' which calls 'area', 'perim', and 'vol' to produce a text report. Also write 'tests/test_geo_core.py' covering 'area' and 'perim'.`
+- [ ] 2. Say: `Edit 'geo_core.py'. Add a function 'midpoint(x1, y1, x2, y2)' that returns the midpoint tuple.`
+- [ ] 3. Say: `Edit 'geo_report.py'. Add a function 'summary_line(shape)' that returns a one-line string built by calling 'area' and 'vol'.`
+- [ ] 4. Say: `These function names are too terse. Write a Python script called 'rename_geo.py' that does a whole-word rename ACROSS 'geo_core.py', 'geo_report.py', AND 'tests/test_geo_core.py' — 'area' to 'rectangle_area', 'perim' to 'rectangle_perimeter', 'vol' to 'box_volume' — by reading each file's text, substituting, and writing it back, then run it with python3 using the Bash tool (not the context-mode MCP sandbox). The test file must be updated with the new names too. Important: perform the rename by writing and running that script — do NOT use your Edit/Write tools to change 'geo_core.py', 'geo_report.py', or the test file directly.`
+- [ ] 5. Say: `Edit 'geo_report.py'. Add a function 'totals(shapes)' that sums results from 'rectangle_area' and 'box_volume'.`
+- [ ] 6. Say: `Edit 'geo_core.py'. Add a function 'bounding_box(points)' that returns (min_x, min_y, max_x, max_y).`
+- [ ] 7. Say: `Thanks.`
+- [ ] 8. Exit
+- [ ] 9. Record: JSONL filename

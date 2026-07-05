@@ -1,0 +1,12 @@
+session: s69-clear-then-file-set
+model: claude-opus-4-6[1m]
+ponytail: ultra
+---
+- [ ] 1. Say: `Write two files. 'money.py' with a module docstring and a documented function 'format_usd(n)' that returns a "$0.00"-style string. And 'rates.py' with a module docstring and a documented function 'apply_rate(amount, rate)' that returns amount * rate.`
+- [ ] 2. Say: `Edit 'money.py'. Add a documented function 'parse_usd(s)' that parses a "$0.00"-style string back into a float.`
+- [ ] 3. /clear
+- [ ] 4. Say: `Open 'money.py' and 'rates.py' to see what's there, then edit 'money.py' to add a documented function 'round_cents(n)' that rounds a float to two decimal places.`
+- [ ] 5. Say: `Edit 'rates.py'. Add a documented function 'apply_rate_usd(amount, rate)' that applies the rate and formats the result by calling 'apply_rate' and 'money.format_usd'.`
+- [ ] 6. Say: `Thanks.`
+- [ ] 7. Exit
+- [ ] 8. Record: JSONL filename

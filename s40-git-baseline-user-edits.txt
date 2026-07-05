@@ -1,0 +1,13 @@
+session: s40-git-baseline-user-edits
+model: claude-opus-4-6[1m]
+ponytail: ultra
+---
+- [ ] 1. Say: `Initialize a git repository here — run each git command separately, no && chains. Write a file called 'orders.py' with a module docstring and these documented functions: 'total(items)' returns the sum of each item's "price"; 'names(items)' returns a list of each item's "name". Also write 'tests/test_orders.py' covering 'total'. Then stage 'orders.py' and the 'tests' directory and commit with the message "baseline". Finally create and switch to a branch called 'feature'.`
+- [ ] 2. EndCurrentAgentAndSpawnNewAgent: --excludeJSONL
+- [ ] 3. Say: `Edit 'orders.py'. Add a documented function 'count(items)' that returns the number of items.`
+- [ ] 4. Edit: orders.py — append `# reviewed by ops`
+- [ ] 5. Say: `Edit 'orders.py'. Add a documented function 'subtotal(items, n)' that returns the total of the first n items.`
+- [ ] 6. Edit: orders.py — append `# checked`
+- [ ] 7. Say: `Thanks.`
+- [ ] 8. Exit
+- [ ] 9. Record: JSONL filename

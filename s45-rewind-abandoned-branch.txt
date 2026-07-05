@@ -1,0 +1,12 @@
+session: s45-rewind-abandoned-branch
+model: claude-opus-4-6[1m]
+ponytail: ultra
+---
+- [ ] 1. Say: `Write a file called 'calc.py' with a documented function 'add(a, b)' that returns a + b, and write 'tests/test_calc.py' covering 'add'.`
+- [ ] 2. Say: `Edit 'calc.py'. Add a documented function 'subtract(a, b)' that returns a - b.`
+- [ ] 3. Say: `Looks good.`
+- [ ] 4. Rewind: 2, code
+- [ ] 5. Say: `Edit 'calc.py'. Add a documented function 'multiply(a, b)' that returns a * b.`
+- [ ] 6. Say: `Thanks.`
+- [ ] 7. Exit
+- [ ] 8. Record: JSONL filename

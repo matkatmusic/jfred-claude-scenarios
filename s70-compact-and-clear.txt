@@ -1,0 +1,13 @@
+session: s70-compact-and-clear
+model: claude-opus-4-6[1m]
+ponytail: ultra
+---
+- [ ] 1. Say: `Write a file called 'validate.py' with a module docstring and a documented function 'is_email(s)' that returns whether the string looks like an email address.`
+- [ ] 2. Say: `Edit 'validate.py'. Add a documented function 'is_phone(s)' that returns whether the string looks like a 10-digit phone number.`
+- [ ] 3. /compact
+- [ ] 4. Say: `Edit 'validate.py'. Add a documented function 'is_zip(s)' that returns whether the string is a 5-digit US zip code.`
+- [ ] 5. /clear
+- [ ] 6. Say: `Open 'validate.py' to see what's there, then edit it to add a documented function 'is_nonempty(s)' that returns whether the string has at least one non-whitespace character.`
+- [ ] 7. Say: `Thanks.`
+- [ ] 8. Exit
+- [ ] 9. Record: JSONL filename

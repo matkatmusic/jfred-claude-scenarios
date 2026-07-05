@@ -1,0 +1,12 @@
+session: s81-sayqueued-course-change
+model: claude-opus-4-6[1m]
+ponytail: full
+---
+- [ ] 1. Say: `Write 'shapes.py' with a module docstring and a documented function 'area_square(side)' that returns side * side.`
+- [ ] 2. Say: `Edit 'shapes.py' to add a documented function 'area_circle(r)' that returns 3.14159 * r * r.`
+- [ ] 3. SayQueued: `Actually, in that same edit also add 'area_triangle(base, height)' returning 0.5 * base * height.`
+- [ ] 4. Say: `Now write a Python script 'compute.py' that imports shapes and prints area_square(4), area_circle(2), and area_triangle(3, 6), then run it with python3 via the Bash tool.`
+- [ ] 5. SayQueued: `Also have it print the sum of all three areas.`
+- [ ] 6. Say: `Thanks.`
+- [ ] 7. Exit
+- [ ] 8. Record: JSONL filename

@@ -1,0 +1,13 @@
+session: s71-compact-over-git-baseline
+model: claude-opus-4-6[1m]
+ponytail: ultra
+---
+- [ ] 1. Say: `Initialize a git repository here — run each git command separately, no '&&' chains. Write a file called 'inventory.py' with a module docstring and these documented functions: 'add_item(items, name, qty)' appends an item dict and returns the list; 'total_qty(items)' returns the sum of each item's "qty". Then stage 'inventory.py' and commit with the message "baseline".`
+- [ ] 2. Say: `Edit 'inventory.py'. Add a documented function 'find_item(items, name)' that returns the first item with a matching "name", or None.`
+- [ ] 3. Say: `Edit 'inventory.py'. Add a documented function 'remove_item(items, name)' that returns the list with the first matching item removed.`
+- [ ] 4. /compact
+- [ ] 5. Say: `Edit 'inventory.py'. Add a documented function 'restock(items, name, qty)' that increases the matching item's "qty" by calling 'find_item'.`
+- [ ] 6. Say: `Edit 'inventory.py'. Add a documented function 'low_stock(items, threshold)' that returns the items whose "qty" is below the threshold.`
+- [ ] 7. Say: `Thanks.`
+- [ ] 8. Exit
+- [ ] 9. Record: JSONL filename

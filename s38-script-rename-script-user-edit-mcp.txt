@@ -1,0 +1,14 @@
+session: s38-script-rename-script-user-edit-mcp
+model: claude-opus-4-6[1m]
+ponytail: ultra
+---
+- [ ] 1. Say: `Write a file called 'inventory.py' — a small inventory module, at least 100 lines long, with a module docstring and these terse-named functions, each documented: 'qty_chk(item, n)' returns whether n <= item["stock"]; 'add_item(store, item)' appends an item; 'rm_item(store, name)' removes by name; 'find_item(store, name)' returns the matching item; 'tot_value(store)' sums price * stock. Also write 'tests/test_inventory.py' covering 'qty_chk' and 'tot_value'.`
+- [ ] 2. Say: `Edit 'inventory.py'. Add a function 'low_stock(store, threshold)' that returns items below the threshold.`
+- [ ] 3. Say: `Write a Python script called 'rename_inv.py' that applies a list of renames as whole-word substitutions to both 'inventory.py' and 'tests/test_inventory.py'. Write the rename list as RENAMES — a multi-line Python list with one (old, new) tuple per line, each line ending with a comma, indented four spaces, the first and only entry being ("qty_chk", "check_quantity"),. Do not run it yet.`
+- [ ] 4. Edit: rename_inv.py — after `("qty_chk", "check_quantity"),` insert `    ("add_item", "insert_item"),`
+- [ ] 5. Edit: rename_inv.py — after `("add_item", "insert_item"),` insert `    ("rm_item", "remove_item"),`
+- [ ] 6. Say: `Now run 'rename_inv.py' by executing it through the context-mode MCP sandbox (the ctx_execute / ctx_batch_execute tool), NOT the Bash tool, to apply all of its renames to 'inventory.py' and its test file. Important: perform the rename by running that script through the MCP sandbox — do NOT use your Edit/Write tools to change 'inventory.py' or its test file directly, and do not run it with the Bash tool.`
+- [ ] 7. Say: `Edit 'inventory.py'. Add a function 'restock(store, name, n)' that uses 'check_quantity' and 'insert_item'.`
+- [ ] 8. Say: `Thanks.`
+- [ ] 9. Exit
+- [ ] 10. Record: JSONL filename

@@ -1,0 +1,14 @@
+session: s53-concurrent-two-agents
+model: claude-opus-4-6[1m]
+ponytail: ultra
+---
+- [ ] 1. Say: `Write a file called 'notes.py' with a module docstring and a documented function 'add(a, b)' that returns a + b.`
+- [ ] 2. SpawnNewAgent: a2
+- [ ] 3. Say @a2: `Edit 'notes.py'. Add a documented function 'sub(a, b)' that returns a - b.`
+- [ ] 4. Say @a2: `Thanks.`
+- [ ] 5. Say @a1: `Edit 'notes.py'. Add a documented function 'mul(a, b)' that returns a * b.`
+- [ ] 6. Say @a1: `Thanks.`
+- [ ] 7. Exit @a2
+- [ ] 8. Exit @a1
+- [ ] 9. Record @a1
+- [ ] 10. Record @a2

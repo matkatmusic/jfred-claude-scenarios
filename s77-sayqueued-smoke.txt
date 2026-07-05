@@ -1,0 +1,9 @@
+session: s77-sayqueued-smoke
+model: claude-opus-4-6[1m]
+ponytail: full
+---
+- [ ] 1. Say: `Write 'note.py' with a module docstring and a documented function 'greet(name)' that returns the string "Hello, " followed by name. Then run 'note.py' with python3 via the Bash tool so it prints greet("world").`
+- [ ] 2. SayQueued: `Also add a documented function 'farewell(name)' to 'note.py' that returns the string "Goodbye, " followed by name.`
+- [ ] 3. Say: `Thanks.`
+- [ ] 4. Exit
+- [ ] 5. Record: JSONL filename

@@ -1,0 +1,15 @@
+session: s58-concurrent-over-git-baseline
+model: claude-opus-4-6[1m]
+ponytail: ultra
+---
+- [ ] 1. Say: `Initialize a git repository here — run each git command separately, no '&&' chains. Write a file called 'orders.py' with a module docstring and a documented function 'total(items)' that sums each item's "price". Also write 'tests/test_orders.py' covering 'total'. Then stage 'orders.py' and the 'tests' directory and commit with the message "baseline". Finally create and switch to a branch called 'feature'.`
+- [ ] 2. SpawnNewAgent: a2
+- [ ] 3. Say @a2: `Edit 'orders.py'. Add a documented function 'count(items)' that returns the number of items.`
+- [ ] 4. Say @a1: `Edit 'orders.py'. Add a documented function 'names(items)' that returns a list of each item's "name".`
+- [ ] 5. Say @a2: `Edit 'orders.py'. Add a documented function 'subtotal(items, n)' that returns the total of the first n items.`
+- [ ] 6. Say @a1: `Thanks.`
+- [ ] 7. Say @a2: `Thanks.`
+- [ ] 8. Exit @a2
+- [ ] 9. Exit @a1
+- [ ] 10. Record @a1
+- [ ] 11. Record @a2

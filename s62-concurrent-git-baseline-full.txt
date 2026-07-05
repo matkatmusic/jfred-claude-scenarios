@@ -1,0 +1,26 @@
+session: s62-concurrent-git-baseline-full
+model: claude-opus-4-6[1m]
+ponytail: ultra
+---
+- [ ] 1. Say: `Initialize a git repository here — run each git command separately, no '&&' chains. Write 'orders.py' with a module docstring and a documented function 'total(items)' that sums each item's "price". Write 'customers.py' with a module docstring and a documented function 'names(customers)' that returns a list of each customer's "name". Also write 'tests/test_orders.py' covering 'total'. Then stage 'orders.py', 'customers.py', and the 'tests' directory and commit with the message "baseline". Finally create and switch to a branch called 'feature'.`
+- [ ] 2. SpawnNewAgent: a2
+- [ ] 3. Say @a2: `Edit 'orders.py'. Add a documented function 'count(items)' that returns the number of items.`
+- [ ] 4. SpawnNewAgent: a3
+- [ ] 5. Say @a3: `Edit 'customers.py'. Add a documented function 'find(customers, name)' that returns the matching customer or None.`
+- [ ] 6. Say @a2: `Edit 'orders.py'. Add a documented function 'subtotal(items, n)' that returns the total of the first n items.`
+- [ ] 7. Say @a2: `Edit 'orders.py'. Add a documented function 'most_expensive(items)' that returns the item with the highest "price".`
+- [ ] 8. Rewind @a2: 2, code
+- [ ] 9. Say @a2: `Edit 'orders.py'. Add a documented function 'cheapest(items)' that returns the item with the lowest "price".`
+- [ ] 10. Edit: customers.py — append `# reviewed by ops`
+- [ ] 11. Say @a1: `Edit 'customers.py'. Add a documented function 'emails(customers)' that returns a list of each customer's "email".`
+- [ ] 12. Edit: orders.py — append `# checked`
+- [ ] 13. Say @a3: `Edit 'customers.py'. Add a documented function 'count(customers)' that returns the number of customers.`
+- [ ] 14. Say @a1: `Thanks.`
+- [ ] 15. Say @a2: `Thanks.`
+- [ ] 16. Say @a3: `Thanks.`
+- [ ] 17. Exit @a3
+- [ ] 18. Exit @a2
+- [ ] 19. Exit @a1
+- [ ] 20. Record @a1
+- [ ] 21. Record @a2
+- [ ] 22. Record @a3

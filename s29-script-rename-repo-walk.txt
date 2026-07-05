@@ -1,0 +1,11 @@
+session: s29-script-rename-repo-walk
+model: claude-opus-4-6[1m]
+ponytail: ultra
+---
+- [ ] 1. Say: `Create a small package, each module at least 50 lines with documented functions. Write 'pkg/a.py' — a data-loading module — with: 'helper(x)' that normalizes a raw value (strip whitespace and lowercase if it is a string); 'load_rows(text)' that splits text into lines and calls 'helper' on each cell; 'count_rows(rows)' that returns the number of rows; and 'first_row(rows)' that returns the first row or None. Write 'pkg/b.py' — a reporting module — with: 'helper(x)' that formats a value for display (return str(x).title()); 'render(rows)' that builds a report string by calling 'helper' on each value; 'header(cols)' that joins column names by calling 'helper'; and 'footer(n)' that returns a one-line summary. Write 'pkg/vendor/c.py' — a vendored module — that also defines 'helper(x)' and calls it, to serve as the control that must NOT be renamed. Write 'main.py' at the top level that does "from pkg.a import helper" and defines 'run(text)' that calls 'helper'. Also write 'tests/test_pkg.py' that imports 'helper' from 'pkg.a' and asserts it normalizes a value (so the walk renames the test too).`
+- [ ] 2. Say: `Edit 'pkg/a.py'. Add a function 'preprocess(x)' that calls 'helper'.`
+- [ ] 3. Say: `Write a Python script called 'walk_rename.py' that walks the current directory tree with os.walk, collecting every .py file but SKIPPING any directory named "vendor", and whole-word renames 'helper' to 'compute_value' in each collected file. Then run it with python3 using the Bash tool (not the context-mode MCP sandbox). The script must discover the files by walking — do not hardcode the file list. Important: perform the rename by running that script — do NOT use your Edit/Write tools to change the .py files directly.`
+- [ ] 4. Say: `Edit 'pkg/b.py'. Add a function 'pipeline(x)' that calls 'compute_value'.`
+- [ ] 5. Say: `Thanks.`
+- [ ] 6. Exit
+- [ ] 7. Record: JSONL filename

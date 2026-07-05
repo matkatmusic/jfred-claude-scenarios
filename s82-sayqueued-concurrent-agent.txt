@@ -1,0 +1,13 @@
+session: s82-sayqueued-concurrent-agent
+model: claude-opus-4-6[1m]
+ponytail: full
+---
+- [ ] 1. Say: `Write 'base.py' with a module docstring and a documented function 'inc(x)' that returns x + 1.`
+- [ ] 2. SpawnNewAgent: a2
+- [ ] 3. Say @a2: `Write a Python script 'runit.py' that imports base, prints inc(41), and writes the result to 'out.txt', then run it with python3 via the Bash tool.`
+- [ ] 4. SayQueued @a2: `Also have the script print inc(inc(41)) as well.`
+- [ ] 5. Say @a2: `Thanks.`
+- [ ] 6. Exit @a1
+- [ ] 7. Exit @a2
+- [ ] 8. Record @a1
+- [ ] 9. Record @a2

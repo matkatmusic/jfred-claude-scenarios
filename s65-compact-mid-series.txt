@@ -1,0 +1,13 @@
+session: s65-compact-mid-series
+model: claude-opus-4-6[1m]
+ponytail: ultra
+---
+- [ ] 1. Say: `Write a file called 'strutils.py' with a module docstring and a documented function 'reverse(s)' that returns the reversed string.`
+- [ ] 2. Say: `Edit 'strutils.py'. Add a documented function 'is_palindrome(s)' that returns whether the string reads the same forwards and backwards.`
+- [ ] 3. Say: `Edit 'strutils.py'. Add a documented function 'count_vowels(s)' that returns the number of vowels in the string.`
+- [ ] 4. /compact
+- [ ] 5. Say: `Edit 'strutils.py'. Add a documented function 'capitalize_words(s)' that returns the string with each word capitalized.`
+- [ ] 6. Say: `Edit 'strutils.py'. Add a documented function 'strip_digits(s)' that returns the string with all digits removed.`
+- [ ] 7. Say: `Thanks.`
+- [ ] 8. Exit
+- [ ] 9. Record: JSONL filename

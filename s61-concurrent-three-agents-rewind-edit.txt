@@ -1,0 +1,23 @@
+session: s61-concurrent-three-agents-rewind-edit
+model: claude-opus-4-6[1m]
+ponytail: ultra
+---
+- [ ] 1. Say: `Write a file called 'shapes.py' with a module docstring and a documented function 'area_square(side)' that returns side * side.`
+- [ ] 2. SpawnNewAgent: a2
+- [ ] 3. Say @a2: `Edit 'shapes.py'. Add a documented function 'area_rect(w, h)' that returns w * h.`
+- [ ] 4. SpawnNewAgent: a3
+- [ ] 5. Say @a3: `Edit 'shapes.py'. Add a documented function 'area_circle(r)' that returns 3.14159 * r * r.`
+- [ ] 6. Say @a3: `Edit 'shapes.py'. Add a documented function 'circumference(r)' that returns 2 * 3.14159 * r.`
+- [ ] 7. Rewind @a3: 2
+- [ ] 8. Say @a3: `Edit 'shapes.py'. Add a documented function 'area_triangle(base, height)' that returns 0.5 * base * height.`
+- [ ] 9. Edit: shapes.py — append `# reviewed by ops`
+- [ ] 10. Say @a1: `Edit 'shapes.py'. Add a documented function 'perimeter_square(side)' that returns 4 * side.`
+- [ ] 11. Say @a1: `Thanks.`
+- [ ] 12. Say @a2: `Thanks.`
+- [ ] 13. Say @a3: `Thanks.`
+- [ ] 14. Exit @a3
+- [ ] 15. Exit @a2
+- [ ] 16. Exit @a1
+- [ ] 17. Record @a1
+- [ ] 18. Record @a2
+- [ ] 19. Record @a3

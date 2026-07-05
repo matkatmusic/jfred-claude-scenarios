@@ -1,0 +1,16 @@
+session: s56-concurrent-with-user-edit
+model: claude-opus-4-6[1m]
+ponytail: ultra
+---
+- [ ] 1. Say: `Write a file called 'inventory.py' with a module docstring and a documented function 'add_item(store, item)' that appends an item to the store list.`
+- [ ] 2. SpawnNewAgent: a2
+- [ ] 3. Say @a2: `Edit 'inventory.py'. Add a documented function 'remove_item(store, name)' that removes the item whose "name" matches.`
+- [ ] 4. Edit: inventory.py — append `# reviewed by ops`
+- [ ] 5. Say @a1: `Edit 'inventory.py'. Add a documented function 'find_item(store, name)' that returns the matching item or None.`
+- [ ] 6. Edit: inventory.py — append `# checked`
+- [ ] 7. Say @a2: `Thanks.`
+- [ ] 8. Say @a1: `Thanks.`
+- [ ] 9. Exit @a2
+- [ ] 10. Exit @a1
+- [ ] 11. Record @a1
+- [ ] 12. Record @a2

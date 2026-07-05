@@ -1,0 +1,33 @@
+session: s73-move-script-then-concurrent-edit
+model: claude-opus-4-6[1m]
+ponytail: ultra
+---
+- [ ] 1. Say: `Write three files. 'alpha.py' with a module docstring and a documented function 'a_one(x)' that returns x + 1. 'beta.py' with a module docstring and a documented function 'b_one(x)' that returns x * 2. 'gamma.py' with a module docstring and a documented function 'g_one(x)' that returns x - 1.`
+- [ ] 2. Say: `Edit 'alpha.py'. Add a documented function 'a_two(x)' that returns x + 2.`
+- [ ] 3. Edit: beta.py — append `# reviewed by ops`
+- [ ] 4. Say: `Edit 'gamma.py'. Add a documented function 'g_two(x)' that returns x - 2.`
+- [ ] 5. Say: `Rename all three modules by writing a Python script called 'move_files.py' that uses shutil.move to rename 'alpha.py' to 'core_alpha.py', 'beta.py' to 'core_beta.py', and 'gamma.py' to 'core_gamma.py', then run it with python3 using the Bash tool (not the context-mode MCP sandbox). Perform the moves by writing and running that script — do NOT use your Edit/Write tools or a bash mv to move the files directly.`
+- [ ] 6. Say: `Thanks.`
+- [ ] 7. Exit @a1
+- [ ] 8. Record @a1
+- [ ] 9. SpawnNewAgent: a2
+- [ ] 10. Say @a2: `Edit 'core_alpha.py'. Add a documented function 'a_three(x)' that returns x + 3.`
+- [ ] 11. SpawnNewAgent: a3
+- [ ] 12. Say @a3: `Edit 'core_beta.py'. Add a documented function 'b_two(x)' that returns x * 3.`
+- [ ] 13. SpawnNewAgent: a4
+- [ ] 14. Say @a4: `Edit 'core_gamma.py'. Add a documented function 'g_three(x)' that returns x - 3.`
+- [ ] 15. Edit: core_alpha.py — append `# post-move review a`
+- [ ] 16. Edit: core_beta.py — append `# post-move review b`
+- [ ] 17. Edit: core_gamma.py — append `# post-move review c`
+- [ ] 18. Say @a2: `Edit 'core_alpha.py'. Add a documented function 'a_four(x)' that returns x + 4.`
+- [ ] 19. Say @a3: `Edit 'core_beta.py'. Add a documented function 'b_three(x)' that returns x * 4.`
+- [ ] 20. Say @a4: `Edit 'core_gamma.py'. Add a documented function 'g_four(x)' that returns x - 4.`
+- [ ] 21. Say @a2: `Thanks.`
+- [ ] 22. Say @a3: `Thanks.`
+- [ ] 23. Say @a4: `Thanks.`
+- [ ] 24. Exit @a2
+- [ ] 25. Exit @a3
+- [ ] 26. Exit @a4
+- [ ] 27. Record @a2
+- [ ] 28. Record @a3
+- [ ] 29. Record @a4

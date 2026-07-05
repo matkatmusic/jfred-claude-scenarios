@@ -1,0 +1,21 @@
+session: s84-multiagent-scripts-git-baseline
+model: claude-opus-4-6[1m]
+ponytail: ultra
+---
+- [ ] 1. Say: `Initialize a git repository here — run each git command separately, no '&&' chains. Write a file called 'inventory.py' with a module docstring and these documented functions: 'add_item(items, name, qty)' appends an item dict and returns the list; 'total_qty(items)' returns the sum of each item's "qty". Then stage 'inventory.py' and commit with the message "baseline".`
+- [ ] 2. Say: `Edit 'inventory.py'. Add a documented function 'find_item(items, name)' that returns the first item with a matching "name", or None. Then stage 'inventory.py' and commit with the message "add find_item".`
+- [ ] 3. Say: `Edit 'inventory.py'. Add a documented function 'remove_item(items, name)' that returns the list with the first matching item removed. Then stage 'inventory.py' and commit with the message "add remove_item".`
+- [ ] 4. SpawnNewAgent: a2
+- [ ] 5. Say @a2: `Rename the module by writing a Python script called 'move_files.py' that uses shutil.move to rename 'inventory.py' to 'core_inventory.py', then run it by executing it through the context-mode MCP sandbox (the ctx_execute / ctx_batch_execute tool), NOT the Bash tool. Perform the move by writing and running that script — do NOT use your Edit/Write tools or a bash mv to move the file directly.`
+- [ ] 6. SayQueued @a2: `Also have 'move_files.py' print the rename it performs.`
+- [ ] 7. SpawnNewAgent: a3
+- [ ] 8. Say @a3: `Write a CSV file called 'renames.csv' with a header "old,new" and these rows: add_item,append_item then find_item,lookup_item. Then write a Python script called 'apply_renames.py' that reads 'renames.csv' and applies each old-to-new pair as a whole-word rename across 'core_inventory.py' — reading the file's text, substituting every pair, and writing it back — then run it with python3 using the Bash tool (not the context-mode MCP sandbox). The script must read the mapping from 'renames.csv' (not hardcode it). Perform the rename by writing and running that script — do NOT use your Edit/Write tools to change the source file directly.`
+- [ ] 9. SayQueued @a3: `Also have 'apply_renames.py' print each old-to-new rename as it applies it.`
+- [ ] 10. Say @a2: `Thanks.`
+- [ ] 11. Say @a3: `Thanks.`
+- [ ] 12. Exit @a1
+- [ ] 13. Exit @a2
+- [ ] 14. Exit @a3
+- [ ] 15. Record @a1
+- [ ] 16. Record @a2
+- [ ] 17. Record @a3

@@ -1,0 +1,14 @@
+session: s66-compact-twice
+model: claude-opus-4-6[1m]
+ponytail: ultra
+---
+- [ ] 1. Say: `Write a file called 'mathkit.py' with a module docstring and a documented function 'square(n)' that returns n squared.`
+- [ ] 2. Say: `Edit 'mathkit.py'. Add a documented function 'cube(n)' that returns n cubed.`
+- [ ] 3. /compact
+- [ ] 4. Say: `Edit 'mathkit.py'. Add a documented function 'factorial(n)' that returns the factorial of n.`
+- [ ] 5. Say: `Edit 'mathkit.py'. Add a documented function 'is_even(n)' that returns whether n is even.`
+- [ ] 6. /compact
+- [ ] 7. Say: `Edit 'mathkit.py'. Add a documented function 'gcd(a, b)' that returns the greatest common divisor of a and b.`
+- [ ] 8. Say: `Thanks.`
+- [ ] 9. Exit
+- [ ] 10. Record: JSONL filename

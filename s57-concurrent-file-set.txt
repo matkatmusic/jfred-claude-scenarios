@@ -1,0 +1,16 @@
+session: s57-concurrent-file-set
+model: claude-opus-4-6[1m]
+ponytail: ultra
+---
+- [ ] 1. Say: `Write two files. 'orders.py' with a module docstring and a documented function 'total(items)' that sums each item's "price". 'customers.py' with a module docstring and a documented function 'names(customers)' that returns a list of each customer's "name".`
+- [ ] 2. SpawnNewAgent: a2
+- [ ] 3. Say @a2: `Edit 'orders.py'. Add a documented function 'count(items)' that returns the number of items.`
+- [ ] 4. Say @a1: `Edit 'customers.py'. Add a documented function 'find(customers, name)' that returns the matching customer or None.`
+- [ ] 5. Say @a2: `Edit 'customers.py'. Add a documented function 'emails(customers)' that returns a list of each customer's "email".`
+- [ ] 6. Say @a1: `Edit 'orders.py'. Add a documented function 'subtotal(items, n)' that returns the total of the first n items.`
+- [ ] 7. Say @a1: `Thanks.`
+- [ ] 8. Say @a2: `Thanks.`
+- [ ] 9. Exit @a1
+- [ ] 10. Exit @a2
+- [ ] 11. Record @a1
+- [ ] 12. Record @a2

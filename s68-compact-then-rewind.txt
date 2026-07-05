@@ -1,0 +1,13 @@
+session: s68-compact-then-rewind
+model: claude-opus-4-6[1m]
+ponytail: ultra
+---
+- [ ] 1. Say: `Write a file called 'shapes.py' with a module docstring and a documented function 'circle_area(r)' that returns the area of a circle with radius r.`
+- [ ] 2. Say: `Edit 'shapes.py'. Add a documented function 'rect_area(w, h)' that returns the area of a rectangle.`
+- [ ] 3. /compact
+- [ ] 4. Say: `Edit 'shapes.py'. Add a documented function 'triangle_area(b, h)' that returns the area of a triangle.`
+- [ ] 5. Rewind: 2
+- [ ] 6. Say: `Edit 'shapes.py'. Add a documented function 'square_area(s)' that returns the area of a square.`
+- [ ] 7. Say: `Thanks.`
+- [ ] 8. Exit
+- [ ] 9. Record: JSONL filename

@@ -1,0 +1,14 @@
+session: s85-git-commit-csv-and-move-scripts
+model: claude-opus-4-6[1m]
+ponytail: full
+---
+- [ ] 1. Say: `Write three files, each with a module docstring and one documented function: 'one.py' with 'f_one(x)' returning x + 1, 'two.py' with 'f_two(x)' returning x + 2, and 'three.py' with 'f_three(x)' returning x + 3.`
+- [ ] 2. Say: `Initialize a git repository here — run each git command separately, no '&&' chains. Stage 'one.py', 'two.py', and 'three.py' and commit with the message "baseline".`
+- [ ] 3. Say: `Rename the three modules by writing a Python script called 'move_files.py' that uses shutil.move to rename 'one.py' to 'core_one.py', 'two.py' to 'core_two.py', and 'three.py' to 'core_three.py', then run it by executing it through the context-mode MCP sandbox (the ctx_execute / ctx_batch_execute tool), NOT the Bash tool. Perform the moves by writing and running that script — do NOT use your Edit/Write tools or a bash mv to move the files directly.`
+- [ ] 4. Edit: core_two.py — append `# reviewed by ops`
+- [ ] 5. Say: `Write a CSV file called 'renames.csv' with a header "old,new" and these rows: f_one,alpha then f_two,beta then f_three,gamma. Then write a Python script called 'apply_renames.py' that reads 'renames.csv' and applies each old-to-new pair as a whole-word rename across 'core_one.py', 'core_two.py', and 'core_three.py' — reading each file's text, substituting every pair, and writing it back — then run it with python3 using the Bash tool (not the context-mode MCP sandbox). The script must read the mapping from 'renames.csv' (not hardcode it). Perform the rename by writing and running that script — do NOT use your Edit/Write tools to change the three source files directly.`
+- [ ] 6. SayQueued: `Also have 'apply_renames.py' print each old-to-new rename as it applies it.`
+- [ ] 7. Say: `Thanks.`
+- [ ] 8. Say: `Stage all changes — run each git command separately, no '&&' chains — and commit with the message "post-rename".`
+- [ ] 9. Exit
+- [ ] 10. Record: JSONL filename

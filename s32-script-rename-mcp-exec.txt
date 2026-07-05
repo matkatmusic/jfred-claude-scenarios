@@ -1,0 +1,11 @@
+session: s32-script-rename-mcp-exec
+model: claude-opus-4-6[1m]
+ponytail: none
+---
+- [ ] 1. Say: `Write a file called 'config_utils.py' — a small config-access module, at least 100 lines long, with a module docstring and these terse-named functions, each documented: 'get_val(cfg, key)' returns a value; 'set_val(cfg, key, value)' sets one; 'del_val(cfg, key)' removes one; 'has_val(cfg, key)' returns membership; 'merge_val(a, b)' merges two dicts. Also write 'tests/test_config_utils.py' covering 'get_val' and 'set_val'.`
+- [ ] 2. Say: `Edit 'config_utils.py'. Add a function 'get_or_default(cfg, key, default)' that calls 'has_val' and 'get_val'.`
+- [ ] 3. Say: `Write a Python script called 'rename_config.py' that whole-word renames 'get_val' to 'get_value', 'set_val' to 'set_value', and 'del_val' to 'delete_value' in both 'config_utils.py' and 'tests/test_config_utils.py' by reading each file, substituting, and writing it back. Then RUN that script through the context-mode MCP sandbox (the ctx_execute / ctx_batch_execute tool) — NOT the Bash tool. The test file must be updated with the new names too. Important: perform the rename by executing the script through the MCP sandbox — do NOT use your Edit/Write tools to change 'config_utils.py' or its test file directly, and do not run it with the Bash tool.`
+- [ ] 4. Say: `Edit 'config_utils.py'. Add a function 'apply_overrides(cfg, overrides)' that iterates overrides: for each key, calls 'get_value' to read the old value, prints a message like "overriding <key>: <old> -> <new>", then calls 'set_value' to set the new value. Implement it exactly as described — do not simplify or skip the get_value call.`
+- [ ] 5. Say: `Thanks.`
+- [ ] 6. Exit
+- [ ] 7. Record: JSONL filename

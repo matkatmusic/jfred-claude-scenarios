@@ -1,0 +1,13 @@
+session: s30-script-rename-count-mismatch
+model: claude-opus-4-6[1m]
+ponytail: ultra
+---
+- [ ] 1. Say: `Write a file called 'pricing.py' — a small pricing module, at least 100 lines long, with a module docstring and these terse-named functions, each documented: 'base_price(item)' returns item["price"]; 'net_price(item, pct)' applies a discount; 'bulk_price(items)' sums net prices; 'round_price(n)' rounds to cents; 'tax_price(n, rate)' adds tax. Make sure 'base_price' is referenced several times across the module. Also write 'tests/test_pricing.py' covering 'base_price' and 'round_price'.`
+- [ ] 2. Say: `Edit 'pricing.py'. Add a function 'quote(item)' that returns the item's base price rounded to cents — i.e. it calls 'base_price(item)' to get the raw price, passes that through 'round_price', and returns the result.`
+- [ ] 3. Say: `Write a CSV file called 'count_renames.csv' with a header "old,new,count". Put two rows: one row renaming 'round_price' to 'round_to_cents' with the CORRECT number of whole-word occurrences of 'round_price' in 'pricing.py'; and one row renaming 'base_price' to 'unit_price' with a deliberately WRONG occurrence count (off by one).`
+- [ ] 4. Say: `Write a Python script called 'safe_rename.py' that, for each row in 'count_renames.csv', counts the whole-word occurrences of the old name in 'pricing.py'; if the count equals the row's count it applies the rename to BOTH 'pricing.py' and 'tests/test_pricing.py' and writes them, otherwise it prints a "MISMATCH" line naming that row and leaves that name unchanged in every file (no partial write). Run it with python3 using the Bash tool (not the context-mode MCP sandbox). Important: perform the rename by running that script — do NOT use your Edit/Write tools to change 'pricing.py' or its test file directly.`
+- [ ] 5. Say: `Confirm the script's output contains a "MISMATCH" line for the 'base_price' row — that rename must be refused, so 'base_price' stays unchanged in both 'pricing.py' and the test file, while 'round_price' was renamed to 'round_to_cents'. Report what the output showed.`
+- [ ] 6. Say: `Edit 'pricing.py'. Add a function 'receipt(item)' that calls 'round_to_cents'.`
+- [ ] 7. Say: `Thanks.`
+- [ ] 8. Exit
+- [ ] 9. Record: JSONL filename

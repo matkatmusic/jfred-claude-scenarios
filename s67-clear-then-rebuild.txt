@@ -1,0 +1,12 @@
+session: s67-clear-then-rebuild
+model: claude-opus-4-6[1m]
+ponytail: ultra
+---
+- [ ] 1. Say: `Write a file called 'listutils.py' with a module docstring and a documented function 'flatten(nested)' that flattens a list of lists into a single list.`
+- [ ] 2. Say: `Edit 'listutils.py'. Add a documented function 'unique(items)' that returns the list with duplicates removed, preserving order.`
+- [ ] 3. /clear
+- [ ] 4. Say: `Open 'listutils.py' to see what's there, then edit it to add a documented function 'chunk(items, size)' that splits the list into sublists of the given size.`
+- [ ] 5. Say: `Edit 'listutils.py'. Add a documented function 'flatten_unique(nested)' that flattens the input and removes duplicates by calling 'flatten' and 'unique'.`
+- [ ] 6. Say: `Thanks.`
+- [ ] 7. Exit
+- [ ] 8. Record: JSONL filename

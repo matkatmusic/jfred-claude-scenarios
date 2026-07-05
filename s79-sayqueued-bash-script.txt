@@ -1,0 +1,10 @@
+session: s79-sayqueued-bash-script
+model: claude-opus-4-6[1m]
+ponytail: full
+---
+- [ ] 1. Say: `Write two files, each with a module docstring and one documented function: 'nums.py' with 'double(x)' returning x * 2, and 'more.py' with 'triple(x)' returning x * 3.`
+- [ ] 2. Say: `Write a Python script called 'checkit.py' that imports both modules, calls double(21) and triple(14), and prints both results. Then run it with python3 using the Bash tool (not the context-mode sandbox).`
+- [ ] 3. SayQueued: `Also have the script print the current working directory before it exits.`
+- [ ] 4. Say: `Thanks.`
+- [ ] 5. Exit
+- [ ] 6. Record: JSONL filename

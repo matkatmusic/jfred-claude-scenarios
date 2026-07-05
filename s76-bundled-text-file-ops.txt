@@ -1,0 +1,11 @@
+session: s76-bundled-text-file-ops
+model: claude-opus-4-6[1m]
+ponytail: full
+---
+- [ ] 1. Say: `In a single reply, first write one sentence of plain message text describing what you will create, then in that same reply create 'ledger.py' with a module docstring and a documented function 'entry_total(entries)' that sums each entry's "amount". The plain-text sentence must come before the file-creating tool call.`
+- [ ] 2. Say: `In a single reply, first write one sentence of plain message text about the change, then in that same reply edit 'ledger.py' to add a documented function 'entry_count(entries)' that returns the number of entries. The sentence must come before the edit.`
+- [ ] 3. Say: `In a single reply, first briefly note in plain text what you are adding, then in that same reply edit 'ledger.py' to add a documented function 'largest_entry(entries)' that returns the entry with the greatest "amount". Text first, then the edit.`
+- [ ] 4. Say: `In a single reply, first write one sentence of plain message text, then in that same reply edit 'ledger.py' to add a documented function 'average_entry(entries)' that returns the mean "amount". Keep the plain-text sentence ahead of the edit.`
+- [ ] 5. Say: `Thanks.`
+- [ ] 6. Exit
+- [ ] 7. Record: JSONL filename

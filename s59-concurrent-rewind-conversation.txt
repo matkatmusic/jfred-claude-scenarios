@@ -1,0 +1,17 @@
+session: s59-concurrent-rewind-conversation
+model: claude-opus-4-6[1m]
+ponytail: ultra
+---
+- [ ] 1. Say: `Write a file called 'calc.py' with a module docstring and a documented function 'add(a, b)' that returns a + b.`
+- [ ] 2. SpawnNewAgent: a2
+- [ ] 3. Say @a2: `Edit 'calc.py'. Add a documented function 'sub(a, b)' that returns a - b.`
+- [ ] 4. Say @a2: `Edit 'calc.py'. Add a documented function 'mul(a, b)' that returns a * b.`
+- [ ] 5. Rewind @a2: 2
+- [ ] 6. Say @a2: `Edit 'calc.py'. Add a documented function 'div(a, b)' that returns a / b, raising ValueError when b is 0.`
+- [ ] 7. Say @a1: `Edit 'calc.py'. Add a documented function 'neg(a)' that returns -a.`
+- [ ] 8. Say @a2: `Thanks.`
+- [ ] 9. Say @a1: `Thanks.`
+- [ ] 10. Exit @a2
+- [ ] 11. Exit @a1
+- [ ] 12. Record @a1
+- [ ] 13. Record @a2

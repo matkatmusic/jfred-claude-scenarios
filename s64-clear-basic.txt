@@ -1,0 +1,11 @@
+session: s64-clear-basic
+model: claude-opus-4-6[1m]
+ponytail: ultra
+---
+- [ ] 1. Say: `Write a file called 'temps.py' with a module docstring and a documented function 'c_to_f(c)' that converts Celsius to Fahrenheit.`
+- [ ] 2. Say: `Edit 'temps.py'. Add a documented function 'f_to_c(f)' that converts Fahrenheit to Celsius.`
+- [ ] 3. /clear
+- [ ] 4. Say: `Edit 'temps.py'. Add a documented function 'c_to_k(c)' that converts Celsius to Kelvin.`
+- [ ] 5. Say: `Thanks.`
+- [ ] 6. Exit
+- [ ] 7. Record: JSONL filename

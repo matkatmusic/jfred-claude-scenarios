@@ -1,0 +1,18 @@
+session: s72-compact-clear-rewind-full
+model: claude-opus-4-6[1m]
+ponytail: ultra
+---
+- [ ] 1. Say: `Initialize a git repository here — run each git command separately, no '&&' chains. Write a file called 'accounts.py' with a module docstring and these documented functions: 'open_account(name, balance)' returns an account dict; 'deposit(acct, amount)' adds to the balance and returns the account. Then stage 'accounts.py' and commit with the message "baseline".`
+- [ ] 2. Say: `Edit 'accounts.py'. Add a documented function 'withdraw(acct, amount)' that subtracts from the balance and returns the account, raising ValueError if the balance would go negative.`
+- [ ] 3. Say: `Edit 'accounts.py'. Add a documented function 'balance_of(acct)' that returns the account's balance.`
+- [ ] 4. /compact
+- [ ] 5. Edit: accounts.py — append `# end of accounts module`
+- [ ] 6. Say: `Edit 'accounts.py'. Add a documented function 'transfer(src, dst, amount)' that moves money between accounts by calling 'withdraw' and 'deposit'.`
+- [ ] 7. /clear
+- [ ] 8. Say: `Open 'accounts.py' to see what's there, then edit it to add a documented function 'close_account(acct)' that sets the balance to zero and returns the withdrawn amount.`
+- [ ] 9. Say: `Edit 'accounts.py'. Add a documented function 'is_overdrawn(acct)' that returns whether the balance is below zero.`
+- [ ] 10. Rewind: 2, code
+- [ ] 11. Say: `Edit 'accounts.py'. Add a documented function 'apply_interest(acct, rate)' that grows the balance by the given rate and returns the account.`
+- [ ] 12. Say: `Thanks.`
+- [ ] 13. Exit
+- [ ] 14. Record: JSONL filename

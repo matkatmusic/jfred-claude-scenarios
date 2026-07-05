@@ -1,0 +1,12 @@
+session: s26-script-rename-csv-map
+model: claude-opus-4-6[1m]
+ponytail: ultra
+---
+- [ ] 1. Say: `Write a file called 'billing.py' — a small billing module, at least 100 lines long, with a module docstring and these terse-named functions, each documented: 'calc_tot(items)' sums price * qty; 'fmt_money(n)' returns a "$0.00" string; 'chk_stock(item, qty)' returns whether qty <= item["stock"]; 'apply_disc(total, pct)' returns the discounted total; 'mk_order(items)' builds an order dict. Also write 'tests/test_billing.py' covering 'calc_tot' and 'fmt_money'.`
+- [ ] 2. Say: `Edit 'billing.py'. Add a function 'validate(items)' that raises ValueError if any item lacks a "price" key, and returns True otherwise.`
+- [ ] 3. Say: `Write a CSV file called 'renames.csv' with a header "old,new" and these rows: calc_tot,calculate_total then fmt_money,format_currency then chk_stock,check_stock then apply_disc,apply_discount.`
+- [ ] 4. Say: `Write a Python script called 'apply_renames.py' that reads 'renames.csv' and applies each old-to-new pair as a whole-word rename to both 'billing.py' and 'tests/test_billing.py' — reading each file's text, substituting every pair, and writing it back — then run it with python3 using the Bash tool (not the context-mode MCP sandbox). The script must read the mapping from 'renames.csv' (not hardcode it) and must update the test file with the new names too. Important: perform the rename by writing and running that script — do NOT use your Edit/Write tools to change 'billing.py' or its test file directly.`
+- [ ] 5. Say: `Edit 'billing.py'. Add a function 'print_invoice(order)' that builds a string using 'calculate_total' and 'format_currency'.`
+- [ ] 6. Say: `Thanks.`
+- [ ] 7. Exit
+- [ ] 8. Record: JSONL filename

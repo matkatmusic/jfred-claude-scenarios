@@ -1,0 +1,10 @@
+session: s78-sayqueued-read-beacon
+model: claude-opus-4-6[1m]
+ponytail: full
+---
+- [ ] 1. Say: `Write three files, each with a module docstring and one documented function: 'alpha.py' with 'a_one(x)' returning x + 1, 'beta.py' with 'b_one(x)' returning x * 2, and 'gamma.py' with 'g_one(x)' returning x - 1.`
+- [ ] 2. Say: `Using your built-in Read tool on each file (not bash, not cat, not the context-mode sandbox), read all three files in full and give me a one-line summary of each.`
+- [ ] 3. SayQueued: `Also tell me which of the three files has the longest module docstring.`
+- [ ] 4. Say: `Thanks.`
+- [ ] 5. Exit
+- [ ] 6. Record: JSONL filename

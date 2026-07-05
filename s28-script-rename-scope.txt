@@ -1,0 +1,12 @@
+session: s28-script-rename-scope
+model: claude-opus-4-6[1m]
+ponytail: ultra
+---
+- [ ] 1. Say: `Write two files. 'catalog.py' — at least 100 lines, with a module docstring, an exported function 'load_all(path)' that reads entries, a local helper '_norm(entry)' used only inside 'catalog.py', and a few more documented functions. 'catalog_view.py' — imports 'catalog' and defines 'render(path)' which calls 'catalog.load_all'. Also write 'tests/test_catalog.py' covering 'load_all'.`
+- [ ] 2. Say: `Edit 'catalog.py'. Add a function 'count_entries(path)' that calls 'load_all' and returns the length.`
+- [ ] 3. Say: `Write a CSV file called 'scoped_renames.csv' with a header "old,new,isExported,file" and these rows: load_all,load_catalog,Y, (an exported/global rename, blank file column) then _norm,normalize_entry,N,catalog.py (a local rename scoped to one file).`
+- [ ] 4. Say: `Write a Python script called 'scoped_rename.py' that reads 'scoped_renames.csv' and applies each row as a whole-word rename: for isExported=Y rows, rename across 'catalog.py', 'catalog_view.py', AND 'tests/test_catalog.py'; for isExported=N rows, rename only in the file named in the row. Then run it with python3 using the Bash tool (not the context-mode MCP sandbox). The exported renames must update the test file with the new names too. Important: perform the rename by writing and running that script — do NOT use your Edit/Write tools to change 'catalog.py', 'catalog_view.py', or the test file directly.`
+- [ ] 5. Say: `Edit 'catalog_view.py'. Add a function 'preview(path)' that calls 'load_catalog'.`
+- [ ] 6. Say: `Thanks.`
+- [ ] 7. Exit
+- [ ] 8. Record: JSONL filename
