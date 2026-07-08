@@ -1,0 +1,23 @@
+session: s86-concurrent-overlap-rewind-code
+model: claude-opus-4-6[1m]
+ponytail: ultra
+---
+- [ ] 1. Say: `Write a file called 'metrics.py' with a module docstring and two documented functions: 'total(values)' returning the sum, and 'mean(values)' returning the average. Give each a multi-line docstring with Args, Returns, and Raises sections, and raise ValueError on empty input.`
+- [ ] 2. SpawnNewAgent: a2
+- [ ] 3. Say @a1: `Edit 'metrics.py'. Add a documented function 'variance(values)' directly below 'mean', returning the population variance. Multi-line docstring with Args, Returns, Raises; raise ValueError on empty input.`
+- [ ] 4. Say @a2: `Edit 'metrics.py'. Add a documented function 'stddev(values)' directly below 'variance', returning the square root of the population variance. Multi-line docstring with Args, Returns, Raises; raise ValueError on empty input.`
+- [ ] 5. Say @a1: `Edit 'metrics.py'. Add a documented function 'median(values)' directly below 'stddev', returning the middle value of the sorted input. Multi-line docstring with Args, Returns, Raises; raise ValueError on empty input.`
+- [ ] 6. Say @a2: `Edit 'metrics.py'. Add a documented function 'mode(values)' directly below 'median', returning the most common value. Multi-line docstring with Args, Returns, Raises; raise ValueError on empty input.`
+- [ ] 7. Say @a1: `Edit 'metrics.py'. Add a documented function 'value_range(values)' directly below 'mode', returning max minus min. Multi-line docstring with Args, Returns, Raises; raise ValueError on empty input.`
+- [ ] 8. Say @a2: `Edit 'metrics.py'. Add a documented function 'midrange(values)' directly below 'value_range', returning (max + min) / 2. Multi-line docstring with Args, Returns, Raises; raise ValueError on empty input.`
+- [ ] 9. Rewind @a1: 1, code
+- [ ] 10. Say @a1: `Edit 'metrics.py'. Add a documented function 'geometric_mean(values)' at the end of the file, returning the nth root of the product. Multi-line docstring with Args, Returns, Raises; raise ValueError on empty or non-positive input.`
+- [ ] 11. Say @a2: `Edit 'metrics.py'. Add a documented function 'harmonic_mean(values)' directly below 'geometric_mean', returning n divided by the sum of reciprocals. Multi-line docstring with Args, Returns, Raises; raise ValueError on empty or zero input.`
+- [ ] 12. Say @a1: `Edit 'metrics.py'. Add a documented function 'zscore(value, values)' directly below 'harmonic_mean', returning (value - mean) / stddev. Multi-line docstring with Args, Returns, Raises; raise ValueError on zero stddev.`
+- [ ] 13. Say @a2: `Edit 'metrics.py'. Add a documented function 'percentile(values, p)' directly below 'zscore', returning the value at the pth percentile using nearest-rank. Multi-line docstring with Args, Returns, Raises; raise ValueError on empty input or p outside 0-100.`
+- [ ] 14. Say @a1: `Thanks.`
+- [ ] 15. Say @a2: `Thanks.`
+- [ ] 16. Exit @a2
+- [ ] 17. Exit @a1
+- [ ] 18. Record @a1
+- [ ] 19. Record @a2
