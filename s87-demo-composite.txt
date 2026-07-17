@@ -1,0 +1,122 @@
+session: s87-demo-composite
+model: claude-opus-4-6[1m]
+ponytail: ultra
+---
+- [ ] 1. Say: `Write a file called 'inventory.py' — a small inventory module, at least 100 lines long, with a module docstring and these terse-named functions, each documented: 'qty_chk(item, n)' returns whether n <= item["stock"]; 'add_item(store, item)' appends an item; 'rm_item(store, name)' removes by name; 'find_item(store, name)' returns the matching item; 'tot_value(store)' sums price * stock. Also write 'tests/test_inventory.py' covering 'qty_chk' and 'tot_value'.`
+- [ ] 2. Say: `Edit 'inventory.py'. Add a function 'low_stock(store, threshold)' that returns items below the threshold.`
+- [ ] 3. Say: `Initialize a git repository here — run each git command separately, no '&&' chains. Stage 'inventory.py' and the 'tests' directory, and commit with the message "baseline".`
+- [ ] 4. Say: `Write a Python script called 'rename_inv.py' that applies a list of renames as whole-word substitutions to both 'inventory.py' and 'tests/test_inventory.py'. Write the rename list as RENAMES — a multi-line Python list with one (old, new) tuple per line, each line ending with a comma, indented four spaces, the first and only entry being ("qty_chk", "check_quantity"),. Do not run it yet.`
+- [ ] 5. Edit: rename_inv.py — after `("qty_chk", "check_quantity"),` insert `    ("add_item", "insert_item"),`
+- [ ] 6. Edit: rename_inv.py — after `("add_item", "insert_item"),` insert `    ("rm_item", "remove_item"),`
+- [ ] 7. Say: `Now run 'rename_inv.py' by executing it through the context-mode MCP sandbox (the ctx_execute / ctx_batch_execute tool), NOT the Bash tool, to apply all of its renames to 'inventory.py' and its test file. Important: perform the rename by running that script through the MCP sandbox — do NOT use your Edit/Write tools to change 'inventory.py' or its test file directly.`
+- [ ] 8. Say: `Edit 'inventory.py'. Add a function 'restock(store, name, n)' that uses 'check_quantity' and 'insert_item'.`
+- [ ] 9. Say: `Thanks.`
+- [ ] 10. Say: `Edit 'inventory.py'. Add a function 'reorder(store, name, n)' that uses 'check_quantity' and 'insert_item'.`
+- [ ] 11. Edit: inventory.py — append `# reviewed by ops`
+- [ ] 12. Say: `Edit 'inventory.py'. Add a function 'shrink(store, name)' that uses 'remove_item'.`
+- [ ] 13. Say: `Thanks.`
+- [ ] 14. Exit @a1
+- [ ] 15. Record @a1
+- [ ] 16. SpawnNewAgent: a2
+- [ ] 17. Say @a2: `Create and switch to a git branch called 'feature'.`
+- [ ] 18. SpawnNewAgent: a3
+- [ ] 19. Say @a3: `Edit 'inventory.py'. Add a documented function 'count_items(store)' that returns the number of items.`
+- [ ] 20. SpawnNewAgent: a4
+- [ ] 21. Say @a4: `Write a file called 'reporting.py' with a module docstring and a documented function 'stock_report(store)' that returns a list of (name, stock) pairs.`
+- [ ] 22. Say @a3: `Edit 'inventory.py'. Add a documented function 'subtotal(store, n)' that returns the total value of the first n items.`
+- [ ] 23. Say @a3: `Edit 'inventory.py'. Add a documented function 'most_valuable(store)' that returns the item with the highest price * stock.`
+- [ ] 24. Rewind @a3: 2, code
+- [ ] 25. Say @a3: `Edit 'inventory.py'. Add a documented function 'least_valuable(store)' that returns the item with the lowest price * stock.`
+- [ ] 26. Edit: reporting.py — append `# reviewed by ops`
+- [ ] 27. Say @a2: `Edit 'reporting.py'. Add a documented function 'low_stock_report(store, threshold)' that returns items below the threshold.`
+- [ ] 28. Edit: inventory.py — append `# checked`
+- [ ] 29. Say @a4: `Edit 'reporting.py'. Add a documented function 'value_report(store)' that returns the total inventory value.`
+- [ ] 30. Say @a2: `Thanks.`
+- [ ] 31. Say @a3: `Thanks.`
+- [ ] 32. Say @a4: `Thanks.`
+- [ ] 33. Exit @a4
+- [ ] 34. Exit @a3
+- [ ] 35. Exit @a2
+- [ ] 36. Record @a2
+- [ ] 37. Record @a3
+- [ ] 38. Record @a4
+- [ ] 39. SpawnNewAgent: a5
+- [ ] 40. Say @a5: `Read 'inventory.py' and 'reporting.py', then write 'plans/feature-plan.md' describing three features to add — 'reserve(store, name, n)', 'release(store, name, n)', and 'audit(store)' — each with a one-line description. Do not implement them yet.`
+- [ ] 41. Exit @a5
+- [ ] 42. Record @a5
+- [ ] 43. SpawnNewAgent: a6
+- [ ] 44. Say @a6: `Follow 'plans/feature-plan.md'. Implement the first feature — 'reserve(store, name, n)' — in 'inventory.py', add a test for it to 'tests/test_inventory.py', then run 'tests/test_inventory.py' with python3.`
+- [ ] 45. Say @a6: `Implement the second feature from the plan — 'release(store, name, n)' — in 'inventory.py', add a test for it, and run the tests again.`
+- [ ] 46. Say @a6: `Implement the third feature from the plan — 'audit(store)' — in 'inventory.py', add a test for it, and run the tests again.`
+- [ ] 47. Edit: inventory.py — append `# feature pass complete`
+- [ ] 48. Edit: tests/test_inventory.py — append `# tests updated`
+- [ ] 49. Rewind @a6: 2, code
+- [ ] 50. Say @a6: `That approach won't work out. Instead, write a handoff document 'plans/handoff-inventory.md' explaining what's implemented so far and which functions should be renamed next. Then stop.`
+- [ ] 51. Exit @a6
+- [ ] 52. Record @a6
+- [ ] 53. SpawnNewAgent: a7
+- [ ] 54. Say @a7: `We need to rename some functions — see the handoff at 'plans/handoff-inventory.md'. Write a CSV file called 'renames.csv' with a header "old,new" and these rows: tot_value,total_value then low_stock,below_threshold then restock,replenish.`
+- [ ] 55. Edit: renames.csv — append `reorder,replenish_order`
+- [ ] 56. Say @a7: `Write a Python script called 'apply_renames.py' that reads 'renames.csv' and applies each old-to-new pair as a whole-word rename to both 'inventory.py' and 'tests/test_inventory.py' — reading each file's text, substituting every pair, and writing it back — then run it by executing the script through the context-mode MCP sandbox (the ctx_execute / ctx_batch_execute tool), NOT the Bash tool. The script must read the mapping from 'renames.csv' (not hardcode it) and must update the test file with the new names too. Important: perform the rename by writing the script and running it through the MCP sandbox — do NOT use your Edit/Write tools to change 'inventory.py' or its test file directly, and do not run it with the Bash tool.`
+- [ ] 57. Say @a7: `Edit 'inventory.py'. Add a function 'audit_value(store)' that uses 'total_value' and 'below_threshold'.`
+- [ ] 58. Say @a7: `Thanks.`
+- [ ] 59. Exit @a7
+- [ ] 60. Record @a7
+- [ ] 61. SpawnNewAgent: a8
+- [ ] 62. Say @a8: `Edit 'inventory.py'. Add a documented function 'reserve_all(store)' that reserves every item.`
+- [ ] 63. SpawnNewAgent: a9
+- [ ] 64. Say @a9: `Edit 'inventory.py'. Add a documented function 'clear_reserved(store)' that clears all reservations.`
+- [ ] 65. Edit: inventory.py — append `# concurrency pass`
+- [ ] 66. Say @a8: `Edit 'inventory.py'. Add a documented function 'reserved_count(store)' that returns the number of reserved items.`
+- [ ] 67. Edit: inventory.py — append `# checked-2`
+- [ ] 68. Say @a9: `Thanks.`
+- [ ] 69. Say @a8: `Thanks.`
+- [ ] 70. Exit @a9
+- [ ] 71. Exit @a8
+- [ ] 72. Record @a8
+- [ ] 73. Record @a9
+- [ ] 74. SpawnNewAgent: a10
+- [ ] 75. Say @a10: `Edit 'inventory.py'. Add a documented function 'transfer_stock(store, src, dst, n)' that moves stock between two items.`
+- [ ] 76. Say @a10: `Edit 'inventory.py'. Add a documented function 'stock_of(store, name)' that returns an item's stock.`
+- [ ] 77. /compact
+- [ ] 78. Edit: inventory.py — append `# end of inventory module`
+- [ ] 79. Say @a10: `Edit 'inventory.py'. Add a documented function 'merge_stores(a, b)' that combines two stores into one.`
+- [ ] 80. /clear
+- [ ] 81. Say @a10: `Open 'inventory.py' to see what's there, then edit it to add a documented function 'reset_store(store)' that empties the store and returns the removed items.`
+- [ ] 82. Say @a10: `Edit 'inventory.py'. Add a documented function 'is_empty(store)' that returns whether the store has no items.`
+- [ ] 83. Rewind @a10: 2, code
+- [ ] 84. Say @a10: `Edit 'inventory.py'. Add a documented function 'snapshot(store)' that returns a copy of the store.`
+- [ ] 85. Say @a10: `Thanks.`
+- [ ] 86. Exit @a10
+- [ ] 87. Record @a10
+- [ ] 88. SpawnNewAgent: a11
+- [ ] 89. Say @a11: `Rename two modules by writing a Python script called 'move_files.py' that uses shutil.move to rename 'inventory.py' to 'inventory_core.py' and 'reporting.py' to 'reporting_core.py', then run it by executing it through the context-mode MCP sandbox (the ctx_execute / ctx_batch_execute tool), NOT the Bash tool. Perform the moves by writing and running that script — do NOT use your Edit/Write tools or a bash mv to move the files directly.`
+- [ ] 90. Edit: reporting_core.py — append `# reviewed by ops`
+- [ ] 91. Say @a11: `Write a CSV file called 'renames.csv' with a header "old,new" and these rows: stock_report,inventory_report then value_report,valuation_report. Then write a Python script called 'apply_renames.py' that reads 'renames.csv' and applies each old-to-new pair as a whole-word rename across 'reporting_core.py' — reading the file's text, substituting every pair, and writing it back — then run it with python3 using the Bash tool (not the context-mode MCP sandbox). The script must read the mapping from 'renames.csv' (not hardcode it). Perform the rename by writing and running that script — do NOT use your Edit/Write tools to change the source file directly.`
+- [ ] 92. SayQueued @a11: `Also have 'apply_renames.py' print each old-to-new rename as it applies it.`
+- [ ] 93. Say @a11: `Thanks.`
+- [ ] 94. Say @a11: `Stage all changes — run each git command separately, no '&&' chains — but do not commit yet.`
+- [ ] 95. Exit @a11
+- [ ] 96. Record @a11
+- [ ] 97. SpawnNewAgent: a12
+- [ ] 98. Say @a12: `Draft a git commit message summarizing the staged changes in this repository. Show me the message, but do NOT commit yet.`
+- [ ] 99. Say @a12: `Great — commit the staged changes with that message. Run each git command separately, no '&&' chains.`
+- [ ] 100. Say @a12: `Thanks.`
+- [ ] 101. Exit @a12
+- [ ] 102. Record @a12
+- [ ] 103. SpawnNewAgent: a13
+- [ ] 104. Say @a13: `Show the current files in this repository.`
+- [ ] 105. SpawnNewAgent: a14
+- [ ] 106. Say @a14: `Rename the module by writing a Python script called 'move_files.py' that uses shutil.move to rename 'inventory_core.py' to 'core_inventory.py', then run it by executing it through the context-mode MCP sandbox (the ctx_execute / ctx_batch_execute tool), NOT the Bash tool. Perform the move by writing and running that script — do NOT use your Edit/Write tools or a bash mv to move the file directly.`
+- [ ] 107. SayQueued @a14: `Also have 'move_files.py' print the rename it performs.`
+- [ ] 108. SpawnNewAgent: a15
+- [ ] 109. Say @a15: `Write a CSV file called 'renames.csv' with a header "old,new" and these rows: insert_item,append_item then find_item,lookup_item. Then write a Python script called 'apply_renames.py' that reads 'renames.csv' and applies each old-to-new pair as a whole-word rename across 'core_inventory.py' — reading the file's text, substituting every pair, and writing it back — then run it with python3 using the Bash tool (not the context-mode MCP sandbox). The script must read the mapping from 'renames.csv' (not hardcode it). Perform the rename by writing and running that script — do NOT use your Edit/Write tools to change the source file directly.`
+- [ ] 110. SayQueued @a15: `Also have 'apply_renames.py' print each old-to-new rename as it applies it.`
+- [ ] 111. Say @a14: `Thanks.`
+- [ ] 112. Say @a15: `Thanks.`
+- [ ] 113. Exit @a13
+- [ ] 114. Exit @a14
+- [ ] 115. Exit @a15
+- [ ] 116. Record @a13
+- [ ] 117. Record @a14
+- [ ] 118. Record @a15
