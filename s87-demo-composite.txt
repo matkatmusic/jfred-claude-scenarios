@@ -1,6 +1,6 @@
 session: s87-demo-composite
 model: claude-opus-4-6[1m]
-ponytail: ultra
+ponytail: none
 ---
 - [ ] 1. Say: `Write a file called 'inventory.py' — a small inventory module, at least 100 lines long, with a module docstring and these terse-named functions, each documented: 'qty_chk(item, n)' returns whether n <= item["stock"]; 'add_item(store, item)' appends an item; 'rm_item(store, name)' removes by name; 'find_item(store, name)' returns the matching item; 'tot_value(store)' sums price * stock. Also write 'tests/test_inventory.py' covering 'qty_chk' and 'tot_value'.`
 - [ ] 2. Say: `Edit 'inventory.py'. Add a function 'low_stock(store, threshold)' that returns items below the threshold.`
