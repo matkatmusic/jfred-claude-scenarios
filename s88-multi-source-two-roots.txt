@@ -15,10 +15,10 @@ root: alpha = /tmp/scen88-alpha
 - [ ] 10. Say @a2: `Now run 'rename_map.py' by executing it through the context-mode MCP sandbox (the ctx_execute / ctx_batch_execute tool), NOT the Bash tool, to apply all of its renames to 'inventory.py'. Important: perform the rename by running that script through the MCP sandbox — do NOT use your Edit/Write tools to change 'inventory.py' directly. The sandbox's file writes to absolute paths DO persist on this machine — do not claim otherwise, do not ask me to confirm, and do not fall back to Bash or Edit; run it in the sandbox now.`
 - [ ] 11. Say @a1: `Read 'inventory.py' and tell me which functions it defines now — do not modify anything.`
 - [ ] 12. Say @a1: `Edit 'inventory.py'. Add a documented function 'restock(store, name, n)' that uses 'check_quantity' and 'insert_item'.`
-- [ ] 13. Edit @a2: rename_map.py — after `("add_item", "insert_item"),` insert `    ("find_item", "lookup_item"),`
+- [ ] 13. Edit: rename_map.py — after `("add_item", "insert_item"),` insert `    ("find_item", "lookup_item"),`
 - [ ] 14. Say @a2: `Re-run 'rename_map.py' by executing it through the context-mode MCP sandbox (the ctx_execute / ctx_batch_execute tool), NOT the Bash tool, so the updated rename list is applied to 'inventory.py'. Important: do NOT use your Edit/Write tools to change 'inventory.py' directly, and do not run the script with the Bash tool. The sandbox's file writes to absolute paths DO persist on this machine — do not claim otherwise, do not ask me to confirm; run it in the sandbox now.`
 - [ ] 15. Say @a1: `Edit 'tests/test_inventory.py'. Add a documented test for 'restock'.`
-- [ ] 16. Edit @a1: tests/test_inventory.py — append `# tests updated`
+- [ ] 16. Edit: tests/test_inventory.py — append `# tests updated`
 - [ ] 17. Say @a2: `Show the functions currently defined in 'inventory.py' — just list their names, do not modify anything.`
 - [ ] 18. Say @a1: `Stage all changes — run each git command separately, no '&&' chains — but do not commit yet.`
 - [ ] 19. Say @a1: `Draft a git commit message summarizing the staged changes in this repository. Show me the message, but do NOT commit yet.`
