@@ -2,22 +2,21 @@ session: s88-multi-source-two-roots
 model: claude-opus-4-6[1m]
 ponytail: none
 root: alpha = /tmp/scen88-alpha
-root: beta = /tmp/scen88-beta
 ---
 - [ ] 1. Say: `Write a file called 'inventory.py' — a small dict-based inventory module with a module docstring and these documented functions: 'add_item(store, item)' appends an item; 'qty_chk(item, n)' returns whether n <= item["stock"]; 'find_item(store, name)' returns the matching item. Also write 'tests/test_inventory.py' covering 'qty_chk' and 'find_item'.`
 - [ ] 2. Say: `Initialize a git repository here — run each git command separately, no '&&' chains. Stage 'inventory.py' and the 'tests' directory, and commit with the message "baseline".`
 - [ ] 3. Say: `Rename 'qty_chk' to 'check_quantity' as a whole-word substitution in both 'inventory.py' and 'tests/test_inventory.py' with a single Bash command (for example 'perl -pi -e' with a word-boundary pattern) — do NOT use your Edit/Write tools to change the files, and do not rename or move any files.`
 - [ ] 4. Edit: inventory.py — append `# reviewed by ops`
-- [ ] 5. SpawnNewAgent: a2 in beta
-- [ ] 6. Say @a2: `Bring in the shared module by running exactly this command with the Bash tool: 'cp /tmp/scen88-alpha/inventory.py /tmp/scen88-beta/inventory.py'. Do not edit the file afterwards.`
+- [ ] 5. SpawnNewAgent: a2 in alpha
+- [ ] 6. Say @a2: `Read 'inventory.py' to get familiar with the shared module — do not modify anything.`
 - [ ] 7. Say @a1: `Edit 'tests/test_inventory.py'. Add a documented test for 'check_quantity' with a zero-stock item.`
 - [ ] 8. Say @a2: `Write a Python script called 'rename_map.py' that applies a list of renames as whole-word substitutions to 'inventory.py'. Write the rename list as RENAMES — a multi-line Python list with one (old, new) tuple per line, each line ending with a comma, indented four spaces, the first and only entry being ("add_item", "insert_item"),. Do not run it yet.`
 - [ ] 9. Say @a1: `Thanks.`
-- [ ] 10. Say @a2: `Now run 'rename_map.py' by executing it through the context-mode MCP sandbox (the ctx_execute / ctx_batch_execute tool), NOT the Bash tool, to apply all of its renames to 'inventory.py'. Important: perform the rename by running that script through the MCP sandbox — do NOT use your Edit/Write tools to change 'inventory.py' directly.`
-- [ ] 11. Say @a1: `Sync the shared module back by running exactly this command with the Bash tool: 'cp /tmp/scen88-beta/inventory.py /tmp/scen88-alpha/inventory.py'. Do not edit the file afterwards.`
+- [ ] 10. Say @a2: `Now run 'rename_map.py' by executing it through the context-mode MCP sandbox (the ctx_execute / ctx_batch_execute tool), NOT the Bash tool, to apply all of its renames to 'inventory.py'. Important: perform the rename by running that script through the MCP sandbox — do NOT use your Edit/Write tools to change 'inventory.py' directly. The sandbox's file writes to absolute paths DO persist on this machine — do not claim otherwise, do not ask me to confirm, and do not fall back to Bash or Edit; run it in the sandbox now.`
+- [ ] 11. Say @a1: `Read 'inventory.py' and tell me which functions it defines now — do not modify anything.`
 - [ ] 12. Say @a1: `Edit 'inventory.py'. Add a documented function 'restock(store, name, n)' that uses 'check_quantity' and 'insert_item'.`
 - [ ] 13. Edit @a2: rename_map.py — after `("add_item", "insert_item"),` insert `    ("find_item", "lookup_item"),`
-- [ ] 14. Say @a2: `Re-run 'rename_map.py' by executing it through the context-mode MCP sandbox (the ctx_execute / ctx_batch_execute tool), NOT the Bash tool, so the updated rename list is applied to 'inventory.py'. Important: do NOT use your Edit/Write tools to change 'inventory.py' directly, and do not run the script with the Bash tool.`
+- [ ] 14. Say @a2: `Re-run 'rename_map.py' by executing it through the context-mode MCP sandbox (the ctx_execute / ctx_batch_execute tool), NOT the Bash tool, so the updated rename list is applied to 'inventory.py'. Important: do NOT use your Edit/Write tools to change 'inventory.py' directly, and do not run the script with the Bash tool. The sandbox's file writes to absolute paths DO persist on this machine — do not claim otherwise, do not ask me to confirm; run it in the sandbox now.`
 - [ ] 15. Say @a1: `Edit 'tests/test_inventory.py'. Add a documented test for 'restock'.`
 - [ ] 16. Edit @a1: tests/test_inventory.py — append `# tests updated`
 - [ ] 17. Say @a2: `Show the functions currently defined in 'inventory.py' — just list their names, do not modify anything.`
