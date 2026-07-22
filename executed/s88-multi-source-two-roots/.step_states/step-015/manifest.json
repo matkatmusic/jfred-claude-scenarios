@@ -1,0 +1,13 @@
+{
+  "label": "step-015",
+  "step_num": 15,
+  "action": "say",
+  "payload": "Edit 'tests/test_inventory.py'. Add a documented test for 'restock'.",
+  "files": [
+    ".pytest_cache",
+    "__pycache__",
+    "inventory.py",
+    "rename_map.py",
+    "tests"
+  ]
+}

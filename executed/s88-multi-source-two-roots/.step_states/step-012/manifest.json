@@ -1,0 +1,13 @@
+{
+  "label": "step-012",
+  "step_num": 12,
+  "action": "say",
+  "payload": "Edit 'inventory.py'. Add a documented function 'restock(store, name, n)' that uses 'check_quantity' and 'insert_item'.",
+  "files": [
+    ".pytest_cache",
+    "__pycache__",
+    "inventory.py",
+    "rename_map.py",
+    "tests"
+  ]
+}

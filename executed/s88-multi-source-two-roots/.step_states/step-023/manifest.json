@@ -1,0 +1,13 @@
+{
+  "label": "step-023",
+  "step_num": 23,
+  "action": "exit",
+  "payload": "",
+  "files": [
+    ".pytest_cache",
+    "__pycache__",
+    "inventory.py",
+    "rename_map.py",
+    "tests"
+  ]
+}

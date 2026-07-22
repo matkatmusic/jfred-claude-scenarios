@@ -1,0 +1,13 @@
+{
+  "label": "step-016",
+  "step_num": 16,
+  "action": "edit",
+  "payload": "tests/test_inventory.py \u2014 append `# tests updated`",
+  "files": [
+    ".pytest_cache",
+    "__pycache__",
+    "inventory.py",
+    "rename_map.py",
+    "tests"
+  ]
+}

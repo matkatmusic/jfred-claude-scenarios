@@ -1,0 +1,13 @@
+{
+  "label": "step-011",
+  "step_num": 11,
+  "action": "say",
+  "payload": "Read 'inventory.py' and tell me which functions it defines now \u2014 do not modify anything.",
+  "files": [
+    ".pytest_cache",
+    "__pycache__",
+    "inventory.py",
+    "rename_map.py",
+    "tests"
+  ]
+}

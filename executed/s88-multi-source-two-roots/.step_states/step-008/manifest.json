@@ -1,0 +1,13 @@
+{
+  "label": "step-008",
+  "step_num": 8,
+  "action": "say",
+  "payload": "Write a Python script called 'rename_map.py' that applies a list of renames as whole-word substitutions to 'inventory.py'. Write the rename list as RENAMES \u2014 a multi-line Python list with one (old, new) tuple per line, each line ending with a comma, indented four spaces, the first and only entry being (\"add_item\", \"insert_item\"),. Do not run it yet.",
+  "files": [
+    ".pytest_cache",
+    "__pycache__",
+    "inventory.py",
+    "rename_map.py",
+    "tests"
+  ]
+}

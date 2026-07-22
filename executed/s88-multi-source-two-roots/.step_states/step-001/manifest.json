@@ -1,0 +1,12 @@
+{
+  "label": "step-001",
+  "step_num": 1,
+  "action": "say",
+  "payload": "Write a file called 'inventory.py' \u2014 a small dict-based inventory module with a module docstring and these documented functions: 'add_item(store, item)' appends an item; 'qty_chk(item, n)' returns whether n <= item[\"stock\"]; 'find_item(store, name)' returns the matching item. Also write 'tests/test_inventory.py' covering 'qty_chk' and 'find_item'.",
+  "files": [
+    ".pytest_cache",
+    "__pycache__",
+    "inventory.py",
+    "tests"
+  ]
+}

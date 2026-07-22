@@ -1,0 +1,12 @@
+{
+  "label": "step-003",
+  "step_num": 3,
+  "action": "say",
+  "payload": "Rename 'qty_chk' to 'check_quantity' as a whole-word substitution in both 'inventory.py' and 'tests/test_inventory.py' with a single Bash command (for example 'perl -pi -e' with a word-boundary pattern) \u2014 do NOT use your Edit/Write tools to change the files, and do not rename or move any files.",
+  "files": [
+    ".pytest_cache",
+    "__pycache__",
+    "inventory.py",
+    "tests"
+  ]
+}

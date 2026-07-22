@@ -1,0 +1,12 @@
+{
+  "label": "step-002",
+  "step_num": 2,
+  "action": "say",
+  "payload": "Initialize a git repository here \u2014 run each git command separately, no '&&' chains. Stage 'inventory.py' and the 'tests' directory, and commit with the message \"baseline\".",
+  "files": [
+    ".pytest_cache",
+    "__pycache__",
+    "inventory.py",
+    "tests"
+  ]
+}

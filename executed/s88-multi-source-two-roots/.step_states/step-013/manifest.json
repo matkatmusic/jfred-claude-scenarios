@@ -1,0 +1,13 @@
+{
+  "label": "step-013",
+  "step_num": 13,
+  "action": "edit",
+  "payload": "rename_map.py \u2014 after `(\"add_item\", \"insert_item\"),` insert `    (\"find_item\", \"lookup_item\"),`",
+  "files": [
+    ".pytest_cache",
+    "__pycache__",
+    "inventory.py",
+    "rename_map.py",
+    "tests"
+  ]
+}

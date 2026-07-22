@@ -1,0 +1,13 @@
+{
+  "label": "step-010",
+  "step_num": 10,
+  "action": "say",
+  "payload": "Now run 'rename_map.py' by executing it through the context-mode MCP sandbox (the ctx_execute / ctx_batch_execute tool), NOT the Bash tool, to apply all of its renames to 'inventory.py'. Important: perform the rename by running that script through the MCP sandbox \u2014 do NOT use your Edit/Write tools to change 'inventory.py' directly. The sandbox's file writes to absolute paths DO persist on this machine \u2014 do not claim otherwise, do not ask me to confirm, and do not fall back to Bash or Edit; run it in the sandbox now.",
+  "files": [
+    ".pytest_cache",
+    "__pycache__",
+    "inventory.py",
+    "rename_map.py",
+    "tests"
+  ]
+}

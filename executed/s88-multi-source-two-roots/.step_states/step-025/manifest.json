@@ -1,0 +1,13 @@
+{
+  "label": "step-025",
+  "step_num": 25,
+  "action": "record",
+  "payload": "",
+  "files": [
+    ".pytest_cache",
+    "__pycache__",
+    "inventory.py",
+    "rename_map.py",
+    "tests"
+  ]
+}

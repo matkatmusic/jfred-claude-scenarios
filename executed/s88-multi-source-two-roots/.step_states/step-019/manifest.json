@@ -1,0 +1,13 @@
+{
+  "label": "step-019",
+  "step_num": 19,
+  "action": "say",
+  "payload": "Draft a git commit message summarizing the staged changes in this repository. Show me the message, but do NOT commit yet.",
+  "files": [
+    ".pytest_cache",
+    "__pycache__",
+    "inventory.py",
+    "rename_map.py",
+    "tests"
+  ]
+}

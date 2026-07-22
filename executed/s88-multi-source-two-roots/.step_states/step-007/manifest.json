@@ -1,0 +1,12 @@
+{
+  "label": "step-007",
+  "step_num": 7,
+  "action": "say",
+  "payload": "Edit 'tests/test_inventory.py'. Add a documented test for 'check_quantity' with a zero-stock item.",
+  "files": [
+    ".pytest_cache",
+    "__pycache__",
+    "inventory.py",
+    "tests"
+  ]
+}

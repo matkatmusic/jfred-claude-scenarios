@@ -1,0 +1,8 @@
+[
+  "tests/test_inventory.py::test_check_quantity_zero_stock",
+  "tests/test_inventory.py::test_find_item_exists",
+  "tests/test_inventory.py::test_find_item_missing",
+  "tests/test_inventory.py::test_qty_chk_exact",
+  "tests/test_inventory.py::test_qty_chk_insufficient",
+  "tests/test_inventory.py::test_qty_chk_sufficient"
+]
