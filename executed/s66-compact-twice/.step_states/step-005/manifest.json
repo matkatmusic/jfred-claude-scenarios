@@ -1,0 +1,10 @@
+{
+  "label": "step-005",
+  "step_num": 5,
+  "action": "say",
+  "payload": "Edit 'mathkit.py'. Add a documented function 'is_even(n)' that returns whether n is even.",
+  "files": [
+    "mathkit.py",
+    "tests"
+  ]
+}

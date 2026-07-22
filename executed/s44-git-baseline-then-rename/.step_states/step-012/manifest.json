@@ -1,0 +1,13 @@
+{
+  "label": "step-012",
+  "step_num": 12,
+  "action": "edit",
+  "payload": "inventory.py \u2014 append `# reviewed by ops`",
+  "files": [
+    ".pytest_cache",
+    "__pycache__",
+    "inventory.py",
+    "rename_inv.py",
+    "tests"
+  ]
+}

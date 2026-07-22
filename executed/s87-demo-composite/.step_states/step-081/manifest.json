@@ -1,0 +1,18 @@
+{
+  "label": "step-081",
+  "step_num": 81,
+  "action": "say",
+  "payload": "Open 'inventory.py' to see what's there, then edit it to add a documented function 'reset_store(store)' that empties the store and returns the removed items.",
+  "files": [
+    ".claude",
+    ".pytest_cache",
+    "__pycache__",
+    "apply_renames.py",
+    "inventory.py",
+    "plans",
+    "rename_inv.py",
+    "renames.csv",
+    "reporting.py",
+    "tests"
+  ]
+}

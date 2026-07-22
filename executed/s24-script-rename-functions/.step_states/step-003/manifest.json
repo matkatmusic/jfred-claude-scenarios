@@ -1,0 +1,12 @@
+{
+  "label": "step-003",
+  "step_num": 3,
+  "action": "say",
+  "payload": "Edit 'order_utils.py'. Add a function 'order_line(item)' that returns a one-line string for an item, building it by calling 'fmt_money' and 'chk_stock'.",
+  "files": [
+    ".pytest_cache",
+    "__pycache__",
+    "order_utils.py",
+    "tests"
+  ]
+}

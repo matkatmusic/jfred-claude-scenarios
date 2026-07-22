@@ -1,0 +1,12 @@
+{
+  "label": "step-001",
+  "step_num": 1,
+  "action": "say",
+  "payload": "Write a file called scenario21.py with a class called Counter with an __init__ that sets self.count = 0, and write tests/test_scenario21.py that tests Counter().count == 0.",
+  "files": [
+    ".pytest_cache",
+    "__pycache__",
+    "scenario21.py",
+    "tests"
+  ]
+}

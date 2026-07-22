@@ -1,0 +1,14 @@
+{
+  "label": "step-006",
+  "step_num": 6,
+  "action": "exit",
+  "payload": "",
+  "files": [
+    ".pytest_cache",
+    "__pycache__",
+    "bulk_rename.py",
+    "many_renames.csv",
+    "tests",
+    "textutil.py"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "label": "step-001",
+  "step_num": 1,
+  "action": "say",
+  "payload": "Write a file called m6_source.py with a class called Base with __init__ that sets self.name = \"base\", and write tests/test_m6_source.py that tests Base().name == \"base\".",
+  "files": [
+    ".pytest_cache",
+    "__pycache__",
+    "m6_source.py",
+    "tests"
+  ]
+}

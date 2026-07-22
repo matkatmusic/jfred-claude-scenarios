@@ -1,0 +1,10 @@
+{
+  "label": "step-004",
+  "step_num": 4,
+  "action": "say",
+  "payload": "Edit 'mathkit.py'. Add a documented function 'factorial(n)' that returns the factorial of n.",
+  "files": [
+    "mathkit.py",
+    "tests"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "label": "step-009",
+  "step_num": 9,
+  "action": "exit",
+  "payload": "",
+  "files": [
+    ".pytest_cache",
+    "__pycache__",
+    "scenario21.py",
+    "tests"
+  ]
+}

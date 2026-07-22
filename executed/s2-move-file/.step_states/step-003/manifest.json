@@ -1,0 +1,12 @@
+{
+  "label": "step-003",
+  "step_num": 3,
+  "action": "say",
+  "payload": "Edit s2_moved.py. Add a function called goodbye() that prints \"goodbye\".",
+  "files": [
+    ".pytest_cache",
+    "__pycache__",
+    "s2_moved.py",
+    "tests"
+  ]
+}

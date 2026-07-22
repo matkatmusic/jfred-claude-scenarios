@@ -1,0 +1,13 @@
+tmpdir: /var/folders/fy/wg2tzrv957sg2vqjcvdkdzvm0000gn/T/run-scenario.z4uh6co5
+session: s77-sayqueued-smoke
+model: claude-opus-4-6[1m]
+ponytail: full
+---
+- [x] 1. Say: `Write 'note.py' with a module docstring and a documented function 'greet(name)' that returns the string "Hello, " followed by name. Then run 'note.py' with python3 via the Bash tool so it prints greet("world").`
+- [x] 2. SayQueued: `Also add a documented function 'farewell(name)' to 'note.py' that returns the string "Goodbye, " followed by name.`
+- [x] 3. Say: `Thanks.`
+- [x] 4. Exit
+- [x] 5. Record: JSONL filename
+
+---
+result: {"completed": true, "jsonl_path": "/Users/matkatmusicllc/.claude/projects/-private-var-folders-fy-wg2tzrv957sg2vqjcvdkdzvm0000gn-T-run-scenario-z4uh6co5/23b9b857-c6b0-4b0a-8899-687a001d390d.jsonl", "jsonl_paths": ["/Users/matkatmusicllc/.claude/projects/-private-var-folders-fy-wg2tzrv957sg2vqjcvdkdzvm0000gn-T-run-scenario-z4uh6co5/23b9b857-c6b0-4b0a-8899-687a001d390d.jsonl"], "abandoned_branches": [], "step_states": ["step-001", "step-002", "step-003", "step-004", "step-005"]}

@@ -1,0 +1,10 @@
+{
+  "label": "step-005",
+  "step_num": 5,
+  "action": "say",
+  "payload": "Edit 'calc.py'. Add a documented function 'pow2(a)' that returns a * a.",
+  "files": [
+    "calc.py",
+    "tests"
+  ]
+}

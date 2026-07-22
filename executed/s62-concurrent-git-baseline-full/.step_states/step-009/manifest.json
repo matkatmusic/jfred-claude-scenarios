@@ -1,0 +1,11 @@
+{
+  "label": "step-009",
+  "step_num": 9,
+  "action": "say",
+  "payload": "Edit 'orders.py'. Add a documented function 'cheapest(items)' that returns the item with the lowest \"price\".",
+  "files": [
+    "customers.py",
+    "orders.py",
+    "tests"
+  ]
+}

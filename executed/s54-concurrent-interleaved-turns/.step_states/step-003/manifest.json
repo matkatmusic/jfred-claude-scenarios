@@ -1,0 +1,10 @@
+{
+  "label": "step-003",
+  "step_num": 3,
+  "action": "say",
+  "payload": "Edit 'mathlib.py'. Add a documented function 'sub(a, b)' that returns a - b.",
+  "files": [
+    "mathlib.py",
+    "tests"
+  ]
+}

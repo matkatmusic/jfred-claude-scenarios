@@ -1,0 +1,10 @@
+{
+  "label": "step-009",
+  "step_num": 9,
+  "action": "say",
+  "payload": "Thanks.",
+  "files": [
+    "shapes.py",
+    "tests"
+  ]
+}

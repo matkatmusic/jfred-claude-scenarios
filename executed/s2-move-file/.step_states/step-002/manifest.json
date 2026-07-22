@@ -1,0 +1,12 @@
+{
+  "label": "step-002",
+  "step_num": 2,
+  "action": "say",
+  "payload": "Move s2_original.py to s2_moved.py.",
+  "files": [
+    ".pytest_cache",
+    "__pycache__",
+    "s2_moved.py",
+    "tests"
+  ]
+}

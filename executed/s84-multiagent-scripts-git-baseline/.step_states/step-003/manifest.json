@@ -1,0 +1,11 @@
+{
+  "label": "step-003",
+  "step_num": 3,
+  "action": "say",
+  "payload": "Edit 'inventory.py'. Add a documented function 'remove_item(items, name)' that returns the list with the first matching item removed. Then stage 'inventory.py' and commit with the message \"add remove_item\".",
+  "files": [
+    ".claude",
+    "inventory.py",
+    "tests"
+  ]
+}

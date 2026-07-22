@@ -1,0 +1,12 @@
+{
+  "label": "step-001",
+  "step_num": 1,
+  "action": "say",
+  "payload": "Write a file called s1_delete.py with a function called hello() that prints \"hello\", and write tests/test_s1_delete.py that tests hello() works.",
+  "files": [
+    ".pytest_cache",
+    "__pycache__",
+    "s1_delete.py",
+    "tests"
+  ]
+}

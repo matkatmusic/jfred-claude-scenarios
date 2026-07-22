@@ -1,0 +1,13 @@
+{
+  "label": "step-004",
+  "step_num": 4,
+  "action": "edit",
+  "payload": "m6_derived.py \u2014 before `self.name = \"base\"` insert `# derived version`",
+  "files": [
+    ".pytest_cache",
+    "__pycache__",
+    "m6_derived.py",
+    "m6_source.py",
+    "tests"
+  ]
+}

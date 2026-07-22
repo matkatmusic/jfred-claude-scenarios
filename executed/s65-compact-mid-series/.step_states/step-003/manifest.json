@@ -1,0 +1,10 @@
+{
+  "label": "step-003",
+  "step_num": 3,
+  "action": "say",
+  "payload": "Edit 'strutils.py'. Add a documented function 'count_vowels(s)' that returns the number of vowels in the string.",
+  "files": [
+    "strutils.py",
+    "tests"
+  ]
+}

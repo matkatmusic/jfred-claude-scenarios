@@ -1,0 +1,10 @@
+{
+  "label": "step-008",
+  "step_num": 8,
+  "action": "say",
+  "payload": "Open 'accounts.py' to see what's there, then edit it to add a documented function 'close_account(acct)' that sets the balance to zero and returns the withdrawn amount.",
+  "files": [
+    "accounts.py",
+    "tests"
+  ]
+}

@@ -1,0 +1,15 @@
+tmpdir: /var/folders/fy/wg2tzrv957sg2vqjcvdkdzvm0000gn/T/run-scenario.m8tpywds
+session: s63-compact-basic
+model: claude-opus-4-6[1m]
+ponytail: ultra
+---
+- [x] 1. Say: `Write a file called 'greet.py' with a module docstring and a documented function 'greet(name)' that returns a "Hello, <name>!" string.`
+- [x] 2. Say: `Edit 'greet.py'. Add a documented function 'farewell(name)' that returns a "Goodbye, <name>." string.`
+- [x] 3. /compact
+- [x] 4. Say: `Edit 'greet.py'. Add a documented function 'shout(name)' that returns the greeting from 'greet' in uppercase.`
+- [x] 5. Say: `Thanks.`
+- [x] 6. Exit
+- [x] 7. Record: JSONL filename
+
+---
+result: {"completed": true, "jsonl_path": "/Users/matkatmusicllc/.claude/projects/-private-var-folders-fy-wg2tzrv957sg2vqjcvdkdzvm0000gn-T-run-scenario-m8tpywds/aeb93aca-4ebd-480d-8d75-05a2ba355d51.jsonl", "jsonl_paths": ["/Users/matkatmusicllc/.claude/projects/-private-var-folders-fy-wg2tzrv957sg2vqjcvdkdzvm0000gn-T-run-scenario-m8tpywds/aeb93aca-4ebd-480d-8d75-05a2ba355d51.jsonl"], "abandoned_branches": [], "step_states": ["step-001", "step-002", "step-003", "step-004", "step-005", "step-006", "step-007"]}

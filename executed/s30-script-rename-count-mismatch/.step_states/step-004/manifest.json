@@ -1,0 +1,14 @@
+{
+  "label": "step-004",
+  "step_num": 4,
+  "action": "say",
+  "payload": "Write a Python script called 'safe_rename.py' that, for each row in 'count_renames.csv', counts the whole-word occurrences of the old name in 'pricing.py'; if the count equals the row's count it applies the rename to BOTH 'pricing.py' and 'tests/test_pricing.py' and writes them, otherwise it prints a \"MISMATCH\" line naming that row and leaves that name unchanged in every file (no partial write). Run it with python3 using the Bash tool (not the context-mode MCP sandbox). Important: perform the rename by running that script \u2014 do NOT use your Edit/Write tools to change 'pricing.py' or its test file directly.",
+  "files": [
+    ".pytest_cache",
+    "__pycache__",
+    "count_renames.csv",
+    "pricing.py",
+    "safe_rename.py",
+    "tests"
+  ]
+}

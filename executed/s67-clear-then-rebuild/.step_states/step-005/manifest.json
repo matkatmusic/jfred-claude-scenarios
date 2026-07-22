@@ -1,0 +1,10 @@
+{
+  "label": "step-005",
+  "step_num": 5,
+  "action": "say",
+  "payload": "Edit 'listutils.py'. Add a documented function 'flatten_unique(nested)' that flattens the input and removes duplicates by calling 'flatten' and 'unique'.",
+  "files": [
+    "listutils.py",
+    "tests"
+  ]
+}

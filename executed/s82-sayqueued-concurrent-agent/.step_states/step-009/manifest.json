@@ -1,0 +1,14 @@
+{
+  "label": "step-009",
+  "step_num": 9,
+  "action": "record",
+  "payload": "",
+  "files": [
+    ".claude",
+    "__pycache__",
+    "base.py",
+    "out.txt",
+    "runit.py",
+    "tests"
+  ]
+}

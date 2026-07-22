@@ -1,0 +1,12 @@
+{
+  "label": "step-003",
+  "step_num": 3,
+  "action": "say",
+  "payload": "Edit scenario20.py. Add a function called subtract(a, b) that returns a - b.",
+  "files": [
+    ".pytest_cache",
+    "__pycache__",
+    "scenario20.py",
+    "tests"
+  ]
+}

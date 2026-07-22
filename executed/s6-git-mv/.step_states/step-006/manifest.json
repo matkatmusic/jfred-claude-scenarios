@@ -1,0 +1,10 @@
+{
+  "label": "step-006",
+  "step_num": 6,
+  "action": "record",
+  "payload": "JSONL filename",
+  "files": [
+    "s6_git_renamed.py",
+    "tests"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "label": "step-002",
+  "step_num": 2,
+  "action": "say",
+  "payload": "Copy s3_source.py to s3_copy.py.",
+  "files": [
+    ".pytest_cache",
+    "__pycache__",
+    "s3_copy.py",
+    "s3_source.py",
+    "tests"
+  ]
+}

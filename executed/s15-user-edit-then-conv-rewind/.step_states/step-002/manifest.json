@@ -1,0 +1,12 @@
+{
+  "label": "step-002",
+  "step_num": 2,
+  "action": "edit",
+  "payload": "scenario15.py \u2014 prepend `# user edit`",
+  "files": [
+    ".pytest_cache",
+    "__pycache__",
+    "scenario15.py",
+    "tests"
+  ]
+}

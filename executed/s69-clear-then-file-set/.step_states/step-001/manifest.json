@@ -1,0 +1,11 @@
+{
+  "label": "step-001",
+  "step_num": 1,
+  "action": "say",
+  "payload": "Write two files. 'money.py' with a module docstring and a documented function 'format_usd(n)' that returns a \"$0.00\"-style string. And 'rates.py' with a module docstring and a documented function 'apply_rate(amount, rate)' that returns amount * rate.",
+  "files": [
+    "money.py",
+    "rates.py",
+    "tests"
+  ]
+}

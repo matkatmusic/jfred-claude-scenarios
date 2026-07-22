@@ -1,0 +1,12 @@
+{
+  "label": "step-008",
+  "step_num": 8,
+  "action": "say",
+  "payload": "Edit m5_interleave.py. Add a function called agent_add_2() that returns \"agent2\".",
+  "files": [
+    ".pytest_cache",
+    "__pycache__",
+    "m5_interleave.py",
+    "tests"
+  ]
+}

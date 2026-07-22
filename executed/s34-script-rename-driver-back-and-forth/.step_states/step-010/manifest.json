@@ -1,0 +1,14 @@
+{
+  "label": "step-010",
+  "step_num": 10,
+  "action": "say",
+  "payload": "Edit 'ledger.py'. Add a function 'report(book)' that calls 'record_entry' and 'total_debits'.",
+  "files": [
+    ".pytest_cache",
+    "__pycache__",
+    "apply_renames.py",
+    "ledger.py",
+    "renames.csv",
+    "tests"
+  ]
+}

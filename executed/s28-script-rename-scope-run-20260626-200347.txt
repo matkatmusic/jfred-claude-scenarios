@@ -1,0 +1,16 @@
+tmpdir: /var/folders/fy/wg2tzrv957sg2vqjcvdkdzvm0000gn/T/run-scenario.7a40478z
+session: s28-script-rename-scope
+model: claude-opus-4-6[1m]
+ponytail: ultra
+---
+- [x] 1. Say: `Write two files. 'catalog.py' — at least 100 lines, with a module docstring, an exported function 'load_all(path)' that reads entries, a local helper '_norm(entry)' used only inside 'catalog.py', and a few more documented functions. 'catalog_view.py' — imports 'catalog' and defines 'render(path)' which calls 'catalog.load_all'. Also write 'tests/test_catalog.py' covering 'load_all'.`
+- [x] 2. Say: `Edit 'catalog.py'. Add a function 'count_entries(path)' that calls 'load_all' and returns the length.`
+- [x] 3. Say: `Write a CSV file called 'scoped_renames.csv' with a header "old,new,isExported,file" and these rows: load_all,load_catalog,Y, (an exported/global rename, blank file column) then _norm,normalize_entry,N,catalog.py (a local rename scoped to one file).`
+- [x] 4. Say: `Write a Python script called 'scoped_rename.py' that reads 'scoped_renames.csv' and applies each row as a whole-word rename: for isExported=Y rows, rename across 'catalog.py', 'catalog_view.py', AND 'tests/test_catalog.py'; for isExported=N rows, rename only in the file named in the row. Then run it with python3 using the Bash tool (not the context-mode MCP sandbox). The exported renames must update the test file with the new names too. Important: perform the rename by writing and running that script — do NOT use your Edit/Write tools to change 'catalog.py', 'catalog_view.py', or the test file directly.`
+- [x] 5. Say: `Edit 'catalog_view.py'. Add a function 'preview(path)' that calls 'load_catalog'.`
+- [x] 6. Say: `Thanks.`
+- [x] 7. Exit
+- [x] 8. Record: JSONL filename
+
+---
+result: {"completed": true, "jsonl_path": "/Users/matkatmusicllc/.claude/projects/-private-var-folders-fy-wg2tzrv957sg2vqjcvdkdzvm0000gn-T-run-scenario-7a40478z/d6c4dd3f-d109-4c72-826b-61800407e082.jsonl", "jsonl_paths": ["/Users/matkatmusicllc/.claude/projects/-private-var-folders-fy-wg2tzrv957sg2vqjcvdkdzvm0000gn-T-run-scenario-7a40478z/d6c4dd3f-d109-4c72-826b-61800407e082.jsonl"], "abandoned_branches": [], "step_states": ["step-001", "step-002", "step-003", "step-004", "step-005", "step-006", "step-007", "step-008"]}

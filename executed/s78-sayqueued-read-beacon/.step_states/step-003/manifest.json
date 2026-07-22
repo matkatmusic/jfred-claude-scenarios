@@ -1,0 +1,12 @@
+{
+  "label": "step-003",
+  "step_num": 3,
+  "action": "sayqueued",
+  "payload": "Also tell me which of the three files has the longest module docstring.",
+  "files": [
+    "alpha.py",
+    "beta.py",
+    "gamma.py",
+    "tests"
+  ]
+}

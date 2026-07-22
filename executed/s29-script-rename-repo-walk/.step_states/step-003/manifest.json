@@ -1,0 +1,14 @@
+{
+  "label": "step-003",
+  "step_num": 3,
+  "action": "say",
+  "payload": "Write a Python script called 'walk_rename.py' that walks the current directory tree with os.walk, collecting every .py file but SKIPPING any directory named \"vendor\", and whole-word renames 'helper' to 'compute_value' in each collected file. Then run it with python3 using the Bash tool (not the context-mode MCP sandbox). The script must discover the files by walking \u2014 do not hardcode the file list. Important: perform the rename by running that script \u2014 do NOT use your Edit/Write tools to change the .py files directly.",
+  "files": [
+    ".pytest_cache",
+    "__pycache__",
+    "main.py",
+    "pkg",
+    "tests",
+    "walk_rename.py"
+  ]
+}

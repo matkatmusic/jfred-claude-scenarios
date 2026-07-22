@@ -1,0 +1,10 @@
+{
+  "label": "step-004",
+  "step_num": 4,
+  "action": "say",
+  "payload": "Edit 'orders.py'. Add a documented function 'names(items)' that returns a list of each item's \"name\".",
+  "files": [
+    "orders.py",
+    "tests"
+  ]
+}

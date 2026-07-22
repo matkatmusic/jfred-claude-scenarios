@@ -1,0 +1,18 @@
+tmpdir: /var/folders/fy/wg2tzrv957sg2vqjcvdkdzvm0000gn/T/run-scenario.nlbvyt1m
+session: s20-user-edit-code-rewind
+model: claude-opus-4-6[1m]
+ponytail: ultra
+---
+- [x] 1. Say: `Write a file called scenario20.py with a function called add(a, b) that returns a + b, and write tests/test_scenario20.py that tests add(1, 2) returns 3.`
+- [x] 2. Edit: scenario20.py — after `return a + b` insert `# user tweak`
+- [x] 3. Say: `Edit scenario20.py. Add a function called subtract(a, b) that returns a - b.`
+- [x] 4. Say: `Looks good.`
+- [x] 5. Rewind: 2, code
+- [x] 6. Say: `Read scenario20.py and show me the contents.`
+- [x] 7. Say: `Edit scenario20.py. Add a function called multiply(a, b) that returns a * b.`
+- [x] 8. Say: `Thanks.`
+- [x] 9. Exit
+- [x] 10. Record: JSONL filename
+
+---
+result: {"completed": true, "jsonl_path": "/Users/matkatmusicllc/.claude/projects/-private-var-folders-fy-wg2tzrv957sg2vqjcvdkdzvm0000gn-T-run-scenario-nlbvyt1m/50c1e3f4-d883-48cc-9b40-14c4151be23f.jsonl", "jsonl_paths": ["/Users/matkatmusicllc/.claude/projects/-private-var-folders-fy-wg2tzrv957sg2vqjcvdkdzvm0000gn-T-run-scenario-nlbvyt1m/50c1e3f4-d883-48cc-9b40-14c4151be23f.jsonl"], "abandoned_branches": ["abandoned-branch-1"], "step_states": ["step-001", "step-002", "step-003", "step-004", "step-005", "step-006", "step-007", "step-008", "step-009", "step-010"]}

@@ -1,0 +1,19 @@
+{
+  "label": "step-092",
+  "step_num": 92,
+  "action": "sayqueued",
+  "payload": "Also have 'apply_renames.py' print each old-to-new rename as it applies it.",
+  "files": [
+    ".claude",
+    ".pytest_cache",
+    "__pycache__",
+    "apply_renames.py",
+    "inventory_core.py",
+    "move_files.py",
+    "plans",
+    "rename_inv.py",
+    "renames.csv",
+    "reporting_core.py",
+    "tests"
+  ]
+}

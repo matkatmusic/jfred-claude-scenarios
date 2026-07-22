@@ -1,0 +1,10 @@
+{
+  "label": "step-006",
+  "step_num": 6,
+  "action": "say",
+  "payload": "Edit 'shapes.py'. Add a documented function 'square_area(s)' that returns the area of a square.",
+  "files": [
+    "shapes.py",
+    "tests"
+  ]
+}

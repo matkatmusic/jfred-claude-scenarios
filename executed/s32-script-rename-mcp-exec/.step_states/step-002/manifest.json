@@ -1,0 +1,12 @@
+{
+  "label": "step-002",
+  "step_num": 2,
+  "action": "say",
+  "payload": "Edit 'config_utils.py'. Add a function 'get_or_default(cfg, key, default)' that calls 'has_val' and 'get_val'.",
+  "files": [
+    ".pytest_cache",
+    "__pycache__",
+    "config_utils.py",
+    "tests"
+  ]
+}

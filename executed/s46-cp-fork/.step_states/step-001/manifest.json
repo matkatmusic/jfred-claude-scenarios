@@ -1,0 +1,12 @@
+{
+  "label": "step-001",
+  "step_num": 1,
+  "action": "say",
+  "payload": "Write a file called m1_base.py with a class called Config with __init__ that sets self.debug = False and self.verbose = False, and write tests/test_m1_base.py that tests Config().debug == False.",
+  "files": [
+    ".pytest_cache",
+    "__pycache__",
+    "m1_base.py",
+    "tests"
+  ]
+}

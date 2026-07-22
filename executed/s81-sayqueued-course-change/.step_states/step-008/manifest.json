@@ -1,0 +1,12 @@
+{
+  "label": "step-008",
+  "step_num": 8,
+  "action": "record",
+  "payload": "JSONL filename",
+  "files": [
+    "__pycache__",
+    "compute.py",
+    "shapes.py",
+    "tests"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "label": "step-001",
+  "step_num": 1,
+  "action": "say",
+  "payload": "Write two files. 'catalog.py' \u2014 at least 100 lines, with a module docstring, an exported function 'load_all(path)' that reads entries, a local helper '_norm(entry)' used only inside 'catalog.py', and a few more documented functions. 'catalog_view.py' \u2014 imports 'catalog' and defines 'render(path)' which calls 'catalog.load_all'. Also write 'tests/test_catalog.py' covering 'load_all'.",
+  "files": [
+    ".pytest_cache",
+    "__pycache__",
+    "catalog.py",
+    "catalog_view.py",
+    "tests"
+  ]
+}

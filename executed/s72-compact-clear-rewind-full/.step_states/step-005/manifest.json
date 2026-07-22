@@ -1,0 +1,10 @@
+{
+  "label": "step-005",
+  "step_num": 5,
+  "action": "edit",
+  "payload": "accounts.py \u2014 append `# end of accounts module`",
+  "files": [
+    "accounts.py",
+    "tests"
+  ]
+}

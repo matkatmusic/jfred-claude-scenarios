@@ -1,0 +1,11 @@
+{
+  "label": "step-002",
+  "step_num": 2,
+  "action": "say",
+  "payload": "Delete s1_delete.py.",
+  "files": [
+    ".pytest_cache",
+    "__pycache__",
+    "tests"
+  ]
+}

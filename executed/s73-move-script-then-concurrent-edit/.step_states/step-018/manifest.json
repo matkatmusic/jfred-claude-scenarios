@@ -1,0 +1,13 @@
+{
+  "label": "step-018",
+  "step_num": 18,
+  "action": "say",
+  "payload": "Edit 'core_alpha.py'. Add a documented function 'a_four(x)' that returns x + 4.",
+  "files": [
+    "core_alpha.py",
+    "core_beta.py",
+    "core_gamma.py",
+    "move_files.py",
+    "tests"
+  ]
+}

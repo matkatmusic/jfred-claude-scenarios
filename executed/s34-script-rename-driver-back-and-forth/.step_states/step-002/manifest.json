@@ -1,0 +1,12 @@
+{
+  "label": "step-002",
+  "step_num": 2,
+  "action": "edit",
+  "payload": "ledger.py \u2014 prepend `# ledger module \u2014 managed by finance`",
+  "files": [
+    ".pytest_cache",
+    "__pycache__",
+    "ledger.py",
+    "tests"
+  ]
+}

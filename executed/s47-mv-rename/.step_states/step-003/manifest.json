@@ -1,0 +1,12 @@
+{
+  "label": "step-003",
+  "step_num": 3,
+  "action": "say",
+  "payload": "Rename m2_old_name.py to m2_new_name.py using mv.",
+  "files": [
+    ".pytest_cache",
+    "__pycache__",
+    "m2_new_name.py",
+    "tests"
+  ]
+}

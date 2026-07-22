@@ -1,0 +1,12 @@
+{
+  "label": "step-004",
+  "step_num": 4,
+  "action": "say",
+  "payload": "Edit m2_new_name.py. Add a function called finalize() that returns \"done\".",
+  "files": [
+    ".pytest_cache",
+    "__pycache__",
+    "m2_new_name.py",
+    "tests"
+  ]
+}

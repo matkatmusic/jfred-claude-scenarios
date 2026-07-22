@@ -1,0 +1,9 @@
+{
+  "label": "step-001",
+  "step_num": 1,
+  "action": "say",
+  "payload": "Write a file called 'metrics.py' with a module docstring and two documented functions: 'total(values)' returning the sum, and 'mean(values)' returning the average. Give each a multi-line docstring with Args, Returns, and Raises sections, and raise ValueError on empty input.",
+  "files": [
+    "tests"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "label": "step-005",
+  "step_num": 5,
+  "action": "edit",
+  "payload": "rename_inv.py \u2014 after `(\"qty_chk\", \"check_quantity\"),` insert `    (\"add_item\", \"insert_item\"),`",
+  "files": [
+    ".claude",
+    ".pytest_cache",
+    "__pycache__",
+    "inventory.py",
+    "rename_inv.py",
+    "tests"
+  ]
+}

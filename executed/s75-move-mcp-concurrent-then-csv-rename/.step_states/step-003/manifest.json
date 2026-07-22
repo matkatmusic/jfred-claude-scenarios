@@ -1,0 +1,12 @@
+{
+  "label": "step-003",
+  "step_num": 3,
+  "action": "edit",
+  "payload": "beta.py \u2014 append `# reviewed by ops`",
+  "files": [
+    "alpha.py",
+    "beta.py",
+    "gamma.py",
+    "tests"
+  ]
+}

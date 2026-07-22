@@ -1,0 +1,16 @@
+{
+  "label": "step-046",
+  "step_num": 46,
+  "action": "say",
+  "payload": "Implement the third feature from the plan \u2014 'audit(store)' \u2014 in 'inventory.py', add a test for it, and run the tests again.",
+  "files": [
+    ".claude",
+    ".pytest_cache",
+    "__pycache__",
+    "inventory.py",
+    "plans",
+    "rename_inv.py",
+    "reporting.py",
+    "tests"
+  ]
+}

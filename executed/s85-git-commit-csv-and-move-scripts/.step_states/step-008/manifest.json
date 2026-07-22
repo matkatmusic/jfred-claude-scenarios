@@ -1,0 +1,16 @@
+{
+  "label": "step-008",
+  "step_num": 8,
+  "action": "say",
+  "payload": "Stage all changes \u2014 run each git command separately, no '&&' chains \u2014 and commit with the message \"post-rename\".",
+  "files": [
+    ".claude",
+    "apply_renames.py",
+    "core_one.py",
+    "core_three.py",
+    "core_two.py",
+    "move_files.py",
+    "renames.csv",
+    "tests"
+  ]
+}

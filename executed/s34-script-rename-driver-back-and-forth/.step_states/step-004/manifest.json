@@ -1,0 +1,13 @@
+{
+  "label": "step-004",
+  "step_num": 4,
+  "action": "say",
+  "payload": "Write a CSV file called 'renames.csv' with a header \"old,new\" and these rows: add_entry,record_entry then rm_entry,remove_entry.",
+  "files": [
+    ".pytest_cache",
+    "__pycache__",
+    "ledger.py",
+    "renames.csv",
+    "tests"
+  ]
+}

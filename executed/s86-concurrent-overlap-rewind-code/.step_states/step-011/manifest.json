@@ -1,0 +1,10 @@
+{
+  "label": "step-011",
+  "step_num": 11,
+  "action": "say",
+  "payload": "Edit 'metrics.py'. Add a documented function 'harmonic_mean(values)' directly below 'geometric_mean', returning n divided by the sum of reciprocals. Multi-line docstring with Args, Returns, Raises; raise ValueError on empty or zero input.",
+  "files": [
+    "metrics.py",
+    "tests"
+  ]
+}

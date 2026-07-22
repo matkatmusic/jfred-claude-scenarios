@@ -1,0 +1,10 @@
+{
+  "label": "step-004",
+  "step_num": 4,
+  "action": "say",
+  "payload": "Edit 'temps.py'. Add a documented function 'c_to_k(c)' that converts Celsius to Kelvin.",
+  "files": [
+    "temps.py",
+    "tests"
+  ]
+}

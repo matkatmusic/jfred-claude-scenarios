@@ -1,0 +1,13 @@
+{
+  "label": "step-002",
+  "step_num": 2,
+  "action": "say",
+  "payload": "Edit 'inventory.py'. Add a function 'low_stock(store, threshold)' that returns items below the threshold.",
+  "files": [
+    ".claude",
+    ".pytest_cache",
+    "__pycache__",
+    "inventory.py",
+    "tests"
+  ]
+}

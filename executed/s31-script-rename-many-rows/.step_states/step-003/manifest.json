@@ -1,0 +1,14 @@
+{
+  "label": "step-003",
+  "step_num": 3,
+  "action": "say",
+  "payload": "Write a CSV file called 'many_renames.csv' with a header \"old,new\" and one row for each of the twelve functions, mapping each terse name to a clear name (for example cap,capitalize and rev,reverse and slug,slugify \u2014 give every function a clear name). Then write a Python script called 'bulk_rename.py' that reads 'many_renames.csv' and applies all rows as whole-word renames to both 'textutil.py' and 'tests/test_textutil.py', printing one \"OK old -> new\" line per row and a final \"N OK\" summary, and run it with python3 using the Bash tool (not the context-mode MCP sandbox). The test file must be updated with the new names too. Important: perform the renames by writing and running that script \u2014 do NOT use your Edit/Write tools to change 'textutil.py' or its test file directly.",
+  "files": [
+    ".pytest_cache",
+    "__pycache__",
+    "bulk_rename.py",
+    "many_renames.csv",
+    "tests",
+    "textutil.py"
+  ]
+}

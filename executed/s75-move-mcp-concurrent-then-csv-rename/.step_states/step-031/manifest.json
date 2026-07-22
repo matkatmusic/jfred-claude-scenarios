@@ -1,0 +1,16 @@
+{
+  "label": "step-031",
+  "step_num": 31,
+  "action": "record",
+  "payload": "",
+  "files": [
+    ".claude",
+    "apply_renames.py",
+    "core_alpha.py",
+    "core_beta.py",
+    "core_gamma.py",
+    "move_files.py",
+    "renames.csv",
+    "tests"
+  ]
+}

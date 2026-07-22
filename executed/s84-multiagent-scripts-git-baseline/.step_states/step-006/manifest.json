@@ -1,0 +1,12 @@
+{
+  "label": "step-006",
+  "step_num": 6,
+  "action": "sayqueued",
+  "payload": "Also have 'move_files.py' print the rename it performs.",
+  "files": [
+    ".claude",
+    "core_inventory.py",
+    "move_files.py",
+    "tests"
+  ]
+}

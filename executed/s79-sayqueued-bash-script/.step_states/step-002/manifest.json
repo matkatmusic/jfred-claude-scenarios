@@ -1,0 +1,11 @@
+{
+  "label": "step-002",
+  "step_num": 2,
+  "action": "say",
+  "payload": "Write a Python script called 'checkit.py' that imports both modules, calls double(21) and triple(14), and prints both results. Then run it with python3 using the Bash tool (not the context-mode sandbox).",
+  "files": [
+    "more.py",
+    "nums.py",
+    "tests"
+  ]
+}

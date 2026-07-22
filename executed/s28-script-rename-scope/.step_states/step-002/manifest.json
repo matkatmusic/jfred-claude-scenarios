@@ -1,0 +1,13 @@
+{
+  "label": "step-002",
+  "step_num": 2,
+  "action": "say",
+  "payload": "Edit 'catalog.py'. Add a function 'count_entries(path)' that calls 'load_all' and returns the length.",
+  "files": [
+    ".pytest_cache",
+    "__pycache__",
+    "catalog.py",
+    "catalog_view.py",
+    "tests"
+  ]
+}

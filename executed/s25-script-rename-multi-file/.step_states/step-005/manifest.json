@@ -1,0 +1,14 @@
+{
+  "label": "step-005",
+  "step_num": 5,
+  "action": "say",
+  "payload": "Edit 'geo_report.py'. Add a function 'totals(shapes)' that sums results from 'rectangle_area' and 'box_volume'.",
+  "files": [
+    ".pytest_cache",
+    "__pycache__",
+    "geo_core.py",
+    "geo_report.py",
+    "rename_geo.py",
+    "tests"
+  ]
+}

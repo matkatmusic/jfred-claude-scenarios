@@ -1,0 +1,12 @@
+{
+  "label": "step-001",
+  "step_num": 1,
+  "action": "say",
+  "payload": "Write a file called 'config_utils.py' \u2014 a small config-access module, at least 100 lines long, with a module docstring and these terse-named functions, each documented: 'get_val(cfg, key)' returns a value; 'set_val(cfg, key, value)' sets one; 'del_val(cfg, key)' removes one; 'has_val(cfg, key)' returns membership; 'merge_val(a, b)' merges two dicts. Also write 'tests/test_config_utils.py' covering 'get_val' and 'set_val'.",
+  "files": [
+    ".pytest_cache",
+    "__pycache__",
+    "config_utils.py",
+    "tests"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "label": "step-006",
+  "step_num": 6,
+  "action": "say",
+  "payload": "Edit 'shapes.py'. Add a documented function 'circumference(r)' that returns 2 * 3.14159 * r.",
+  "files": [
+    "shapes.py",
+    "tests"
+  ]
+}

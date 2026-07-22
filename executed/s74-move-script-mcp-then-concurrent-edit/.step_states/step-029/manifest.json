@@ -1,0 +1,14 @@
+{
+  "label": "step-029",
+  "step_num": 29,
+  "action": "record",
+  "payload": "",
+  "files": [
+    ".claude",
+    "core_alpha.py",
+    "core_beta.py",
+    "core_gamma.py",
+    "move_files.py",
+    "tests"
+  ]
+}

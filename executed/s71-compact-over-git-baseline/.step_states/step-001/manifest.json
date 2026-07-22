@@ -1,0 +1,10 @@
+{
+  "label": "step-001",
+  "step_num": 1,
+  "action": "say",
+  "payload": "Initialize a git repository here \u2014 run each git command separately, no '&&' chains. Write a file called 'inventory.py' with a module docstring and these documented functions: 'add_item(items, name, qty)' appends an item dict and returns the list; 'total_qty(items)' returns the sum of each item's \"qty\". Then stage 'inventory.py' and commit with the message \"baseline\".",
+  "files": [
+    "inventory.py",
+    "tests"
+  ]
+}

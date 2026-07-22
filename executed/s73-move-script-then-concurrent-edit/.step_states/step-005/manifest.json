@@ -1,0 +1,13 @@
+{
+  "label": "step-005",
+  "step_num": 5,
+  "action": "say",
+  "payload": "Rename all three modules by writing a Python script called 'move_files.py' that uses shutil.move to rename 'alpha.py' to 'core_alpha.py', 'beta.py' to 'core_beta.py', and 'gamma.py' to 'core_gamma.py', then run it with python3 using the Bash tool (not the context-mode MCP sandbox). Perform the moves by writing and running that script \u2014 do NOT use your Edit/Write tools or a bash mv to move the files directly.",
+  "files": [
+    "core_alpha.py",
+    "core_beta.py",
+    "core_gamma.py",
+    "move_files.py",
+    "tests"
+  ]
+}

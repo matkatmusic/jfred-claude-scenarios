@@ -1,0 +1,18 @@
+{
+  "label": "step-082",
+  "step_num": 82,
+  "action": "say",
+  "payload": "Edit 'inventory.py'. Add a documented function 'is_empty(store)' that returns whether the store has no items.",
+  "files": [
+    ".claude",
+    ".pytest_cache",
+    "__pycache__",
+    "apply_renames.py",
+    "inventory.py",
+    "plans",
+    "rename_inv.py",
+    "renames.csv",
+    "reporting.py",
+    "tests"
+  ]
+}

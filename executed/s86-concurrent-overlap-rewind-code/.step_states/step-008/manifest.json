@@ -1,0 +1,10 @@
+{
+  "label": "step-008",
+  "step_num": 8,
+  "action": "say",
+  "payload": "Edit 'metrics.py'. Add a documented function 'midrange(values)' directly below 'value_range', returning (max + min) / 2. Multi-line docstring with Args, Returns, Raises; raise ValueError on empty input.",
+  "files": [
+    "metrics.py",
+    "tests"
+  ]
+}

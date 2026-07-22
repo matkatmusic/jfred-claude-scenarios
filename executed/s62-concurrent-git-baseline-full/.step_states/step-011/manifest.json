@@ -1,0 +1,11 @@
+{
+  "label": "step-011",
+  "step_num": 11,
+  "action": "say",
+  "payload": "Edit 'customers.py'. Add a documented function 'emails(customers)' that returns a list of each customer's \"email\".",
+  "files": [
+    "customers.py",
+    "orders.py",
+    "tests"
+  ]
+}

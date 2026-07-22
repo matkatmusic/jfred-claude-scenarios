@@ -1,0 +1,16 @@
+{
+  "label": "step-025",
+  "step_num": 25,
+  "action": "say",
+  "payload": "Write a Python script called 'apply_renames.py' that reads 'renames.csv' and applies each old-to-new pair as a whole-word rename across 'core_alpha.py', 'core_beta.py', and 'core_gamma.py' \u2014 reading each file's text, substituting every pair, and writing it back \u2014 then run it with python3 using the Bash tool (not the context-mode MCP sandbox). The script must read the mapping from 'renames.csv' (not hardcode it). Important: perform the rename by writing and running that script \u2014 do NOT use your Edit/Write tools to change the three source files directly.",
+  "files": [
+    ".claude",
+    "apply_renames.py",
+    "core_alpha.py",
+    "core_beta.py",
+    "core_gamma.py",
+    "move_files.py",
+    "renames.csv",
+    "tests"
+  ]
+}

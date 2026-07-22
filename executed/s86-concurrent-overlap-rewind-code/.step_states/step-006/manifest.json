@@ -1,0 +1,10 @@
+{
+  "label": "step-006",
+  "step_num": 6,
+  "action": "say",
+  "payload": "Edit 'metrics.py'. Add a documented function 'mode(values)' directly below 'median', returning the most common value. Multi-line docstring with Args, Returns, Raises; raise ValueError on empty input.",
+  "files": [
+    "metrics.py",
+    "tests"
+  ]
+}

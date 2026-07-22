@@ -1,0 +1,10 @@
+{
+  "label": "step-005",
+  "step_num": 5,
+  "action": "say",
+  "payload": "Edit 'shapes.py'. Add a documented function 'area_circle(r)' that returns 3.14159 * r * r.",
+  "files": [
+    "shapes.py",
+    "tests"
+  ]
+}

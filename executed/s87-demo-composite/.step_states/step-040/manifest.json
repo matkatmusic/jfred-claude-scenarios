@@ -1,0 +1,16 @@
+{
+  "label": "step-040",
+  "step_num": 40,
+  "action": "say",
+  "payload": "Read 'inventory.py' and 'reporting.py', then write 'plans/feature-plan.md' describing three features to add \u2014 'reserve(store, name, n)', 'release(store, name, n)', and 'audit(store)' \u2014 each with a one-line description. Do not implement them yet.",
+  "files": [
+    ".claude",
+    ".pytest_cache",
+    "__pycache__",
+    "inventory.py",
+    "plans",
+    "rename_inv.py",
+    "reporting.py",
+    "tests"
+  ]
+}

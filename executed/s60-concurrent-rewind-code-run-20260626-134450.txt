@@ -1,0 +1,22 @@
+tmpdir: /var/folders/fy/wg2tzrv957sg2vqjcvdkdzvm0000gn/T/run-scenario.fbrtz803
+session: s60-concurrent-rewind-code
+model: claude-opus-4-6[1m]
+ponytail: ultra
+---
+- [x] 1. Say: `Write a file called 'calc.py' with a module docstring and a documented function 'add(a, b)' that returns a + b.`
+- [x] 2. SpawnNewAgent: a2
+- [x] 3. Say @a2: `Edit 'calc.py'. Add a documented function 'sub(a, b)' that returns a - b.`
+- [x] 4. Say @a1: `Edit 'calc.py'. Add a documented function 'mul(a, b)' that returns a * b.`
+- [x] 5. Say @a1: `Edit 'calc.py'. Add a documented function 'pow2(a)' that returns a * a.`
+- [x] 6. Rewind @a1: 2, code
+- [x] 7. Say @a1: `Edit 'calc.py'. Add a documented function 'inc(a)' that returns a + 1.`
+- [x] 8. Say @a2: `Edit 'calc.py'. Add a documented function 'dec(a)' that returns a - 1.`
+- [x] 9. Say @a1: `Thanks.`
+- [x] 10. Say @a2: `Thanks.`
+- [x] 11. Exit @a2
+- [x] 12. Exit @a1
+- [x] 13. Record @a1
+- [x] 14. Record @a2
+
+---
+result: {"completed": true, "jsonl_path": "/Users/matkatmusicllc/.claude/projects/-private-var-folders-fy-wg2tzrv957sg2vqjcvdkdzvm0000gn-T-run-scenario-fbrtz803/521e53b4-9af3-49ca-bebf-9928b44b2f82.jsonl", "jsonl_paths": ["/Users/matkatmusicllc/.claude/projects/-private-var-folders-fy-wg2tzrv957sg2vqjcvdkdzvm0000gn-T-run-scenario-fbrtz803/354eb8bb-2f09-415f-aef1-31eeb9d73f4a.jsonl", "/Users/matkatmusicllc/.claude/projects/-private-var-folders-fy-wg2tzrv957sg2vqjcvdkdzvm0000gn-T-run-scenario-fbrtz803/521e53b4-9af3-49ca-bebf-9928b44b2f82.jsonl"], "abandoned_branches": ["abandoned-branch-1"], "step_states": ["step-001", "step-002", "step-003", "step-004", "step-005", "step-006", "step-007", "step-008", "step-009", "step-010", "step-011", "step-012", "step-013", "step-014"]}

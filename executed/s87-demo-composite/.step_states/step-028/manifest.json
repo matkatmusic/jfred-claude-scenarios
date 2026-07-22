@@ -1,0 +1,15 @@
+{
+  "label": "step-028",
+  "step_num": 28,
+  "action": "edit",
+  "payload": "inventory.py \u2014 append `# checked`",
+  "files": [
+    ".claude",
+    ".pytest_cache",
+    "__pycache__",
+    "inventory.py",
+    "rename_inv.py",
+    "reporting.py",
+    "tests"
+  ]
+}

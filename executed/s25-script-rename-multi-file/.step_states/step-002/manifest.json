@@ -1,0 +1,13 @@
+{
+  "label": "step-002",
+  "step_num": 2,
+  "action": "say",
+  "payload": "Edit 'geo_core.py'. Add a function 'midpoint(x1, y1, x2, y2)' that returns the midpoint tuple.",
+  "files": [
+    ".pytest_cache",
+    "__pycache__",
+    "geo_core.py",
+    "geo_report.py",
+    "tests"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "label": "step-008",
+  "step_num": 8,
+  "action": "say",
+  "payload": "Edit scenario23.py. Add a method called is_empty that returns len(self.items) == 0.",
+  "files": [
+    ".pytest_cache",
+    "__pycache__",
+    "scenario23.py",
+    "tests"
+  ]
+}

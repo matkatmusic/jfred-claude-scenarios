@@ -1,0 +1,4 @@
+old,new
+tot_value,total_value
+low_stock,below_threshold
+restock,replenish

@@ -1,0 +1,15 @@
+{
+  "label": "step-024",
+  "step_num": 24,
+  "action": "rewind",
+  "payload": "2, code",
+  "files": [
+    ".claude",
+    ".pytest_cache",
+    "__pycache__",
+    "inventory.py",
+    "rename_inv.py",
+    "reporting.py",
+    "tests"
+  ]
+}

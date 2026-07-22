@@ -1,0 +1,12 @@
+{
+  "label": "step-008",
+  "step_num": 8,
+  "action": "say",
+  "payload": "Write a CSV file called 'renames.csv' with a header \"old,new\" and these rows: add_item,append_item then find_item,lookup_item. Then write a Python script called 'apply_renames.py' that reads 'renames.csv' and applies each old-to-new pair as a whole-word rename across 'core_inventory.py' \u2014 reading the file's text, substituting every pair, and writing it back \u2014 then run it with python3 using the Bash tool (not the context-mode MCP sandbox). The script must read the mapping from 'renames.csv' (not hardcode it). Perform the rename by writing and running that script \u2014 do NOT use your Edit/Write tools to change the source file directly.",
+  "files": [
+    ".claude",
+    "core_inventory.py",
+    "move_files.py",
+    "tests"
+  ]
+}

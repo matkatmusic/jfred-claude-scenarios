@@ -1,0 +1,10 @@
+{
+  "label": "step-003",
+  "step_num": 3,
+  "action": "say",
+  "payload": "In a single reply, first briefly note in plain text what you are adding, then in that same reply edit 'ledger.py' to add a documented function 'largest_entry(entries)' that returns the entry with the greatest \"amount\". Text first, then the edit.",
+  "files": [
+    "ledger.py",
+    "tests"
+  ]
+}

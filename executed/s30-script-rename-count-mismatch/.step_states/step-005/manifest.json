@@ -1,0 +1,14 @@
+{
+  "label": "step-005",
+  "step_num": 5,
+  "action": "say",
+  "payload": "Confirm the script's output contains a \"MISMATCH\" line for the 'base_price' row \u2014 that rename must be refused, so 'base_price' stays unchanged in both 'pricing.py' and the test file, while 'round_price' was renamed to 'round_to_cents'. Report what the output showed.",
+  "files": [
+    ".pytest_cache",
+    "__pycache__",
+    "count_renames.csv",
+    "pricing.py",
+    "safe_rename.py",
+    "tests"
+  ]
+}

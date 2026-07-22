@@ -1,0 +1,15 @@
+tmpdir: /var/folders/fy/wg2tzrv957sg2vqjcvdkdzvm0000gn/T/run-scenario.dglgqsdw
+session: s31-script-rename-many-rows
+model: claude-opus-4-6[1m]
+ponytail: ultra
+---
+- [x] 1. Say: `Write a file called 'textutil.py' — a string-utilities module, at least 120 lines long, with a module docstring and twelve terse-named functions, each documented: 'cap(s)', 'low(s)', 'up(s)', 'rev(s)', 'trim(s)', 'pad(s, n)', 'cnt(s, ch)', 'idx(s, ch)', 'rep(s, a, b)', 'splt(s, sep)', 'joi(parts, sep)', and 'slug(s)'. Also write 'tests/test_textutil.py' covering 'cap', 'rev', and 'slug'.`
+- [x] 2. Say: `Edit 'textutil.py'. Add a function 'normalize(s)' that calls 'trim' and 'low'.`
+- [x] 3. Say: `Write a CSV file called 'many_renames.csv' with a header "old,new" and one row for each of the twelve functions, mapping each terse name to a clear name (for example cap,capitalize and rev,reverse and slug,slugify — give every function a clear name). Then write a Python script called 'bulk_rename.py' that reads 'many_renames.csv' and applies all rows as whole-word renames to both 'textutil.py' and 'tests/test_textutil.py', printing one "OK old -> new" line per row and a final "N OK" summary, and run it with python3 using the Bash tool (not the context-mode MCP sandbox). The test file must be updated with the new names too. Important: perform the renames by writing and running that script — do NOT use your Edit/Write tools to change 'textutil.py' or its test file directly.`
+- [x] 4. Say: `Edit 'textutil.py'. Add a function 'headline(s)' that calls 'capitalize' and 'slugify'.`
+- [x] 5. Say: `Thanks.`
+- [x] 6. Exit
+- [x] 7. Record: JSONL filename
+
+---
+result: {"completed": true, "jsonl_path": "/Users/matkatmusicllc/.claude/projects/-private-var-folders-fy-wg2tzrv957sg2vqjcvdkdzvm0000gn-T-run-scenario-dglgqsdw/52d26fe9-d99f-4923-bd57-0ae5cd63df36.jsonl", "jsonl_paths": ["/Users/matkatmusicllc/.claude/projects/-private-var-folders-fy-wg2tzrv957sg2vqjcvdkdzvm0000gn-T-run-scenario-dglgqsdw/52d26fe9-d99f-4923-bd57-0ae5cd63df36.jsonl"], "abandoned_branches": [], "step_states": ["step-001", "step-002", "step-003", "step-004", "step-005", "step-006", "step-007"]}

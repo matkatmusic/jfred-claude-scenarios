@@ -1,0 +1,10 @@
+{
+  "label": "step-004",
+  "step_num": 4,
+  "action": "say",
+  "payload": "Edit 'greet.py'. Add a documented function 'shout(name)' that returns the greeting from 'greet' in uppercase.",
+  "files": [
+    "greet.py",
+    "tests"
+  ]
+}

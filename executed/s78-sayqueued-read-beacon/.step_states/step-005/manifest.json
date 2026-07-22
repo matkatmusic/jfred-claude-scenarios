@@ -1,0 +1,12 @@
+{
+  "label": "step-005",
+  "step_num": 5,
+  "action": "exit",
+  "payload": "",
+  "files": [
+    "alpha.py",
+    "beta.py",
+    "gamma.py",
+    "tests"
+  ]
+}

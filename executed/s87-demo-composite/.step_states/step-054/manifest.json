@@ -1,0 +1,17 @@
+{
+  "label": "step-054",
+  "step_num": 54,
+  "action": "say",
+  "payload": "We need to rename some functions \u2014 see the handoff at 'plans/handoff-inventory.md'. Write a CSV file called 'renames.csv' with a header \"old,new\" and these rows: tot_value,total_value then low_stock,below_threshold then restock,replenish.",
+  "files": [
+    ".claude",
+    ".pytest_cache",
+    "__pycache__",
+    "inventory.py",
+    "plans",
+    "rename_inv.py",
+    "renames.csv",
+    "reporting.py",
+    "tests"
+  ]
+}

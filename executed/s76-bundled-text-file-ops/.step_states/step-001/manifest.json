@@ -1,0 +1,10 @@
+{
+  "label": "step-001",
+  "step_num": 1,
+  "action": "say",
+  "payload": "In a single reply, first write one sentence of plain message text describing what you will create, then in that same reply create 'ledger.py' with a module docstring and a documented function 'entry_total(entries)' that sums each entry's \"amount\". The plain-text sentence must come before the file-creating tool call.",
+  "files": [
+    "ledger.py",
+    "tests"
+  ]
+}

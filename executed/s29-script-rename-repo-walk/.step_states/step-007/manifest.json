@@ -1,0 +1,14 @@
+{
+  "label": "step-007",
+  "step_num": 7,
+  "action": "record",
+  "payload": "JSONL filename",
+  "files": [
+    ".pytest_cache",
+    "__pycache__",
+    "main.py",
+    "pkg",
+    "tests",
+    "walk_rename.py"
+  ]
+}

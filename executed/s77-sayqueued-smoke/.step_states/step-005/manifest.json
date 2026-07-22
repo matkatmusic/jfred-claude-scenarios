@@ -1,0 +1,10 @@
+{
+  "label": "step-005",
+  "step_num": 5,
+  "action": "record",
+  "payload": "JSONL filename",
+  "files": [
+    "note.py",
+    "tests"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "label": "step-004",
+  "step_num": 4,
+  "action": "say",
+  "payload": "Thanks.",
+  "files": [
+    ".claude",
+    "core_one.py",
+    "core_three.py",
+    "core_two.py",
+    "move_files.py",
+    "tests"
+  ]
+}

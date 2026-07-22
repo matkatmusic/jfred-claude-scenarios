@@ -1,0 +1,10 @@
+{
+  "label": "step-006",
+  "step_num": 6,
+  "action": "say",
+  "payload": "Edit 'accounts.py'. Add a documented function 'transfer(src, dst, amount)' that moves money between accounts by calling 'withdraw' and 'deposit'.",
+  "files": [
+    "accounts.py",
+    "tests"
+  ]
+}

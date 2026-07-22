@@ -1,0 +1,10 @@
+{
+  "label": "step-007",
+  "step_num": 7,
+  "action": "say",
+  "payload": "Edit 'metrics.py'. Add a documented function 'value_range(values)' directly below 'mode', returning max minus min. Multi-line docstring with Args, Returns, Raises; raise ValueError on empty input.",
+  "files": [
+    "metrics.py",
+    "tests"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "label": "step-001",
+  "step_num": 1,
+  "action": "say",
+  "payload": "Write a file called s4_overwrite.py with a function called version1() that returns 1, and write tests/test_s4_overwrite.py that tests version1() returns 1.",
+  "files": [
+    ".pytest_cache",
+    "__pycache__",
+    "s4_overwrite.py",
+    "tests"
+  ]
+}

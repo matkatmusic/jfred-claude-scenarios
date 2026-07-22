@@ -1,0 +1,10 @@
+{
+  "label": "step-006",
+  "step_num": 6,
+  "action": "say",
+  "payload": "Edit 'shapes.py'. Add a documented function 'perimeter_square(side)' that returns 4 * side.",
+  "files": [
+    "shapes.py",
+    "tests"
+  ]
+}

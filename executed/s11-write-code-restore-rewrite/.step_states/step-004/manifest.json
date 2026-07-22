@@ -1,0 +1,12 @@
+{
+  "label": "step-004",
+  "step_num": 4,
+  "action": "say",
+  "payload": "Write a file called scenario11.py with a function called multiply(a, b) that returns a * b, and write tests/test_scenario11.py that tests multiply(2, 3) returns 6.",
+  "files": [
+    ".pytest_cache",
+    "__pycache__",
+    "scenario11.py",
+    "tests"
+  ]
+}

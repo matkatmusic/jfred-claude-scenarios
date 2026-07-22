@@ -1,0 +1,16 @@
+{
+  "label": "step-044",
+  "step_num": 44,
+  "action": "say",
+  "payload": "Follow 'plans/feature-plan.md'. Implement the first feature \u2014 'reserve(store, name, n)' \u2014 in 'inventory.py', add a test for it to 'tests/test_inventory.py', then run 'tests/test_inventory.py' with python3.",
+  "files": [
+    ".claude",
+    ".pytest_cache",
+    "__pycache__",
+    "inventory.py",
+    "plans",
+    "rename_inv.py",
+    "reporting.py",
+    "tests"
+  ]
+}

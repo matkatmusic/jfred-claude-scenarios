@@ -1,0 +1,10 @@
+{
+  "label": "step-006",
+  "step_num": 6,
+  "action": "say",
+  "payload": "Open 'validate.py' to see what's there, then edit it to add a documented function 'is_nonempty(s)' that returns whether the string has at least one non-whitespace character.",
+  "files": [
+    "tests",
+    "validate.py"
+  ]
+}

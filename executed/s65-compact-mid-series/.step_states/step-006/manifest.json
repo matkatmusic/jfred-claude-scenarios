@@ -1,0 +1,10 @@
+{
+  "label": "step-006",
+  "step_num": 6,
+  "action": "say",
+  "payload": "Edit 'strutils.py'. Add a documented function 'strip_digits(s)' that returns the string with all digits removed.",
+  "files": [
+    "strutils.py",
+    "tests"
+  ]
+}

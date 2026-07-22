@@ -1,0 +1,10 @@
+{
+  "label": "step-005",
+  "step_num": 5,
+  "action": "say",
+  "payload": "Stage 'orders.py' and commit the current changes with the message \"wip\" \u2014 run each git command separately.",
+  "files": [
+    "orders.py",
+    "tests"
+  ]
+}

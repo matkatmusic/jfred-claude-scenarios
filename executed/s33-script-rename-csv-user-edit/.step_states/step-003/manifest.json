@@ -1,0 +1,13 @@
+{
+  "label": "step-003",
+  "step_num": 3,
+  "action": "say",
+  "payload": "Write a CSV file called 'renames.csv' with a header \"old,new\" and these rows: calc_tot,calculate_total then fmt_money,format_currency then apply_disc,apply_discount.",
+  "files": [
+    ".pytest_cache",
+    "__pycache__",
+    "billing.py",
+    "renames.csv",
+    "tests"
+  ]
+}

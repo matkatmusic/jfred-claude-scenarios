@@ -1,0 +1,10 @@
+{
+  "label": "step-001",
+  "step_num": 1,
+  "action": "say",
+  "payload": "Initialize a git repository here \u2014 run each git command separately, no '&&' chains. Write a file called 'accounts.py' with a module docstring and these documented functions: 'open_account(name, balance)' returns an account dict; 'deposit(acct, amount)' adds to the balance and returns the account. Then stage 'accounts.py' and commit with the message \"baseline\".",
+  "files": [
+    "accounts.py",
+    "tests"
+  ]
+}

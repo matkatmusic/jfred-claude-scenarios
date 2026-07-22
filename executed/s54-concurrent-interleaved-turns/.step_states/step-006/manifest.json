@@ -1,0 +1,10 @@
+{
+  "label": "step-006",
+  "step_num": 6,
+  "action": "say",
+  "payload": "Edit 'mathlib.py'. Add a documented function 'mod(a, b)' that returns a % b.",
+  "files": [
+    "mathlib.py",
+    "tests"
+  ]
+}

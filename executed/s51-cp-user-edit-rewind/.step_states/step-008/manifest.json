@@ -1,0 +1,13 @@
+{
+  "label": "step-008",
+  "step_num": 8,
+  "action": "say",
+  "payload": "Read m6_derived.py and show me the contents.",
+  "files": [
+    ".pytest_cache",
+    "__pycache__",
+    "m6_derived.py",
+    "m6_source.py",
+    "tests"
+  ]
+}

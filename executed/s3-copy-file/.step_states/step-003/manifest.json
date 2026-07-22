@@ -1,0 +1,13 @@
+{
+  "label": "step-003",
+  "step_num": 3,
+  "action": "say",
+  "payload": "Edit s3_copy.py. Change the function name from hello to greet.",
+  "files": [
+    ".pytest_cache",
+    "__pycache__",
+    "s3_copy.py",
+    "s3_source.py",
+    "tests"
+  ]
+}

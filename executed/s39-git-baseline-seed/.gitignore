@@ -1,0 +1,5 @@
+.gitignore
+.step_states/
+.abandoned_branches/
+
+.plate/

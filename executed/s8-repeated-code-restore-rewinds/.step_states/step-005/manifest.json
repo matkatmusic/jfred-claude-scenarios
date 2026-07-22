@@ -1,0 +1,12 @@
+{
+  "label": "step-005",
+  "step_num": 5,
+  "action": "say",
+  "payload": "Write a file called scenario8.py with a function called celsius_to_fahrenheit(c) that converts Celsius to Fahrenheit, and write tests/test_scenario8.py that tests celsius_to_fahrenheit(0) returns 32.",
+  "files": [
+    ".pytest_cache",
+    "__pycache__",
+    "scenario8.py",
+    "tests"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "label": "step-003",
+  "step_num": 3,
+  "action": "say",
+  "payload": "Edit scenario23.py. Add a method called pop that removes and returns the last item.",
+  "files": [
+    ".pytest_cache",
+    "__pycache__",
+    "scenario23.py",
+    "tests"
+  ]
+}

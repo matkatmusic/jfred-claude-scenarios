@@ -1,0 +1,12 @@
+{
+  "label": "step-002",
+  "step_num": 2,
+  "action": "say",
+  "payload": "Edit m7_conv.py. Add a function called step2() that returns 2.",
+  "files": [
+    ".pytest_cache",
+    "__pycache__",
+    "m7_conv.py",
+    "tests"
+  ]
+}

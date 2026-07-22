@@ -1,0 +1,10 @@
+{
+  "label": "step-003",
+  "step_num": 3,
+  "action": "say",
+  "payload": "Edit s6_git_renamed.py. Add a function called goodbye() that prints \"goodbye\".",
+  "files": [
+    "s6_git_renamed.py",
+    "tests"
+  ]
+}

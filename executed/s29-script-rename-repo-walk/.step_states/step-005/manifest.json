@@ -1,0 +1,14 @@
+{
+  "label": "step-005",
+  "step_num": 5,
+  "action": "say",
+  "payload": "Thanks.",
+  "files": [
+    ".pytest_cache",
+    "__pycache__",
+    "main.py",
+    "pkg",
+    "tests",
+    "walk_rename.py"
+  ]
+}

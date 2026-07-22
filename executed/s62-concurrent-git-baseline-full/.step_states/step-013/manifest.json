@@ -1,0 +1,11 @@
+{
+  "label": "step-013",
+  "step_num": 13,
+  "action": "say",
+  "payload": "Edit 'customers.py'. Add a documented function 'count(customers)' that returns the number of customers.",
+  "files": [
+    "customers.py",
+    "orders.py",
+    "tests"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "label": "step-002",
+  "step_num": 2,
+  "action": "say",
+  "payload": "Edit 'mathkit.py'. Add a documented function 'cube(n)' that returns n cubed.",
+  "files": [
+    "mathkit.py",
+    "tests"
+  ]
+}

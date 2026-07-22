@@ -1,0 +1,13 @@
+{
+  "label": "step-003",
+  "step_num": 3,
+  "action": "say",
+  "payload": "Copy m1_base.py to m1_fork.py.",
+  "files": [
+    ".pytest_cache",
+    "__pycache__",
+    "m1_base.py",
+    "m1_fork.py",
+    "tests"
+  ]
+}

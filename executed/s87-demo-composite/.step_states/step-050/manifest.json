@@ -1,0 +1,16 @@
+{
+  "label": "step-050",
+  "step_num": 50,
+  "action": "say",
+  "payload": "That approach won't work out. Instead, write a handoff document 'plans/handoff-inventory.md' explaining what's implemented so far and which functions should be renamed next. Then stop.",
+  "files": [
+    ".claude",
+    ".pytest_cache",
+    "__pycache__",
+    "inventory.py",
+    "plans",
+    "rename_inv.py",
+    "reporting.py",
+    "tests"
+  ]
+}

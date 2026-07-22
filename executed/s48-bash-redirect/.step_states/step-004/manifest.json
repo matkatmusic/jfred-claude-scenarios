@@ -1,0 +1,10 @@
+{
+  "label": "step-004",
+  "step_num": 4,
+  "action": "say",
+  "payload": "Use a bash command to append \"line three\" to m3_mixed.txt.",
+  "files": [
+    "m3_mixed.txt",
+    "tests"
+  ]
+}

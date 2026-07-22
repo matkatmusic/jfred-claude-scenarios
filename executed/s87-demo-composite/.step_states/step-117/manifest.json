@@ -1,0 +1,19 @@
+{
+  "label": "step-117",
+  "step_num": 117,
+  "action": "record",
+  "payload": "",
+  "files": [
+    ".claude",
+    ".pytest_cache",
+    "__pycache__",
+    "apply_renames.py",
+    "core_inventory.py",
+    "move_files.py",
+    "plans",
+    "rename_inv.py",
+    "renames.csv",
+    "reporting_core.py",
+    "tests"
+  ]
+}

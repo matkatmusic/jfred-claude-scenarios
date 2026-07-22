@@ -1,0 +1,9 @@
+{
+  "label": "step-001",
+  "step_num": 1,
+  "action": "say",
+  "payload": "Write a file called 'mathkit.py' with a module docstring and a documented function 'square(n)' that returns n squared.",
+  "files": [
+    "tests"
+  ]
+}

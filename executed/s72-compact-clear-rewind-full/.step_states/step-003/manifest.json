@@ -1,0 +1,10 @@
+{
+  "label": "step-003",
+  "step_num": 3,
+  "action": "say",
+  "payload": "Edit 'accounts.py'. Add a documented function 'balance_of(acct)' that returns the account's balance.",
+  "files": [
+    "accounts.py",
+    "tests"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "label": "step-001",
+  "step_num": 1,
+  "action": "say",
+  "payload": "Write a file called scenario17.py with a function called greet(name) that returns \"Hello, \" + name, and write tests/test_scenario17.py that tests greet(\"world\") returns \"Hello, world\".",
+  "files": [
+    ".pytest_cache",
+    "__pycache__",
+    "scenario17.py",
+    "tests"
+  ]
+}

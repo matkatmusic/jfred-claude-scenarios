@@ -1,0 +1,10 @@
+{
+  "label": "step-001",
+  "step_num": 1,
+  "action": "say",
+  "payload": "Write a file called 'greet.py' with a module docstring and a documented function 'greet(name)' that returns a \"Hello, <name>!\" string.",
+  "files": [
+    "greet.py",
+    "tests"
+  ]
+}

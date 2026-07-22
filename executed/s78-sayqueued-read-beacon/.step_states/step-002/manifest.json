@@ -1,0 +1,12 @@
+{
+  "label": "step-002",
+  "step_num": 2,
+  "action": "say",
+  "payload": "Using your built-in Read tool on each file (not bash, not cat, not the context-mode sandbox), read all three files in full and give me a one-line summary of each.",
+  "files": [
+    "alpha.py",
+    "beta.py",
+    "gamma.py",
+    "tests"
+  ]
+}

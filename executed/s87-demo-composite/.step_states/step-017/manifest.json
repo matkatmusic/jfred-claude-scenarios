@@ -1,0 +1,14 @@
+{
+  "label": "step-017",
+  "step_num": 17,
+  "action": "say",
+  "payload": "Create and switch to a git branch called 'feature'.",
+  "files": [
+    ".claude",
+    ".pytest_cache",
+    "__pycache__",
+    "inventory.py",
+    "rename_inv.py",
+    "tests"
+  ]
+}

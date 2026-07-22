@@ -1,0 +1,10 @@
+{
+  "label": "step-006",
+  "step_num": 6,
+  "action": "exit",
+  "payload": "",
+  "files": [
+    "greet.py",
+    "tests"
+  ]
+}

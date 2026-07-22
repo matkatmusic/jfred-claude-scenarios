@@ -1,0 +1,10 @@
+{
+  "label": "step-004",
+  "step_num": 4,
+  "action": "say",
+  "payload": "Now write a Python script 'compute.py' that imports shapes and prints area_square(4), area_circle(2), and area_triangle(3, 6), then run it with python3 via the Bash tool.",
+  "files": [
+    "shapes.py",
+    "tests"
+  ]
+}

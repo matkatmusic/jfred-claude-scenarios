@@ -1,0 +1,10 @@
+{
+  "label": "step-005",
+  "step_num": 5,
+  "action": "say",
+  "payload": "Edit 'strutils.py'. Add a documented function 'capitalize_words(s)' that returns the string with each word capitalized.",
+  "files": [
+    "strutils.py",
+    "tests"
+  ]
+}

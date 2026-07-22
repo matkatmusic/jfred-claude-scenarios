@@ -1,0 +1,10 @@
+{
+  "label": "step-004",
+  "step_num": 4,
+  "action": "say",
+  "payload": "Edit 'validate.py'. Add a documented function 'is_zip(s)' that returns whether the string is a 5-digit US zip code.",
+  "files": [
+    "tests",
+    "validate.py"
+  ]
+}

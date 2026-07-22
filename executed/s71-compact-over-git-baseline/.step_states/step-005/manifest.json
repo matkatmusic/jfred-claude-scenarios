@@ -1,0 +1,10 @@
+{
+  "label": "step-005",
+  "step_num": 5,
+  "action": "say",
+  "payload": "Edit 'inventory.py'. Add a documented function 'restock(items, name, qty)' that increases the matching item's \"qty\" by calling 'find_item'.",
+  "files": [
+    "inventory.py",
+    "tests"
+  ]
+}

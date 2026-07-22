@@ -1,0 +1,12 @@
+{
+  "label": "step-001",
+  "step_num": 1,
+  "action": "say",
+  "payload": "Write a file called scenario12.py with a function called add(a, b) that returns a + b, and write tests/test_scenario12.py that tests add(1, 2) returns 3.",
+  "files": [
+    ".pytest_cache",
+    "__pycache__",
+    "scenario12.py",
+    "tests"
+  ]
+}

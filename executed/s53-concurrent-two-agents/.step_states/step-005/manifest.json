@@ -1,0 +1,10 @@
+{
+  "label": "step-005",
+  "step_num": 5,
+  "action": "say",
+  "payload": "Edit 'notes.py'. Add a documented function 'mul(a, b)' that returns a * b.",
+  "files": [
+    "notes.py",
+    "tests"
+  ]
+}

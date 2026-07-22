@@ -1,0 +1,17 @@
+tmpdir: /var/folders/fy/wg2tzrv957sg2vqjcvdkdzvm0000gn/T/run-scenario.3sgcoxfb
+session: s52-conv-rewind-no-user-edits
+model: claude-opus-4-6[1m]
+ponytail: ultra
+---
+- [x] 1. Say: `Write a file called m7_conv.py with a function called step1() that returns 1, and write tests/test_m7_conv.py that tests step1() returns 1.`
+- [x] 2. Say: `Edit m7_conv.py. Add a function called step2() that returns 2.`
+- [x] 3. Say: `Edit m7_conv.py. Add a function called step3() that returns 3.`
+- [x] 4. Say: `Looking good.`
+- [x] 5. Rewind: 3
+- [x] 6. Say: `Edit m7_conv.py. Add a function called step2_alt() that returns "2alt".`
+- [x] 7. Say: `Thanks.`
+- [x] 8. Exit
+- [x] 9. Record: JSONL filename
+
+---
+result: {"completed": true, "jsonl_path": "/Users/matkatmusicllc/.claude/projects/-private-var-folders-fy-wg2tzrv957sg2vqjcvdkdzvm0000gn-T-run-scenario-3sgcoxfb/4e42556f-9574-45a6-9e5c-4a31f9013507.jsonl", "jsonl_paths": ["/Users/matkatmusicllc/.claude/projects/-private-var-folders-fy-wg2tzrv957sg2vqjcvdkdzvm0000gn-T-run-scenario-3sgcoxfb/4e42556f-9574-45a6-9e5c-4a31f9013507.jsonl"], "abandoned_branches": ["abandoned-branch-1"], "step_states": ["step-001", "step-002", "step-003", "step-004", "step-005", "step-006", "step-007", "step-008", "step-009"]}

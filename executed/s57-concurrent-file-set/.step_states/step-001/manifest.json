@@ -1,0 +1,11 @@
+{
+  "label": "step-001",
+  "step_num": 1,
+  "action": "say",
+  "payload": "Write two files. 'orders.py' with a module docstring and a documented function 'total(items)' that sums each item's \"price\". 'customers.py' with a module docstring and a documented function 'names(customers)' that returns a list of each customer's \"name\".",
+  "files": [
+    "customers.py",
+    "orders.py",
+    "tests"
+  ]
+}

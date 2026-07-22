@@ -1,0 +1,10 @@
+{
+  "label": "step-003",
+  "step_num": 3,
+  "action": "say",
+  "payload": "Edit 'inventory.py'. Add a documented function 'remove_item(store, name)' that removes the item whose \"name\" matches.",
+  "files": [
+    "inventory.py",
+    "tests"
+  ]
+}

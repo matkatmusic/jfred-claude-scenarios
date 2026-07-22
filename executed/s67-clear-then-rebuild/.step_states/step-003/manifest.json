@@ -1,0 +1,10 @@
+{
+  "label": "step-003",
+  "step_num": 3,
+  "action": "clear",
+  "payload": "",
+  "files": [
+    "listutils.py",
+    "tests"
+  ]
+}

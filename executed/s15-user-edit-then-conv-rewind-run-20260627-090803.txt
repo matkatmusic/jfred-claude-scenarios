@@ -1,0 +1,16 @@
+tmpdir: /var/folders/fy/wg2tzrv957sg2vqjcvdkdzvm0000gn/T/run-scenario.ymhlr7mr
+session: s15-user-edit-then-conv-rewind
+model: claude-opus-4-6[1m]
+ponytail: ultra
+---
+- [x] 1. Say: `Write a file called scenario15.py with a function called hello() that prints "hello", and write tests/test_scenario15.py that tests hello() works.`
+- [x] 2. Edit: scenario15.py — prepend `# user edit`
+- [x] 3. Say: `What time is it?`
+- [x] 4. Rewind: 1
+- [x] 5. Say: `Read scenario15.py and show me the contents.`
+- [x] 6. Say: `Thanks.`
+- [x] 7. Exit
+- [x] 8. Record: JSONL filename
+
+---
+result: {"completed": true, "jsonl_path": "/Users/matkatmusicllc/.claude/projects/-private-var-folders-fy-wg2tzrv957sg2vqjcvdkdzvm0000gn-T-run-scenario-ymhlr7mr/e7e2b77c-75e5-4743-a2f1-0b0917e972d6.jsonl", "jsonl_paths": ["/Users/matkatmusicllc/.claude/projects/-private-var-folders-fy-wg2tzrv957sg2vqjcvdkdzvm0000gn-T-run-scenario-ymhlr7mr/e7e2b77c-75e5-4743-a2f1-0b0917e972d6.jsonl"], "abandoned_branches": ["abandoned-branch-1"], "step_states": ["step-001", "step-002", "step-003", "step-004", "step-005", "step-006", "step-007", "step-008"]}

@@ -1,0 +1,14 @@
+{
+  "label": "step-004",
+  "step_num": 4,
+  "action": "say",
+  "payload": "Write a Python script called 'apply_renames.py' that reads 'renames.csv' and applies each old-to-new pair as a whole-word rename to both 'billing.py' and 'tests/test_billing.py' \u2014 reading each file's text, substituting every pair, and writing it back \u2014 then run it with python3 using the Bash tool (not the context-mode MCP sandbox). The script must read the mapping from 'renames.csv' (not hardcode it) and must update the test file with the new names too. Important: perform the rename by writing and running that script \u2014 do NOT use your Edit/Write tools to change 'billing.py' or its test file directly.",
+  "files": [
+    ".pytest_cache",
+    "__pycache__",
+    "apply_renames.py",
+    "billing.py",
+    "renames.csv",
+    "tests"
+  ]
+}

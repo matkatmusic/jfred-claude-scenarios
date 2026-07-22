@@ -1,0 +1,10 @@
+{
+  "label": "step-004",
+  "step_num": 4,
+  "action": "say",
+  "payload": "Edit 'shapes.py'. Add a documented function 'triangle_area(b, h)' that returns the area of a triangle.",
+  "files": [
+    "shapes.py",
+    "tests"
+  ]
+}

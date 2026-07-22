@@ -1,0 +1,12 @@
+{
+  "label": "step-005",
+  "step_num": 5,
+  "action": "sayqueued",
+  "payload": "Also have it print the sum of all three areas.",
+  "files": [
+    "__pycache__",
+    "compute.py",
+    "shapes.py",
+    "tests"
+  ]
+}

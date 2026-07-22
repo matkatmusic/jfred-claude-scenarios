@@ -1,0 +1,10 @@
+{
+  "label": "step-005",
+  "step_num": 5,
+  "action": "say",
+  "payload": "Edit 'inventory.py'. Add a documented function 'find_item(store, name)' that returns the matching item or None.",
+  "files": [
+    "inventory.py",
+    "tests"
+  ]
+}

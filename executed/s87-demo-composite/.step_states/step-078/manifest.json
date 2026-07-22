@@ -1,0 +1,18 @@
+{
+  "label": "step-078",
+  "step_num": 78,
+  "action": "edit",
+  "payload": "inventory.py \u2014 append `# end of inventory module`",
+  "files": [
+    ".claude",
+    ".pytest_cache",
+    "__pycache__",
+    "apply_renames.py",
+    "inventory.py",
+    "plans",
+    "rename_inv.py",
+    "renames.csv",
+    "reporting.py",
+    "tests"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "label": "step-007",
+  "step_num": 7,
+  "action": "spawnconcurrent",
+  "payload": "a2",
+  "files": [
+    ".claude",
+    "apply_renames.py",
+    "core_one.py",
+    "core_three.py",
+    "core_two.py",
+    "move_files.py",
+    "renames.csv",
+    "tests"
+  ]
+}

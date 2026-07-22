@@ -1,0 +1,18 @@
+{
+  "label": "step-066",
+  "step_num": 66,
+  "action": "say",
+  "payload": "Edit 'inventory.py'. Add a documented function 'reserved_count(store)' that returns the number of reserved items.",
+  "files": [
+    ".claude",
+    ".pytest_cache",
+    "__pycache__",
+    "apply_renames.py",
+    "inventory.py",
+    "plans",
+    "rename_inv.py",
+    "renames.csv",
+    "reporting.py",
+    "tests"
+  ]
+}

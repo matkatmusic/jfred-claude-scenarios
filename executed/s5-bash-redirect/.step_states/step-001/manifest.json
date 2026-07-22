@@ -1,0 +1,10 @@
+{
+  "label": "step-001",
+  "step_num": 1,
+  "action": "say",
+  "payload": "Write a file called s5_redirect.txt with the text \"line one\".",
+  "files": [
+    "s5_redirect.txt",
+    "tests"
+  ]
+}

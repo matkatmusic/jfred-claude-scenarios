@@ -1,0 +1,10 @@
+{
+  "label": "step-013",
+  "step_num": 13,
+  "action": "say",
+  "payload": "Edit 'metrics.py'. Add a documented function 'percentile(values, p)' directly below 'zscore', returning the value at the pth percentile using nearest-rank. Multi-line docstring with Args, Returns, Raises; raise ValueError on empty input or p outside 0-100.",
+  "files": [
+    "metrics.py",
+    "tests"
+  ]
+}

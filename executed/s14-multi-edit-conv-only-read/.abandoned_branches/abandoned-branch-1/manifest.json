@@ -1,0 +1,12 @@
+{
+  "label": "abandoned-branch-1",
+  "step_num": 4,
+  "rewind": "2",
+  "code_rewind": false,
+  "files": [
+    ".pytest_cache",
+    "__pycache__",
+    "scenario14.py",
+    "tests"
+  ]
+}

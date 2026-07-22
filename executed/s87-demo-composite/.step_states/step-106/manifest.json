@@ -1,0 +1,19 @@
+{
+  "label": "step-106",
+  "step_num": 106,
+  "action": "say",
+  "payload": "Rename the module by writing a Python script called 'move_files.py' that uses shutil.move to rename 'inventory_core.py' to 'core_inventory.py', then run it by executing it through the context-mode MCP sandbox (the ctx_execute / ctx_batch_execute tool), NOT the Bash tool. Perform the move by writing and running that script \u2014 do NOT use your Edit/Write tools or a bash mv to move the file directly.",
+  "files": [
+    ".claude",
+    ".pytest_cache",
+    "__pycache__",
+    "apply_renames.py",
+    "inventory_core.py",
+    "move_files.py",
+    "plans",
+    "rename_inv.py",
+    "renames.csv",
+    "reporting_core.py",
+    "tests"
+  ]
+}

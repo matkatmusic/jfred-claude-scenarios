@@ -1,0 +1,14 @@
+{
+  "label": "step-026",
+  "step_num": 26,
+  "action": "exit",
+  "payload": "",
+  "files": [
+    ".claude",
+    "core_alpha.py",
+    "core_beta.py",
+    "core_gamma.py",
+    "move_files.py",
+    "tests"
+  ]
+}

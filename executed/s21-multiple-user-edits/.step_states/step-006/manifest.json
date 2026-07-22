@@ -1,0 +1,12 @@
+{
+  "label": "step-006",
+  "step_num": 6,
+  "action": "edit",
+  "payload": "scenario21.py \u2014 prepend `# Counter class`",
+  "files": [
+    ".pytest_cache",
+    "__pycache__",
+    "scenario21.py",
+    "tests"
+  ]
+}

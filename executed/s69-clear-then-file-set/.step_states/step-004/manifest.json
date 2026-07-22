@@ -1,0 +1,11 @@
+{
+  "label": "step-004",
+  "step_num": 4,
+  "action": "say",
+  "payload": "Open 'money.py' and 'rates.py' to see what's there, then edit 'money.py' to add a documented function 'round_cents(n)' that rounds a float to two decimal places.",
+  "files": [
+    "money.py",
+    "rates.py",
+    "tests"
+  ]
+}

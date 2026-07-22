@@ -1,0 +1,19 @@
+{
+  "label": "step-107",
+  "step_num": 107,
+  "action": "sayqueued",
+  "payload": "Also have 'move_files.py' print the rename it performs.",
+  "files": [
+    ".claude",
+    ".pytest_cache",
+    "__pycache__",
+    "apply_renames.py",
+    "inventory_core.py",
+    "move_files.py",
+    "plans",
+    "rename_inv.py",
+    "renames.csv",
+    "reporting_core.py",
+    "tests"
+  ]
+}

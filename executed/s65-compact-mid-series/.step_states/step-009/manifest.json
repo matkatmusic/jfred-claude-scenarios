@@ -1,0 +1,10 @@
+{
+  "label": "step-009",
+  "step_num": 9,
+  "action": "record",
+  "payload": "JSONL filename",
+  "files": [
+    "strutils.py",
+    "tests"
+  ]
+}

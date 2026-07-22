@@ -1,0 +1,15 @@
+{
+  "label": "step-023",
+  "step_num": 23,
+  "action": "say",
+  "payload": "Edit 'inventory.py'. Add a documented function 'most_valuable(store)' that returns the item with the highest price * stock.",
+  "files": [
+    ".claude",
+    ".pytest_cache",
+    "__pycache__",
+    "inventory.py",
+    "rename_inv.py",
+    "reporting.py",
+    "tests"
+  ]
+}

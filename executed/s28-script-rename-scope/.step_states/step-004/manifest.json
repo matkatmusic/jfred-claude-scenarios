@@ -1,0 +1,15 @@
+{
+  "label": "step-004",
+  "step_num": 4,
+  "action": "say",
+  "payload": "Write a Python script called 'scoped_rename.py' that reads 'scoped_renames.csv' and applies each row as a whole-word rename: for isExported=Y rows, rename across 'catalog.py', 'catalog_view.py', AND 'tests/test_catalog.py'; for isExported=N rows, rename only in the file named in the row. Then run it with python3 using the Bash tool (not the context-mode MCP sandbox). The exported renames must update the test file with the new names too. Important: perform the rename by writing and running that script \u2014 do NOT use your Edit/Write tools to change 'catalog.py', 'catalog_view.py', or the test file directly.",
+  "files": [
+    ".pytest_cache",
+    "__pycache__",
+    "catalog.py",
+    "catalog_view.py",
+    "scoped_rename.py",
+    "scoped_renames.csv",
+    "tests"
+  ]
+}

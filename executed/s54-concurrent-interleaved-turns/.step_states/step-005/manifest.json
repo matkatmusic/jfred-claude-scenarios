@@ -1,0 +1,10 @@
+{
+  "label": "step-005",
+  "step_num": 5,
+  "action": "say",
+  "payload": "Edit 'mathlib.py'. Add a documented function 'div(a, b)' that returns a / b, raising ValueError when b is 0.",
+  "files": [
+    "mathlib.py",
+    "tests"
+  ]
+}

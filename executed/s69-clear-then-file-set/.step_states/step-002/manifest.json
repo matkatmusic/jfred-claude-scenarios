@@ -1,0 +1,11 @@
+{
+  "label": "step-002",
+  "step_num": 2,
+  "action": "say",
+  "payload": "Edit 'money.py'. Add a documented function 'parse_usd(s)' that parses a \"$0.00\"-style string back into a float.",
+  "files": [
+    "money.py",
+    "rates.py",
+    "tests"
+  ]
+}

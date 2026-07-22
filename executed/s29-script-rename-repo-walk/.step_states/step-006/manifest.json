@@ -1,0 +1,14 @@
+{
+  "label": "step-006",
+  "step_num": 6,
+  "action": "exit",
+  "payload": "",
+  "files": [
+    ".pytest_cache",
+    "__pycache__",
+    "main.py",
+    "pkg",
+    "tests",
+    "walk_rename.py"
+  ]
+}

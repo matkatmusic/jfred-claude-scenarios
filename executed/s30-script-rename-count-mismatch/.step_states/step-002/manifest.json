@@ -1,0 +1,12 @@
+{
+  "label": "step-002",
+  "step_num": 2,
+  "action": "say",
+  "payload": "Edit 'pricing.py'. Add a function 'quote(item)' that returns the item's base price rounded to cents \u2014 i.e. it calls 'base_price(item)' to get the raw price, passes that through 'round_price', and returns the result.",
+  "files": [
+    ".pytest_cache",
+    "__pycache__",
+    "pricing.py",
+    "tests"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "label": "step-008",
+  "step_num": 8,
+  "action": "rewind",
+  "payload": "2, code",
+  "files": [
+    "customers.py",
+    "orders.py",
+    "tests"
+  ]
+}

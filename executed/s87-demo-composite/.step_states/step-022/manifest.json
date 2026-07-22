@@ -1,0 +1,15 @@
+{
+  "label": "step-022",
+  "step_num": 22,
+  "action": "say",
+  "payload": "Edit 'inventory.py'. Add a documented function 'subtotal(store, n)' that returns the total value of the first n items.",
+  "files": [
+    ".claude",
+    ".pytest_cache",
+    "__pycache__",
+    "inventory.py",
+    "rename_inv.py",
+    "reporting.py",
+    "tests"
+  ]
+}

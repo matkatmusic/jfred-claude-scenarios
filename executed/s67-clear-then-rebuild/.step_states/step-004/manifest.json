@@ -1,0 +1,10 @@
+{
+  "label": "step-004",
+  "step_num": 4,
+  "action": "say",
+  "payload": "Open 'listutils.py' to see what's there, then edit it to add a documented function 'chunk(items, size)' that splits the list into sublists of the given size.",
+  "files": [
+    "listutils.py",
+    "tests"
+  ]
+}

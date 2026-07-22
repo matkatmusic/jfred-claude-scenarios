@@ -1,0 +1,14 @@
+{
+  "label": "step-009",
+  "step_num": 9,
+  "action": "edit",
+  "payload": "ledger.py \u2014 append `# names normalized via rename script`",
+  "files": [
+    ".pytest_cache",
+    "__pycache__",
+    "apply_renames.py",
+    "ledger.py",
+    "renames.csv",
+    "tests"
+  ]
+}

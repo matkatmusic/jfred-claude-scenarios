@@ -1,0 +1,5 @@
+old,new
+calc_tot,calculate_total
+fmt_money,format_currency
+apply_disc,apply_discount
+chk_stock,check_stock

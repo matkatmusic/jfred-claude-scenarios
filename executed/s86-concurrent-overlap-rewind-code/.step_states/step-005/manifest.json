@@ -1,0 +1,10 @@
+{
+  "label": "step-005",
+  "step_num": 5,
+  "action": "say",
+  "payload": "Edit 'metrics.py'. Add a documented function 'median(values)' directly below 'stddev', returning the middle value of the sorted input. Multi-line docstring with Args, Returns, Raises; raise ValueError on empty input.",
+  "files": [
+    "metrics.py",
+    "tests"
+  ]
+}

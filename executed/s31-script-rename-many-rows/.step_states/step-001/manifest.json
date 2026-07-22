@@ -1,0 +1,12 @@
+{
+  "label": "step-001",
+  "step_num": 1,
+  "action": "say",
+  "payload": "Write a file called 'textutil.py' \u2014 a string-utilities module, at least 120 lines long, with a module docstring and twelve terse-named functions, each documented: 'cap(s)', 'low(s)', 'up(s)', 'rev(s)', 'trim(s)', 'pad(s, n)', 'cnt(s, ch)', 'idx(s, ch)', 'rep(s, a, b)', 'splt(s, sep)', 'joi(parts, sep)', and 'slug(s)'. Also write 'tests/test_textutil.py' covering 'cap', 'rev', and 'slug'.",
+  "files": [
+    ".pytest_cache",
+    "__pycache__",
+    "tests",
+    "textutil.py"
+  ]
+}

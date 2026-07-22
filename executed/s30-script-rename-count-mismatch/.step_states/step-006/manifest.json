@@ -1,0 +1,14 @@
+{
+  "label": "step-006",
+  "step_num": 6,
+  "action": "say",
+  "payload": "Edit 'pricing.py'. Add a function 'receipt(item)' that calls 'round_to_cents'.",
+  "files": [
+    ".pytest_cache",
+    "__pycache__",
+    "count_renames.csv",
+    "pricing.py",
+    "safe_rename.py",
+    "tests"
+  ]
+}

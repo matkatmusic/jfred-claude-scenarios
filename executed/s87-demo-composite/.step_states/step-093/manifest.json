@@ -1,0 +1,19 @@
+{
+  "label": "step-093",
+  "step_num": 93,
+  "action": "say",
+  "payload": "Thanks.",
+  "files": [
+    ".claude",
+    ".pytest_cache",
+    "__pycache__",
+    "apply_renames.py",
+    "inventory_core.py",
+    "move_files.py",
+    "plans",
+    "rename_inv.py",
+    "renames.csv",
+    "reporting_core.py",
+    "tests"
+  ]
+}

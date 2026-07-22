@@ -1,0 +1,18 @@
+{
+  "label": "step-076",
+  "step_num": 76,
+  "action": "say",
+  "payload": "Edit 'inventory.py'. Add a documented function 'stock_of(store, name)' that returns an item's stock.",
+  "files": [
+    ".claude",
+    ".pytest_cache",
+    "__pycache__",
+    "apply_renames.py",
+    "inventory.py",
+    "plans",
+    "rename_inv.py",
+    "renames.csv",
+    "reporting.py",
+    "tests"
+  ]
+}

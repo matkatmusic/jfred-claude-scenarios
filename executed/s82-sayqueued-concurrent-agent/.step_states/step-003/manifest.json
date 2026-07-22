@@ -1,0 +1,10 @@
+{
+  "label": "step-003",
+  "step_num": 3,
+  "action": "say",
+  "payload": "Write a Python script 'runit.py' that imports base, prints inc(41), and writes the result to 'out.txt', then run it with python3 via the Bash tool.",
+  "files": [
+    "base.py",
+    "tests"
+  ]
+}

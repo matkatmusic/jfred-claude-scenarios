@@ -1,0 +1,12 @@
+{
+  "label": "step-010",
+  "step_num": 10,
+  "action": "record",
+  "payload": "JSONL filename",
+  "files": [
+    ".pytest_cache",
+    "__pycache__",
+    "scenario22.py",
+    "tests"
+  ]
+}

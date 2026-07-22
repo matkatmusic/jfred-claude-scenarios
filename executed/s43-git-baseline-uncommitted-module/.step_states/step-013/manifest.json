@@ -1,0 +1,14 @@
+{
+  "label": "step-013",
+  "step_num": 13,
+  "action": "say",
+  "payload": "Edit 'inventory.py'. Add a function 'shrink(store, name)' that uses 'remove_item'.",
+  "files": [
+    ".claude",
+    ".pytest_cache",
+    "__pycache__",
+    "inventory.py",
+    "rename_inv.py",
+    "tests"
+  ]
+}

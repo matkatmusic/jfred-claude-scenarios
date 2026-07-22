@@ -1,0 +1,10 @@
+{
+  "label": "step-001",
+  "step_num": 1,
+  "action": "say",
+  "payload": "Write a file called 'strutils.py' with a module docstring and a documented function 'reverse(s)' that returns the reversed string.",
+  "files": [
+    "strutils.py",
+    "tests"
+  ]
+}

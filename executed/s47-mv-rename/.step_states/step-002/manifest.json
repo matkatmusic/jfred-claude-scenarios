@@ -1,0 +1,12 @@
+{
+  "label": "step-002",
+  "step_num": 2,
+  "action": "say",
+  "payload": "Edit m2_old_name.py. Add a function called validate() that returns \"valid\".",
+  "files": [
+    ".pytest_cache",
+    "__pycache__",
+    "m2_old_name.py",
+    "tests"
+  ]
+}

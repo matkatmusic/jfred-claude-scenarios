@@ -1,0 +1,12 @@
+{
+  "label": "step-001",
+  "step_num": 1,
+  "action": "say",
+  "payload": "Write a file called m2_old_name.py with a function called process() that returns \"processing\", and write tests/test_m2_old_name.py that tests process() returns \"processing\".",
+  "files": [
+    ".pytest_cache",
+    "__pycache__",
+    "m2_old_name.py",
+    "tests"
+  ]
+}

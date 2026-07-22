@@ -1,0 +1,10 @@
+{
+  "label": "step-011",
+  "step_num": 11,
+  "action": "say",
+  "payload": "Edit 'accounts.py'. Add a documented function 'apply_interest(acct, rate)' that grows the balance by the given rate and returns the account.",
+  "files": [
+    "accounts.py",
+    "tests"
+  ]
+}

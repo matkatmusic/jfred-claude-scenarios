@@ -1,0 +1,15 @@
+{
+  "label": "step-039",
+  "step_num": 39,
+  "action": "spawnconcurrent",
+  "payload": "a5",
+  "files": [
+    ".claude",
+    ".pytest_cache",
+    "__pycache__",
+    "inventory.py",
+    "rename_inv.py",
+    "reporting.py",
+    "tests"
+  ]
+}

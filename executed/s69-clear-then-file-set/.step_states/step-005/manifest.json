@@ -1,0 +1,11 @@
+{
+  "label": "step-005",
+  "step_num": 5,
+  "action": "say",
+  "payload": "Edit 'rates.py'. Add a documented function 'apply_rate_usd(amount, rate)' that applies the rate and formats the result by calling 'apply_rate' and 'money.format_usd'.",
+  "files": [
+    "money.py",
+    "rates.py",
+    "tests"
+  ]
+}

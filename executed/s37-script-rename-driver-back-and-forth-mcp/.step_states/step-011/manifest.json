@@ -1,0 +1,14 @@
+{
+  "label": "step-011",
+  "step_num": 11,
+  "action": "say",
+  "payload": "Thanks.",
+  "files": [
+    ".pytest_cache",
+    "__pycache__",
+    "apply_renames.py",
+    "ledger.py",
+    "renames.csv",
+    "tests"
+  ]
+}

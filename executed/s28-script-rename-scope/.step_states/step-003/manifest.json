@@ -1,0 +1,14 @@
+{
+  "label": "step-003",
+  "step_num": 3,
+  "action": "say",
+  "payload": "Write a CSV file called 'scoped_renames.csv' with a header \"old,new,isExported,file\" and these rows: load_all,load_catalog,Y, (an exported/global rename, blank file column) then _norm,normalize_entry,N,catalog.py (a local rename scoped to one file).",
+  "files": [
+    ".pytest_cache",
+    "__pycache__",
+    "catalog.py",
+    "catalog_view.py",
+    "scoped_renames.csv",
+    "tests"
+  ]
+}

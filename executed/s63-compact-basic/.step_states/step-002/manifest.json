@@ -1,0 +1,10 @@
+{
+  "label": "step-002",
+  "step_num": 2,
+  "action": "say",
+  "payload": "Edit 'greet.py'. Add a documented function 'farewell(name)' that returns a \"Goodbye, <name>.\" string.",
+  "files": [
+    "greet.py",
+    "tests"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "label": "step-006",
+  "step_num": 6,
+  "action": "say",
+  "payload": "Write a Python script called 'apply_renames.py' that reads 'renames.csv' and applies each old-to-new pair as a whole-word rename to both 'ledger.py' and 'tests/test_ledger.py' by reading each file, substituting, and writing it back. Do not run it yet.",
+  "files": [
+    ".pytest_cache",
+    "__pycache__",
+    "apply_renames.py",
+    "ledger.py",
+    "renames.csv",
+    "tests"
+  ]
+}

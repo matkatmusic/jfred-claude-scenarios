@@ -1,0 +1,13 @@
+{
+  "label": "step-003",
+  "step_num": 3,
+  "action": "say",
+  "payload": "Write a CSV file called 'count_renames.csv' with a header \"old,new,count\". Put two rows: one row renaming 'round_price' to 'round_to_cents' with the CORRECT number of whole-word occurrences of 'round_price' in 'pricing.py'; and one row renaming 'base_price' to 'unit_price' with a deliberately WRONG occurrence count (off by one).",
+  "files": [
+    ".pytest_cache",
+    "__pycache__",
+    "count_renames.csv",
+    "pricing.py",
+    "tests"
+  ]
+}

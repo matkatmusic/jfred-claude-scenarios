@@ -1,0 +1,13 @@
+{
+  "label": "step-004",
+  "step_num": 4,
+  "action": "say",
+  "payload": "Some of these function names are too terse. Write a Python script called 'rename_funcs.py' that opens 'order_utils.py', does a whole-word rename of these names \u2014 'calc_tot' to 'calculate_total', 'fmt_money' to 'format_currency', 'chk_stock' to 'check_stock', 'mk_order' to 'build_order', 'apply_disc' to 'apply_discount' \u2014 by reading the file text, substituting, and writing it back, then run it with python3 using the Bash tool (not the context-mode MCP sandbox). The script must modify only 'order_utils.py'. Important: perform the rename by writing and running that script \u2014 do NOT use your Edit/Write tools to change 'order_utils.py' directly.",
+  "files": [
+    ".pytest_cache",
+    "__pycache__",
+    "order_utils.py",
+    "rename_funcs.py",
+    "tests"
+  ]
+}

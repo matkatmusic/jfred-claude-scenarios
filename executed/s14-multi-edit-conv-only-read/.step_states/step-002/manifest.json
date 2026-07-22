@@ -1,0 +1,12 @@
+{
+  "label": "step-002",
+  "step_num": 2,
+  "action": "say",
+  "payload": "Edit scenario14.py. Add a function called farewell(name) that returns \"Goodbye, \" + name.",
+  "files": [
+    ".pytest_cache",
+    "__pycache__",
+    "scenario14.py",
+    "tests"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "label": "step-004",
+  "step_num": 4,
+  "action": "say",
+  "payload": "Edit 'metrics.py'. Add a documented function 'stddev(values)' directly below 'variance', returning the square root of the population variance. Multi-line docstring with Args, Returns, Raises; raise ValueError on empty input.",
+  "files": [
+    "metrics.py",
+    "tests"
+  ]
+}

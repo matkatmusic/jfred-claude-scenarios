@@ -1,0 +1,15 @@
+{
+  "label": "step-024",
+  "step_num": 24,
+  "action": "say",
+  "payload": "Write a CSV file called 'renames.csv' with a header \"old,new\" and these rows: a_one,alpha_first then a_three,alpha_third then b_two,beta_second then g_one,gamma_first then g_four,gamma_fourth.",
+  "files": [
+    ".claude",
+    "core_alpha.py",
+    "core_beta.py",
+    "core_gamma.py",
+    "move_files.py",
+    "renames.csv",
+    "tests"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "label": "step-001",
+  "step_num": 1,
+  "action": "say",
+  "payload": "Write a file called 'ledger.py' \u2014 a small accounting-ledger module, at least 100 lines long, with a module docstring and these terse-named functions, each documented: 'add_entry(book, entry)' appends an entry; 'rm_entry(book, name)' removes by name; 'tot_debits(book)' sums debit amounts; 'tot_credits(book)' sums credit amounts; 'bal(book)' returns debits minus credits. Also write 'tests/test_ledger.py' covering 'bal'.",
+  "files": [
+    ".pytest_cache",
+    "__pycache__",
+    "ledger.py",
+    "tests"
+  ]
+}

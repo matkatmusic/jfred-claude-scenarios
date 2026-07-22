@@ -1,0 +1,14 @@
+{
+  "label": "step-004",
+  "step_num": 4,
+  "action": "say",
+  "payload": "These function names are too terse. Write a Python script called 'rename_geo.py' that does a whole-word rename ACROSS 'geo_core.py', 'geo_report.py', AND 'tests/test_geo_core.py' \u2014 'area' to 'rectangle_area', 'perim' to 'rectangle_perimeter', 'vol' to 'box_volume' \u2014 by reading each file's text, substituting, and writing it back, then run it with python3 using the Bash tool (not the context-mode MCP sandbox). The test file must be updated with the new names too. Important: perform the rename by writing and running that script \u2014 do NOT use your Edit/Write tools to change 'geo_core.py', 'geo_report.py', or the test file directly.",
+  "files": [
+    ".pytest_cache",
+    "__pycache__",
+    "geo_core.py",
+    "geo_report.py",
+    "rename_geo.py",
+    "tests"
+  ]
+}

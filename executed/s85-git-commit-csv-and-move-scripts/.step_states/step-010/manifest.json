@@ -1,0 +1,16 @@
+{
+  "label": "step-010",
+  "step_num": 10,
+  "action": "record",
+  "payload": "JSONL filename",
+  "files": [
+    ".claude",
+    "apply_renames.py",
+    "core_one.py",
+    "core_three.py",
+    "core_two.py",
+    "move_files.py",
+    "renames.csv",
+    "tests"
+  ]
+}

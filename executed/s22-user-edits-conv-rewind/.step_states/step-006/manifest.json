@@ -1,0 +1,12 @@
+{
+  "label": "step-006",
+  "step_num": 6,
+  "action": "edit",
+  "payload": "scenario22.py \u2014 after `self.items.pop()` insert `    def peek(self): return self.items[-1] if self.items else None`",
+  "files": [
+    ".pytest_cache",
+    "__pycache__",
+    "scenario22.py",
+    "tests"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "label": "step-004",
+  "step_num": 4,
+  "action": "say",
+  "payload": "Thanks.",
+  "files": [
+    ".pytest_cache",
+    "__pycache__",
+    "s2_moved.py",
+    "tests"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "label": "step-001",
+  "step_num": 1,
+  "action": "say",
+  "payload": "Write a file called m3_mixed.txt with the text \"line one\".",
+  "files": [
+    "m3_mixed.txt",
+    "tests"
+  ]
+}

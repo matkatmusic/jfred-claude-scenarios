@@ -1,0 +1,12 @@
+{
+  "label": "step-002",
+  "step_num": 2,
+  "action": "edit",
+  "payload": "scenario22.py \u2014 after `self.items = []` insert `    def push(self, item): self.items.append(item)`",
+  "files": [
+    ".pytest_cache",
+    "__pycache__",
+    "scenario22.py",
+    "tests"
+  ]
+}

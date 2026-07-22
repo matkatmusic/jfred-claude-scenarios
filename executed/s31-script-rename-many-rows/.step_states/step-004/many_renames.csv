@@ -1,0 +1,13 @@
+old,new
+cap,capitalize
+low,lowercase
+up,uppercase
+rev,reverse
+trim,strip
+pad,pad_right
+cnt,count
+idx,index_of
+rep,replace
+splt,split
+joi,join
+slug,slugify

@@ -1,0 +1,10 @@
+{
+  "label": "step-002",
+  "step_num": 2,
+  "action": "say",
+  "payload": "Edit 'accounts.py'. Add a documented function 'withdraw(acct, amount)' that subtracts from the balance and returns the account, raising ValueError if the balance would go negative.",
+  "files": [
+    "accounts.py",
+    "tests"
+  ]
+}

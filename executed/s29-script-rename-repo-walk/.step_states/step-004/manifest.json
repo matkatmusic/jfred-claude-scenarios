@@ -1,0 +1,14 @@
+{
+  "label": "step-004",
+  "step_num": 4,
+  "action": "say",
+  "payload": "Edit 'pkg/b.py'. Add a function 'pipeline(x)' that calls 'compute_value'.",
+  "files": [
+    ".pytest_cache",
+    "__pycache__",
+    "main.py",
+    "pkg",
+    "tests",
+    "walk_rename.py"
+  ]
+}

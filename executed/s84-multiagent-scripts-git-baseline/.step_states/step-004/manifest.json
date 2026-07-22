@@ -1,0 +1,11 @@
+{
+  "label": "step-004",
+  "step_num": 4,
+  "action": "spawnconcurrent",
+  "payload": "a2",
+  "files": [
+    ".claude",
+    "inventory.py",
+    "tests"
+  ]
+}

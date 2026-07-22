@@ -1,0 +1,14 @@
+{
+  "label": "step-003",
+  "step_num": 3,
+  "action": "sayqueued",
+  "payload": "Also have the script print each old-to-new rename it performs as it goes.",
+  "files": [
+    ".claude",
+    "core_one.py",
+    "core_three.py",
+    "core_two.py",
+    "move_files.py",
+    "tests"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "label": "step-035",
+  "step_num": 35,
+  "action": "exit",
+  "payload": "",
+  "files": [
+    ".claude",
+    ".pytest_cache",
+    "__pycache__",
+    "inventory.py",
+    "rename_inv.py",
+    "reporting.py",
+    "tests"
+  ]
+}

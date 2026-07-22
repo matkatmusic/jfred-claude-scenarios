@@ -1,0 +1,5 @@
+old,new
+add_entry,record_entry
+rm_entry,remove_entry
+tot_debits,total_debits
+tot_credits,total_credits

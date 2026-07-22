@@ -1,0 +1,10 @@
+{
+  "label": "step-002",
+  "step_num": 2,
+  "action": "say",
+  "payload": "Edit 'shapes.py'. Add a documented function 'rect_area(w, h)' that returns the area of a rectangle.",
+  "files": [
+    "shapes.py",
+    "tests"
+  ]
+}

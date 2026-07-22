@@ -1,0 +1,14 @@
+{
+  "label": "step-014",
+  "step_num": 14,
+  "action": "exit",
+  "payload": "",
+  "files": [
+    ".claude",
+    "apply_renames.py",
+    "core_inventory.py",
+    "move_files.py",
+    "renames.csv",
+    "tests"
+  ]
+}

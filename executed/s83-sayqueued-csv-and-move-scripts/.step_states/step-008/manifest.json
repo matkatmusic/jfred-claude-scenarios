@@ -1,0 +1,16 @@
+{
+  "label": "step-008",
+  "step_num": 8,
+  "action": "say",
+  "payload": "Edit 'core_two.py'. Add a documented function 'beta_two(x)' that returns x + 20.",
+  "files": [
+    ".claude",
+    "apply_renames.py",
+    "core_one.py",
+    "core_three.py",
+    "core_two.py",
+    "move_files.py",
+    "renames.csv",
+    "tests"
+  ]
+}

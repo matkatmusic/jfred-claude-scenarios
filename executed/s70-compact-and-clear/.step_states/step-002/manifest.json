@@ -1,0 +1,10 @@
+{
+  "label": "step-002",
+  "step_num": 2,
+  "action": "say",
+  "payload": "Edit 'validate.py'. Add a documented function 'is_phone(s)' that returns whether the string looks like a 10-digit phone number.",
+  "files": [
+    "tests",
+    "validate.py"
+  ]
+}

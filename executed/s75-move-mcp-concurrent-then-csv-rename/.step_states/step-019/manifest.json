@@ -1,0 +1,14 @@
+{
+  "label": "step-019",
+  "step_num": 19,
+  "action": "say",
+  "payload": "Edit 'core_beta.py'. Add a documented function 'b_three(x)' that returns x * 4.",
+  "files": [
+    ".claude",
+    "core_alpha.py",
+    "core_beta.py",
+    "core_gamma.py",
+    "move_files.py",
+    "tests"
+  ]
+}

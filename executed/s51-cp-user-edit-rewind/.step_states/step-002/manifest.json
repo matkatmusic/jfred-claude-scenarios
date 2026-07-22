@@ -1,0 +1,12 @@
+{
+  "label": "step-002",
+  "step_num": 2,
+  "action": "say",
+  "payload": "Edit m6_source.py. Add a method called describe() that returns self.name.",
+  "files": [
+    ".pytest_cache",
+    "__pycache__",
+    "m6_source.py",
+    "tests"
+  ]
+}

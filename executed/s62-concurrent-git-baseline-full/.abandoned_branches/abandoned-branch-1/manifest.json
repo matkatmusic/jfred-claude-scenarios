@@ -1,0 +1,11 @@
+{
+  "label": "abandoned-branch-1",
+  "step_num": 8,
+  "rewind": "2, code",
+  "code_rewind": true,
+  "files": [
+    "customers.py",
+    "orders.py",
+    "tests"
+  ]
+}

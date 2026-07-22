@@ -1,0 +1,13 @@
+{
+  "label": "step-005",
+  "step_num": 5,
+  "action": "say",
+  "payload": "Edit 'order_utils.py'. Add a function 'print_receipt(order)' that builds and returns a receipt string using 'calculate_total' and 'format_currency'.",
+  "files": [
+    ".pytest_cache",
+    "__pycache__",
+    "order_utils.py",
+    "rename_funcs.py",
+    "tests"
+  ]
+}

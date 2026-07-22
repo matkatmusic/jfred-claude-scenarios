@@ -1,0 +1,13 @@
+{
+  "label": "step-006",
+  "step_num": 6,
+  "action": "record",
+  "payload": "JSONL filename",
+  "files": [
+    ".pytest_cache",
+    "__pycache__",
+    "s3_copy.py",
+    "s3_source.py",
+    "tests"
+  ]
+}

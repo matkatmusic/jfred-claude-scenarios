@@ -1,0 +1,15 @@
+tmpdir: /var/folders/fy/wg2tzrv957sg2vqjcvdkdzvm0000gn/T/run-scenario.qyvtncjr
+session: s12-write-conv-only-rewrite
+model: claude-opus-4-6[1m]
+ponytail: ultra
+---
+- [x] 1. Say: `Write a file called scenario12.py with a function called add(a, b) that returns a + b, and write tests/test_scenario12.py that tests add(1, 2) returns 3.`
+- [x] 2. Say: `That looks correct.`
+- [x] 3. Rewind: 2
+- [x] 4. Say: `Write a file called scenario12.py with a function called multiply(a, b) that returns a * b, and write tests/test_scenario12.py that tests multiply(2, 3) returns 6.`
+- [x] 5. Say: `Thanks.`
+- [x] 6. Exit
+- [x] 7. Record: JSONL filename
+
+---
+result: {"completed": true, "jsonl_path": "/Users/matkatmusicllc/.claude/projects/-private-var-folders-fy-wg2tzrv957sg2vqjcvdkdzvm0000gn-T-run-scenario-qyvtncjr/66c72c9c-8c76-461e-91ae-8f83220c0c30.jsonl", "jsonl_paths": ["/Users/matkatmusicllc/.claude/projects/-private-var-folders-fy-wg2tzrv957sg2vqjcvdkdzvm0000gn-T-run-scenario-qyvtncjr/66c72c9c-8c76-461e-91ae-8f83220c0c30.jsonl"], "abandoned_branches": ["abandoned-branch-1"], "step_states": ["step-001", "step-002", "step-003", "step-004", "step-005", "step-006", "step-007"]}

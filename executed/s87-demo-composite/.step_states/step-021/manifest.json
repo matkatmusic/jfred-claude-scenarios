@@ -1,0 +1,15 @@
+{
+  "label": "step-021",
+  "step_num": 21,
+  "action": "say",
+  "payload": "Write a file called 'reporting.py' with a module docstring and a documented function 'stock_report(store)' that returns a list of (name, stock) pairs.",
+  "files": [
+    ".claude",
+    ".pytest_cache",
+    "__pycache__",
+    "inventory.py",
+    "rename_inv.py",
+    "reporting.py",
+    "tests"
+  ]
+}

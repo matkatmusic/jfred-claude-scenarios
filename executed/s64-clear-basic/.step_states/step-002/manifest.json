@@ -1,0 +1,10 @@
+{
+  "label": "step-002",
+  "step_num": 2,
+  "action": "say",
+  "payload": "Edit 'temps.py'. Add a documented function 'f_to_c(f)' that converts Fahrenheit to Celsius.",
+  "files": [
+    "temps.py",
+    "tests"
+  ]
+}

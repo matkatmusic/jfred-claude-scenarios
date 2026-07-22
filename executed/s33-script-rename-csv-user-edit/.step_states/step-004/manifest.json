@@ -1,0 +1,13 @@
+{
+  "label": "step-004",
+  "step_num": 4,
+  "action": "edit",
+  "payload": "renames.csv \u2014 append `chk_stock,check_stock`",
+  "files": [
+    ".pytest_cache",
+    "__pycache__",
+    "billing.py",
+    "renames.csv",
+    "tests"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "label": "step-002",
+  "step_num": 2,
+  "action": "rewind",
+  "payload": "1, code",
+  "files": [
+    ".pytest_cache",
+    "__pycache__",
+    "tests"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "label": "step-001",
+  "step_num": 1,
+  "action": "say",
+  "payload": "Write a file called 'billing.py' \u2014 a small billing module, at least 100 lines long, with a module docstring and these terse-named functions, each documented: 'calc_tot(items)' sums price * qty; 'fmt_money(n)' returns a \"$0.00\" string; 'chk_stock(item, qty)' returns whether qty <= item[\"stock\"]; 'apply_disc(total, pct)' returns the discounted total. Also write 'tests/test_billing.py' covering 'calc_tot' and 'fmt_money'.",
+  "files": [
+    ".pytest_cache",
+    "__pycache__",
+    "billing.py",
+    "tests"
+  ]
+}

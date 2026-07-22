@@ -1,0 +1,14 @@
+{
+  "label": "step-020",
+  "step_num": 20,
+  "action": "say",
+  "payload": "Edit 'core_gamma.py'. Add a documented function 'g_four(x)' that returns x - 4.",
+  "files": [
+    ".claude",
+    "core_alpha.py",
+    "core_beta.py",
+    "core_gamma.py",
+    "move_files.py",
+    "tests"
+  ]
+}

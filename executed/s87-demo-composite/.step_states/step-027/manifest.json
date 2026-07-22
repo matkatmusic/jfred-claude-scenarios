@@ -1,0 +1,15 @@
+{
+  "label": "step-027",
+  "step_num": 27,
+  "action": "say",
+  "payload": "Edit 'reporting.py'. Add a documented function 'low_stock_report(store, threshold)' that returns items below the threshold.",
+  "files": [
+    ".claude",
+    ".pytest_cache",
+    "__pycache__",
+    "inventory.py",
+    "rename_inv.py",
+    "reporting.py",
+    "tests"
+  ]
+}

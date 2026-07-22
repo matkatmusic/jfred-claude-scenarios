@@ -1,0 +1,14 @@
+{
+  "label": "step-006",
+  "step_num": 6,
+  "action": "say",
+  "payload": "Edit 'billing.py'. Add a function 'reorder(item, qty)' that uses 'check_stock' and 'calculate_total'.",
+  "files": [
+    ".pytest_cache",
+    "__pycache__",
+    "apply_renames.py",
+    "billing.py",
+    "renames.csv",
+    "tests"
+  ]
+}

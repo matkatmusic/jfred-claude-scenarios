@@ -1,0 +1,12 @@
+{
+  "label": "step-002",
+  "step_num": 2,
+  "action": "say",
+  "payload": "Edit 'billing.py'. Add a function 'validate(items)' that raises ValueError if any item lacks a \"price\" key, and returns True otherwise.",
+  "files": [
+    ".pytest_cache",
+    "__pycache__",
+    "billing.py",
+    "tests"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "label": "step-005",
+  "step_num": 5,
+  "action": "exit",
+  "payload": "",
+  "files": [
+    "s5_redirect.txt",
+    "tests"
+  ]
+}

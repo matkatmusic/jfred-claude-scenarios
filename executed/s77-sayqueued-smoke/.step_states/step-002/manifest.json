@@ -1,0 +1,10 @@
+{
+  "label": "step-002",
+  "step_num": 2,
+  "action": "sayqueued",
+  "payload": "Also add a documented function 'farewell(name)' to 'note.py' that returns the string \"Goodbye, \" followed by name.",
+  "files": [
+    "note.py",
+    "tests"
+  ]
+}

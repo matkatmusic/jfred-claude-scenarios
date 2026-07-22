@@ -1,0 +1,13 @@
+{
+  "label": "step-001",
+  "step_num": 1,
+  "action": "say",
+  "payload": "Write a file called 'geo_core.py' \u2014 a small geometry module, at least 100 lines long, with a module docstring and these terse-named functions, each documented: 'area(w, h)' returns w * h; 'perim(w, h)' returns 2 * (w + h); 'vol(w, h, d)' returns w * h * d; 'diag(w, h)' returns the rectangle diagonal; 'scale(w, h, k)' returns (w * k, h * k). Also write 'geo_report.py' that imports 'geo_core' and defines 'build_report(shapes)' which calls 'area', 'perim', and 'vol' to produce a text report. Also write 'tests/test_geo_core.py' covering 'area' and 'perim'.",
+  "files": [
+    ".pytest_cache",
+    "__pycache__",
+    "geo_core.py",
+    "geo_report.py",
+    "tests"
+  ]
+}

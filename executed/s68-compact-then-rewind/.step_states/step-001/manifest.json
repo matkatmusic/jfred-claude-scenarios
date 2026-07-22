@@ -1,0 +1,10 @@
+{
+  "label": "step-001",
+  "step_num": 1,
+  "action": "say",
+  "payload": "Write a file called 'shapes.py' with a module docstring and a documented function 'circle_area(r)' that returns the area of a circle with radius r.",
+  "files": [
+    "shapes.py",
+    "tests"
+  ]
+}

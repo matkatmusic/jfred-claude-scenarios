@@ -1,0 +1,10 @@
+{
+  "label": "step-002",
+  "step_num": 2,
+  "action": "say",
+  "payload": "Edit 'strutils.py'. Add a documented function 'is_palindrome(s)' that returns whether the string reads the same forwards and backwards.",
+  "files": [
+    "strutils.py",
+    "tests"
+  ]
+}

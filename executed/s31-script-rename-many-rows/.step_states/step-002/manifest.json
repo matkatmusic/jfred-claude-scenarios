@@ -1,0 +1,12 @@
+{
+  "label": "step-002",
+  "step_num": 2,
+  "action": "say",
+  "payload": "Edit 'textutil.py'. Add a function 'normalize(s)' that calls 'trim' and 'low'.",
+  "files": [
+    ".pytest_cache",
+    "__pycache__",
+    "tests",
+    "textutil.py"
+  ]
+}

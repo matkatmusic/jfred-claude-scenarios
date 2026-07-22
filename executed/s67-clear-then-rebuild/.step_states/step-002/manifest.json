@@ -1,0 +1,10 @@
+{
+  "label": "step-002",
+  "step_num": 2,
+  "action": "say",
+  "payload": "Edit 'listutils.py'. Add a documented function 'unique(items)' that returns the list with duplicates removed, preserving order.",
+  "files": [
+    "listutils.py",
+    "tests"
+  ]
+}

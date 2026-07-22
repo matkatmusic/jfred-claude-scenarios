@@ -1,0 +1,10 @@
+{
+  "label": "step-010",
+  "step_num": 10,
+  "action": "say",
+  "payload": "Edit 'metrics.py'. Add a documented function 'geometric_mean(values)' at the end of the file, returning the nth root of the product. Multi-line docstring with Args, Returns, Raises; raise ValueError on empty or non-positive input.",
+  "files": [
+    "metrics.py",
+    "tests"
+  ]
+}

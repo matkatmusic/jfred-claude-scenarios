@@ -1,0 +1,10 @@
+{
+  "label": "step-001",
+  "step_num": 1,
+  "action": "say",
+  "payload": "Initialize a git repo here if there isn't one. Write a file called s6_git.py with a function called hello() that prints \"hello\", and write tests/test_s6_git.py that tests hello() works. Stage and commit it.",
+  "files": [
+    "s6_git.py",
+    "tests"
+  ]
+}

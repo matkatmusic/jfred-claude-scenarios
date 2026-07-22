@@ -1,0 +1,14 @@
+{
+  "label": "step-005",
+  "step_num": 5,
+  "action": "say",
+  "payload": "Edit 'billing.py'. Add a function 'print_invoice(order)' that builds a string using 'calculate_total' and 'format_currency'.",
+  "files": [
+    ".pytest_cache",
+    "__pycache__",
+    "apply_renames.py",
+    "billing.py",
+    "renames.csv",
+    "tests"
+  ]
+}

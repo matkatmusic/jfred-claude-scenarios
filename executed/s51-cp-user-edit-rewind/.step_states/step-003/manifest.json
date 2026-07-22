@@ -1,0 +1,13 @@
+{
+  "label": "step-003",
+  "step_num": 3,
+  "action": "say",
+  "payload": "Copy m6_source.py to m6_derived.py.",
+  "files": [
+    ".pytest_cache",
+    "__pycache__",
+    "m6_derived.py",
+    "m6_source.py",
+    "tests"
+  ]
+}

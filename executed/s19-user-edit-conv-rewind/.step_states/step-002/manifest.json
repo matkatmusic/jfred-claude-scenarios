@@ -1,0 +1,12 @@
+{
+  "label": "step-002",
+  "step_num": 2,
+  "action": "edit",
+  "payload": "scenario19.py \u2014 after `return a + b` insert `# user tweak`",
+  "files": [
+    ".pytest_cache",
+    "__pycache__",
+    "scenario19.py",
+    "tests"
+  ]
+}

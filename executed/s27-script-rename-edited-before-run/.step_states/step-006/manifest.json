@@ -1,0 +1,12 @@
+{
+  "label": "step-006",
+  "step_num": 6,
+  "action": "say",
+  "payload": "Now run 'rename_inv.py' with python3 using the Bash tool (not the context-mode MCP sandbox) to apply all of its renames to 'inventory.py' and its test file. Important: perform the rename by running that script \u2014 do NOT use your Edit/Write tools to change 'inventory.py' or its test file directly.",
+  "files": [
+    ".pytest_cache",
+    "__pycache__",
+    "inventory.py",
+    "tests"
+  ]
+}

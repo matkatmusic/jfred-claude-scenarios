@@ -1,0 +1,12 @@
+{
+  "label": "step-001",
+  "step_num": 1,
+  "action": "say",
+  "payload": "Write a file called m7_conv.py with a function called step1() that returns 1, and write tests/test_m7_conv.py that tests step1() returns 1.",
+  "files": [
+    ".pytest_cache",
+    "__pycache__",
+    "m7_conv.py",
+    "tests"
+  ]
+}

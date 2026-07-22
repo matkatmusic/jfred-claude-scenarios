@@ -1,0 +1,15 @@
+{
+  "label": "step-007",
+  "step_num": 7,
+  "action": "exit",
+  "payload": "",
+  "files": [
+    ".pytest_cache",
+    "__pycache__",
+    "catalog.py",
+    "catalog_view.py",
+    "scoped_rename.py",
+    "scoped_renames.csv",
+    "tests"
+  ]
+}

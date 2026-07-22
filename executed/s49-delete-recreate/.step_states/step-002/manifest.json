@@ -1,0 +1,12 @@
+{
+  "label": "step-002",
+  "step_num": 2,
+  "action": "say",
+  "payload": "Edit m4_lifecycle.py. Add a function called v1_helper() that returns \"helper\".",
+  "files": [
+    ".pytest_cache",
+    "__pycache__",
+    "m4_lifecycle.py",
+    "tests"
+  ]
+}

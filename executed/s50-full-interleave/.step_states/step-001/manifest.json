@@ -1,0 +1,12 @@
+{
+  "label": "step-001",
+  "step_num": 1,
+  "action": "say",
+  "payload": "Write a file called m5_interleave.py with a function called base() that returns \"base\", and write tests/test_m5_interleave.py that tests base() returns \"base\".",
+  "files": [
+    ".pytest_cache",
+    "__pycache__",
+    "m5_interleave.py",
+    "tests"
+  ]
+}

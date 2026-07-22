@@ -1,0 +1,14 @@
+{
+  "label": "step-006",
+  "step_num": 6,
+  "action": "record",
+  "payload": "JSONL filename",
+  "files": [
+    ".claude",
+    "core_one.py",
+    "core_three.py",
+    "core_two.py",
+    "move_files.py",
+    "tests"
+  ]
+}

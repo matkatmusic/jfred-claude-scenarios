@@ -1,0 +1,16 @@
+{
+  "label": "step-047",
+  "step_num": 47,
+  "action": "edit",
+  "payload": "inventory.py \u2014 append `# feature pass complete`",
+  "files": [
+    ".claude",
+    ".pytest_cache",
+    "__pycache__",
+    "inventory.py",
+    "plans",
+    "rename_inv.py",
+    "reporting.py",
+    "tests"
+  ]
+}

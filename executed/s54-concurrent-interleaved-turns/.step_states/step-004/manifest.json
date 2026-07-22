@@ -1,0 +1,10 @@
+{
+  "label": "step-004",
+  "step_num": 4,
+  "action": "say",
+  "payload": "Edit 'mathlib.py'. Add a documented function 'mul(a, b)' that returns a * b.",
+  "files": [
+    "mathlib.py",
+    "tests"
+  ]
+}

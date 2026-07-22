@@ -1,0 +1,15 @@
+{
+  "label": "step-029",
+  "step_num": 29,
+  "action": "say",
+  "payload": "Edit 'reporting.py'. Add a documented function 'value_report(store)' that returns the total inventory value.",
+  "files": [
+    ".claude",
+    ".pytest_cache",
+    "__pycache__",
+    "inventory.py",
+    "rename_inv.py",
+    "reporting.py",
+    "tests"
+  ]
+}

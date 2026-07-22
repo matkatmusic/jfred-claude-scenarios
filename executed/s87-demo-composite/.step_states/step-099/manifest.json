@@ -1,0 +1,19 @@
+{
+  "label": "step-099",
+  "step_num": 99,
+  "action": "say",
+  "payload": "Great \u2014 commit the staged changes with that message. Run each git command separately, no '&&' chains.",
+  "files": [
+    ".claude",
+    ".pytest_cache",
+    "__pycache__",
+    "apply_renames.py",
+    "inventory_core.py",
+    "move_files.py",
+    "plans",
+    "rename_inv.py",
+    "renames.csv",
+    "reporting_core.py",
+    "tests"
+  ]
+}

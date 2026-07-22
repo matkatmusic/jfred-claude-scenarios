@@ -1,0 +1,12 @@
+{
+  "label": "step-005",
+  "step_num": 5,
+  "action": "say",
+  "payload": "Edit scenario17.py. Add a function called shout(name) that returns name.upper().",
+  "files": [
+    ".pytest_cache",
+    "__pycache__",
+    "scenario17.py",
+    "tests"
+  ]
+}

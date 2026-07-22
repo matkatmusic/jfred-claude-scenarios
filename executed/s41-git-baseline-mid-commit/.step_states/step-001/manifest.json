@@ -1,0 +1,10 @@
+{
+  "label": "step-001",
+  "step_num": 1,
+  "action": "say",
+  "payload": "Initialize a git repository here \u2014 run each git command separately, no && chains. Write a file called 'orders.py' with a module docstring and these documented functions: 'total(items)' returns the sum of each item's \"price\"; 'names(items)' returns a list of each item's \"name\". Also write 'tests/test_orders.py' covering 'total'. Then stage 'orders.py' and the 'tests' directory and commit with the message \"baseline\". Finally create and switch to a branch called 'feature'.  Do not skip switching to the branch.",
+  "files": [
+    "orders.py",
+    "tests"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "label": "step-005",
+  "step_num": 5,
+  "action": "say",
+  "payload": "Thanks.",
+  "files": [
+    ".claude",
+    "__pycache__",
+    "base.py",
+    "out.txt",
+    "runit.py",
+    "tests"
+  ]
+}

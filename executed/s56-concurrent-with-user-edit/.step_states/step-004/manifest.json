@@ -1,0 +1,10 @@
+{
+  "label": "step-004",
+  "step_num": 4,
+  "action": "edit",
+  "payload": "inventory.py \u2014 append `# reviewed by ops`",
+  "files": [
+    "inventory.py",
+    "tests"
+  ]
+}

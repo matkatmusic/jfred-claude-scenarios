@@ -1,0 +1,19 @@
+{
+  "label": "step-094",
+  "step_num": 94,
+  "action": "say",
+  "payload": "Stage all changes \u2014 run each git command separately, no '&&' chains \u2014 but do not commit yet.",
+  "files": [
+    ".claude",
+    ".pytest_cache",
+    "__pycache__",
+    "apply_renames.py",
+    "inventory_core.py",
+    "move_files.py",
+    "plans",
+    "rename_inv.py",
+    "renames.csv",
+    "reporting_core.py",
+    "tests"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "label": "step-002",
+  "step_num": 2,
+  "action": "say",
+  "payload": "In a single reply, first write one sentence of plain message text about the change, then in that same reply edit 'ledger.py' to add a documented function 'entry_count(entries)' that returns the number of entries. The sentence must come before the edit.",
+  "files": [
+    "ledger.py",
+    "tests"
+  ]
+}

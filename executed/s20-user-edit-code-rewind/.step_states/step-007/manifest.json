@@ -1,0 +1,12 @@
+{
+  "label": "step-007",
+  "step_num": 7,
+  "action": "say",
+  "payload": "Edit scenario20.py. Add a function called multiply(a, b) that returns a * b.",
+  "files": [
+    ".pytest_cache",
+    "__pycache__",
+    "scenario20.py",
+    "tests"
+  ]
+}

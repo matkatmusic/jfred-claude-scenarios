@@ -1,0 +1,11 @@
+{
+  "label": "step-007",
+  "step_num": 7,
+  "action": "say",
+  "payload": "Edit 'orders.py'. Add a documented function 'most_expensive(items)' that returns the item with the highest \"price\".",
+  "files": [
+    "customers.py",
+    "orders.py",
+    "tests"
+  ]
+}

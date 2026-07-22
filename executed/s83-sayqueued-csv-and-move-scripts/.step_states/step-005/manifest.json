@@ -1,0 +1,16 @@
+{
+  "label": "step-005",
+  "step_num": 5,
+  "action": "sayqueued",
+  "payload": "Also have 'apply_renames.py' print each old-to-new rename as it applies it.",
+  "files": [
+    ".claude",
+    "apply_renames.py",
+    "core_one.py",
+    "core_three.py",
+    "core_two.py",
+    "move_files.py",
+    "renames.csv",
+    "tests"
+  ]
+}

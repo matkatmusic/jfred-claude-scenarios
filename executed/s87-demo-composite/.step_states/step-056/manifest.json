@@ -1,0 +1,18 @@
+{
+  "label": "step-056",
+  "step_num": 56,
+  "action": "say",
+  "payload": "Write a Python script called 'apply_renames.py' that reads 'renames.csv' and applies each old-to-new pair as a whole-word rename to both 'inventory.py' and 'tests/test_inventory.py' \u2014 reading each file's text, substituting every pair, and writing it back \u2014 then run it by executing the script through the context-mode MCP sandbox (the ctx_execute / ctx_batch_execute tool), NOT the Bash tool. The script must read the mapping from 'renames.csv' (not hardcode it) and must update the test file with the new names too. Important: perform the rename by writing the script and running it through the MCP sandbox \u2014 do NOT use your Edit/Write tools to change 'inventory.py' or its test file directly, and do not run it with the Bash tool.",
+  "files": [
+    ".claude",
+    ".pytest_cache",
+    "__pycache__",
+    "apply_renames.py",
+    "inventory.py",
+    "plans",
+    "rename_inv.py",
+    "renames.csv",
+    "reporting.py",
+    "tests"
+  ]
+}

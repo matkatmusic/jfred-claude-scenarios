@@ -1,0 +1,10 @@
+{
+  "label": "step-012",
+  "step_num": 12,
+  "action": "say",
+  "payload": "Edit 'metrics.py'. Add a documented function 'zscore(value, values)' directly below 'harmonic_mean', returning (value - mean) / stddev. Multi-line docstring with Args, Returns, Raises; raise ValueError on zero stddev.",
+  "files": [
+    "metrics.py",
+    "tests"
+  ]
+}

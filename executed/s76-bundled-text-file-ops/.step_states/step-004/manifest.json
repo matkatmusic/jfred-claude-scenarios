@@ -1,0 +1,10 @@
+{
+  "label": "step-004",
+  "step_num": 4,
+  "action": "say",
+  "payload": "In a single reply, first write one sentence of plain message text, then in that same reply edit 'ledger.py' to add a documented function 'average_entry(entries)' that returns the mean \"amount\". Keep the plain-text sentence ahead of the edit.",
+  "files": [
+    "ledger.py",
+    "tests"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "label": "step-004",
+  "step_num": 4,
+  "action": "say",
+  "payload": "Edit m1_fork.py. Add a method called enable_verbose that sets self.verbose = True.",
+  "files": [
+    ".pytest_cache",
+    "__pycache__",
+    "m1_base.py",
+    "m1_fork.py",
+    "tests"
+  ]
+}

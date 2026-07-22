@@ -1,0 +1,11 @@
+{
+  "label": "step-002",
+  "step_num": 2,
+  "action": "say",
+  "payload": "Edit 'inventory.py'. Add a documented function 'find_item(items, name)' that returns the first item with a matching \"name\", or None. Then stage 'inventory.py' and commit with the message \"add find_item\".",
+  "files": [
+    ".claude",
+    "inventory.py",
+    "tests"
+  ]
+}

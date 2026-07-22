@@ -1,0 +1,10 @@
+{
+  "label": "step-003",
+  "step_num": 3,
+  "action": "say",
+  "payload": "Edit m3_mixed.txt. Change \"line one\" to \"LINE ONE\".",
+  "files": [
+    "m3_mixed.txt",
+    "tests"
+  ]
+}

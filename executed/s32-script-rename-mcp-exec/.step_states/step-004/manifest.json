@@ -1,0 +1,13 @@
+{
+  "label": "step-004",
+  "step_num": 4,
+  "action": "say",
+  "payload": "Edit 'config_utils.py'. Add a function 'apply_overrides(cfg, overrides)' that iterates overrides: for each key, calls 'get_value' to read the old value, prints a message like \"overriding <key>: <old> -> <new>\", then calls 'set_value' to set the new value. Implement it exactly as described \u2014 do not simplify or skip the get_value call.",
+  "files": [
+    ".pytest_cache",
+    "__pycache__",
+    "config_utils.py",
+    "rename_config.py",
+    "tests"
+  ]
+}

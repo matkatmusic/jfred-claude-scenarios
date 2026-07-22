@@ -1,0 +1,12 @@
+{
+  "label": "step-002",
+  "step_num": 2,
+  "action": "say",
+  "payload": "Rename the three modules by writing a Python script called 'move_files.py' that uses shutil.move to rename 'one.py' to 'core_one.py', 'two.py' to 'core_two.py', and 'three.py' to 'core_three.py', then run it by executing it through the context-mode MCP sandbox (the ctx_execute / ctx_batch_execute tool), NOT the Bash tool. Perform the moves by writing and running that script through the MCP sandbox \u2014 do NOT use your Edit/Write tools or a bash mv to move the files directly.",
+  "files": [
+    "one.py",
+    "tests",
+    "three.py",
+    "two.py"
+  ]
+}

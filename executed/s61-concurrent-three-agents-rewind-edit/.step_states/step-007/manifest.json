@@ -1,0 +1,10 @@
+{
+  "label": "step-007",
+  "step_num": 7,
+  "action": "rewind",
+  "payload": "2",
+  "files": [
+    "shapes.py",
+    "tests"
+  ]
+}

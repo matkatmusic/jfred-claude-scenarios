@@ -1,0 +1,12 @@
+{
+  "label": "step-001",
+  "step_num": 1,
+  "action": "say",
+  "payload": "Write a file called 'pricing.py' \u2014 a small pricing module, at least 100 lines long, with a module docstring and these terse-named functions, each documented: 'base_price(item)' returns item[\"price\"]; 'net_price(item, pct)' applies a discount; 'bulk_price(items)' sums net prices; 'round_price(n)' rounds to cents; 'tax_price(n, rate)' adds tax. Make sure 'base_price' is referenced several times across the module. Also write 'tests/test_pricing.py' covering 'base_price' and 'round_price'.",
+  "files": [
+    ".pytest_cache",
+    "__pycache__",
+    "pricing.py",
+    "tests"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "label": "step-005",
+  "step_num": 5,
+  "action": "say",
+  "payload": "Edit 'orders.py'. Add a documented function 'subtotal(items, n)' that returns the total of the first n items.",
+  "files": [
+    "orders.py",
+    "tests"
+  ]
+}

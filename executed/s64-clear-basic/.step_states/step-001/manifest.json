@@ -1,0 +1,10 @@
+{
+  "label": "step-001",
+  "step_num": 1,
+  "action": "say",
+  "payload": "Write a file called 'temps.py' with a module docstring and a documented function 'c_to_f(c)' that converts Celsius to Fahrenheit.",
+  "files": [
+    "temps.py",
+    "tests"
+  ]
+}

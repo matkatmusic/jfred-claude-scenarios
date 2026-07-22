@@ -1,0 +1,14 @@
+{
+  "label": "step-006",
+  "step_num": 6,
+  "action": "say",
+  "payload": "Edit 'geo_core.py'. Add a function 'bounding_box(points)' that returns (min_x, min_y, max_x, max_y).",
+  "files": [
+    ".pytest_cache",
+    "__pycache__",
+    "geo_core.py",
+    "geo_report.py",
+    "rename_geo.py",
+    "tests"
+  ]
+}

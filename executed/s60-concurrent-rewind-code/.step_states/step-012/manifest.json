@@ -1,0 +1,10 @@
+{
+  "label": "step-012",
+  "step_num": 12,
+  "action": "exit",
+  "payload": "",
+  "files": [
+    "calc.py",
+    "tests"
+  ]
+}

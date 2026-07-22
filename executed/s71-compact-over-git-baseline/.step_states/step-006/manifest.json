@@ -1,0 +1,10 @@
+{
+  "label": "step-006",
+  "step_num": 6,
+  "action": "say",
+  "payload": "Edit 'inventory.py'. Add a documented function 'low_stock(items, threshold)' that returns the items whose \"qty\" is below the threshold.",
+  "files": [
+    "inventory.py",
+    "tests"
+  ]
+}

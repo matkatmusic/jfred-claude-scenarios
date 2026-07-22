@@ -1,0 +1,14 @@
+{
+  "label": "step-009",
+  "step_num": 9,
+  "action": "spawnconcurrent",
+  "payload": "a2",
+  "files": [
+    ".claude",
+    "core_alpha.py",
+    "core_beta.py",
+    "core_gamma.py",
+    "move_files.py",
+    "tests"
+  ]
+}

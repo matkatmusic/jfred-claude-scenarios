@@ -1,0 +1,10 @@
+{
+  "label": "step-001",
+  "step_num": 1,
+  "action": "say",
+  "payload": "Write 'base.py' with a module docstring and a documented function 'inc(x)' that returns x + 1.",
+  "files": [
+    "base.py",
+    "tests"
+  ]
+}

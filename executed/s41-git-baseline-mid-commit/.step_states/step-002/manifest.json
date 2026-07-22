@@ -1,0 +1,10 @@
+{
+  "label": "step-002",
+  "step_num": 2,
+  "action": "spawn",
+  "payload": "--excludeJSONL",
+  "files": [
+    "orders.py",
+    "tests"
+  ]
+}

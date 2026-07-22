@@ -1,0 +1,11 @@
+{
+  "label": "step-001",
+  "step_num": 1,
+  "action": "say",
+  "payload": "Write two files, each with a module docstring and one documented function: 'nums.py' with 'double(x)' returning x * 2, and 'more.py' with 'triple(x)' returning x * 3.",
+  "files": [
+    "more.py",
+    "nums.py",
+    "tests"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "label": "step-007",
+  "step_num": 7,
+  "action": "say",
+  "payload": "Read scenario21.py and list all the methods.",
+  "files": [
+    ".pytest_cache",
+    "__pycache__",
+    "scenario21.py",
+    "tests"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "label": "step-075",
+  "step_num": 75,
+  "action": "say",
+  "payload": "Edit 'inventory.py'. Add a documented function 'transfer_stock(store, src, dst, n)' that moves stock between two items.",
+  "files": [
+    ".claude",
+    ".pytest_cache",
+    "__pycache__",
+    "apply_renames.py",
+    "inventory.py",
+    "plans",
+    "rename_inv.py",
+    "renames.csv",
+    "reporting.py",
+    "tests"
+  ]
+}

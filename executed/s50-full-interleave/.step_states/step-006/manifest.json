@@ -1,0 +1,12 @@
+{
+  "label": "step-006",
+  "step_num": 6,
+  "action": "say",
+  "payload": "Read m5_interleave.py and show me the contents.",
+  "files": [
+    ".pytest_cache",
+    "__pycache__",
+    "m5_interleave.py",
+    "tests"
+  ]
+}

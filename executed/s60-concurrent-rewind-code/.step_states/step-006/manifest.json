@@ -1,0 +1,10 @@
+{
+  "label": "step-006",
+  "step_num": 6,
+  "action": "rewind",
+  "payload": "2, code",
+  "files": [
+    "calc.py",
+    "tests"
+  ]
+}

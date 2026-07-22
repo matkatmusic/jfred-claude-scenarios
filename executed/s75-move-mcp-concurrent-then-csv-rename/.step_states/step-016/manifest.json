@@ -1,0 +1,14 @@
+{
+  "label": "step-016",
+  "step_num": 16,
+  "action": "edit",
+  "payload": "core_beta.py \u2014 append `# post-move review b`",
+  "files": [
+    ".claude",
+    "core_alpha.py",
+    "core_beta.py",
+    "core_gamma.py",
+    "move_files.py",
+    "tests"
+  ]
+}

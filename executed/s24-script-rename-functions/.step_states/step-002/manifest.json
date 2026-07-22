@@ -1,0 +1,12 @@
+{
+  "label": "step-002",
+  "step_num": 2,
+  "action": "say",
+  "payload": "Edit 'order_utils.py'. Add a function 'validate_items(items)' that raises ValueError if any item is missing a \"price\" or \"qty\" key, and returns True otherwise.",
+  "files": [
+    ".pytest_cache",
+    "__pycache__",
+    "order_utils.py",
+    "tests"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "label": "step-004",
+  "step_num": 4,
+  "action": "say",
+  "payload": "Write a new file called m4_lifecycle.py with a function called v2() that returns 2. Update the test file too.",
+  "files": [
+    ".pytest_cache",
+    "__pycache__",
+    "tests"
+  ]
+}

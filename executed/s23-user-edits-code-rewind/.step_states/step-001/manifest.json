@@ -1,0 +1,12 @@
+{
+  "label": "step-001",
+  "step_num": 1,
+  "action": "say",
+  "payload": "Write a file called scenario23.py with a class called Stack with an __init__ that sets self.items = [], and write tests/test_scenario23.py that tests Stack().items == [].",
+  "files": [
+    ".pytest_cache",
+    "__pycache__",
+    "scenario23.py",
+    "tests"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "label": "step-008",
+  "step_num": 8,
+  "action": "record",
+  "payload": "JSONL filename",
+  "files": [
+    ".pytest_cache",
+    "__pycache__",
+    "apply_renames.py",
+    "billing.py",
+    "renames.csv",
+    "tests"
+  ]
+}

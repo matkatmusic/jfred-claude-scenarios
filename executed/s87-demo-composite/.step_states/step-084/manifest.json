@@ -1,0 +1,18 @@
+{
+  "label": "step-084",
+  "step_num": 84,
+  "action": "say",
+  "payload": "Edit 'inventory.py'. Add a documented function 'snapshot(store)' that returns a copy of the store.",
+  "files": [
+    ".claude",
+    ".pytest_cache",
+    "__pycache__",
+    "apply_renames.py",
+    "inventory.py",
+    "plans",
+    "rename_inv.py",
+    "renames.csv",
+    "reporting.py",
+    "tests"
+  ]
+}

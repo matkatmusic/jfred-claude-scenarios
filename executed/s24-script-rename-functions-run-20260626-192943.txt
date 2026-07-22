@@ -1,0 +1,17 @@
+tmpdir: /var/folders/fy/wg2tzrv957sg2vqjcvdkdzvm0000gn/T/run-scenario.8wv1lddm
+session: s24-script-rename-functions
+model: claude-opus-4-6[1m]
+ponytail: ultra
+---
+- [x] 1. Say: `Write a file called 'order_utils.py' — a small order/billing helper module, at least 100 lines long. Give it a module docstring, two module-level constants (TAX_RATE = 0.08 and CURRENCY = "USD"), and these functions, each with its own docstring and a small body: 'calc_tot(items)' sums each item's price * qty; 'fmt_money(n)' returns a "$0.00"-style string; 'chk_stock(item, qty)' returns whether qty <= item["stock"]; 'mk_order(items)' builds and returns an order dict; 'apply_disc(total, pct)' returns the discounted total; 'tax(total)' returns total * TAX_RATE; 'parse_line(line)' parses "name,price,qty" into a dict; and 'summarize(order)' returns a multi-line text summary that calls 'calc_tot', 'fmt_money', and 'tax'. Also write 'tests/test_order_utils.py' with a few asserts covering 'calc_tot', 'fmt_money', and 'apply_disc'.`
+- [x] 2. Say: `Edit 'order_utils.py'. Add a function 'validate_items(items)' that raises ValueError if any item is missing a "price" or "qty" key, and returns True otherwise.`
+- [x] 3. Say: `Edit 'order_utils.py'. Add a function 'order_line(item)' that returns a one-line string for an item, building it by calling 'fmt_money' and 'chk_stock'.`
+- [x] 4. Say: `Some of these function names are too terse. Write a Python script called 'rename_funcs.py' that opens 'order_utils.py', does a whole-word rename of these names — 'calc_tot' to 'calculate_total', 'fmt_money' to 'format_currency', 'chk_stock' to 'check_stock', 'mk_order' to 'build_order', 'apply_disc' to 'apply_discount' — by reading the file text, substituting, and writing it back, then run it with python3 using the Bash tool (not the context-mode MCP sandbox). The script must modify only 'order_utils.py'. Important: perform the rename by writing and running that script — do NOT use your Edit/Write tools to change 'order_utils.py' directly.`
+- [x] 5. Say: `Edit 'order_utils.py'. Add a function 'print_receipt(order)' that builds and returns a receipt string using 'calculate_total' and 'format_currency'.`
+- [x] 6. Say: `Edit 'order_utils.py'. Add a function 'apply_loyalty(total, member)' that gives members an extra discount by calling 'apply_discount', then returns the result formatted with 'format_currency'.`
+- [x] 7. Say: `Thanks.`
+- [x] 8. Exit
+- [x] 9. Record: JSONL filename
+
+---
+result: {"completed": true, "jsonl_path": "/Users/matkatmusicllc/.claude/projects/-private-var-folders-fy-wg2tzrv957sg2vqjcvdkdzvm0000gn-T-run-scenario-8wv1lddm/5f9e12bd-6c24-4a0b-92f9-3bf8ff90949e.jsonl", "jsonl_paths": ["/Users/matkatmusicllc/.claude/projects/-private-var-folders-fy-wg2tzrv957sg2vqjcvdkdzvm0000gn-T-run-scenario-8wv1lddm/5f9e12bd-6c24-4a0b-92f9-3bf8ff90949e.jsonl"], "abandoned_branches": [], "step_states": ["step-001", "step-002", "step-003", "step-004", "step-005", "step-006", "step-007", "step-008", "step-009"]}
