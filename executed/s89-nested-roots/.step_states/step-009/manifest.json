@@ -1,0 +1,12 @@
+{
+  "label": "step-009",
+  "step_num": 9,
+  "action": "edit",
+  "payload": "tests/test_parser.py \u2014 append `# tests reviewed`",
+  "files": [
+    ".pytest_cache",
+    "__pycache__",
+    "parser.py",
+    "tests"
+  ]
+}

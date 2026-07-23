@@ -1,0 +1,12 @@
+{
+  "label": "step-012",
+  "step_num": 12,
+  "action": "say",
+  "payload": "Show which test functions 'test_parser.py' currently defines \u2014 just list their names, do not modify anything.",
+  "files": [
+    ".pytest_cache",
+    "__pycache__",
+    "parser.py",
+    "tests"
+  ]
+}

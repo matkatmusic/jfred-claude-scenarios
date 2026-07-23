@@ -1,0 +1,12 @@
+{
+  "label": "step-013",
+  "step_num": 13,
+  "action": "say",
+  "payload": "Stage all changes \u2014 run each git command separately, no '&&' chains \u2014 but do not commit yet.",
+  "files": [
+    ".pytest_cache",
+    "__pycache__",
+    "parser.py",
+    "tests"
+  ]
+}

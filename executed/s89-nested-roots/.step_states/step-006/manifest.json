@@ -1,0 +1,12 @@
+{
+  "label": "step-006",
+  "step_num": 6,
+  "action": "say",
+  "payload": "Edit 'tests/test_parser.py'. Add a documented test for 'parse_line' with an empty line.",
+  "files": [
+    ".pytest_cache",
+    "__pycache__",
+    "parser.py",
+    "tests"
+  ]
+}

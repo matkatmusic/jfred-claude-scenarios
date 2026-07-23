@@ -1,0 +1,12 @@
+{
+  "label": "step-018",
+  "step_num": 18,
+  "action": "exit",
+  "payload": "",
+  "files": [
+    ".pytest_cache",
+    "__pycache__",
+    "parser.py",
+    "tests"
+  ]
+}

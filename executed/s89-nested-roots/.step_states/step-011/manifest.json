@@ -1,0 +1,12 @@
+{
+  "label": "step-011",
+  "step_num": 11,
+  "action": "say",
+  "payload": "Edit 'tests/test_parser.py'. Add a documented test that combines 'parse_line' and 'strip_comment' on a commented line.",
+  "files": [
+    ".pytest_cache",
+    "__pycache__",
+    "parser.py",
+    "tests"
+  ]
+}

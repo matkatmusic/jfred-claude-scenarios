@@ -1,0 +1,12 @@
+{
+  "label": "step-007",
+  "step_num": 7,
+  "action": "say",
+  "payload": "Edit 'test_parser.py' in the current directory. Add a documented test 'test_count_tokens_multiword' asserting 'count_tokens' on a three-word line.",
+  "files": [
+    ".pytest_cache",
+    "__pycache__",
+    "parser.py",
+    "tests"
+  ]
+}

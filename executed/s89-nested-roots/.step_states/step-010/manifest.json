@@ -1,0 +1,12 @@
+{
+  "label": "step-010",
+  "step_num": 10,
+  "action": "say",
+  "payload": "Edit 'test_parser.py' in the current directory. Add a documented test for 'strip_comment' with a line that has a trailing comment.",
+  "files": [
+    ".pytest_cache",
+    "__pycache__",
+    "parser.py",
+    "tests"
+  ]
+}

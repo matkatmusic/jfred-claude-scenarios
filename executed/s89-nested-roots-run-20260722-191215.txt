@@ -1,0 +1,3 @@
+
+---
+result: {"completed": true, "jsonl_path": "/Users/matkatmusicllc/.claude/projects/-private-tmp-scen89-proj/0c0eb75d-c1fd-4407-8605-44d8c5546b27.jsonl", "jsonl_paths": ["/Users/matkatmusicllc/.claude/projects/-private-tmp-scen89-proj/0c0eb75d-c1fd-4407-8605-44d8c5546b27.jsonl"], "abandoned_branches": [], "step_states": ["step-001", "step-002", "step-003", "step-004", "step-005", "step-006", "step-007", "step-008", "step-009", "step-010", "step-011", "step-012", "step-013", "step-014", "step-015", "step-016", "step-017", "step-018", "step-019", "step-020"]}

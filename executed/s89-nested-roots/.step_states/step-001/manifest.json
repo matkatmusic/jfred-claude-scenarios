@@ -1,0 +1,9 @@
+{
+  "label": "step-001",
+  "step_num": 1,
+  "action": "say",
+  "payload": "Write a file called 'parser.py' \u2014 a small line-parsing module with a module docstring and these documented functions: 'parse_line(line)' returns a dict with keys \"raw\" and \"words\" (the whitespace-split tokens); 'count_tokens(line)' returns the number of whitespace-separated tokens. Also write 'tests/test_parser.py' covering 'parse_line' and 'count_tokens'.",
+  "files": [
+    "tests"
+  ]
+}

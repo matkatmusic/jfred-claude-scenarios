@@ -1,0 +1,12 @@
+{
+  "label": "step-014",
+  "step_num": 14,
+  "action": "say",
+  "payload": "Commit the staged changes with the message \"parser tests\". Run each git command separately, no '&&' chains.",
+  "files": [
+    ".pytest_cache",
+    "__pycache__",
+    "parser.py",
+    "tests"
+  ]
+}

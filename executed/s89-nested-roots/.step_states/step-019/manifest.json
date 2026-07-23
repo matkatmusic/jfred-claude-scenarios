@@ -1,0 +1,12 @@
+{
+  "label": "step-019",
+  "step_num": 19,
+  "action": "record",
+  "payload": "",
+  "files": [
+    ".pytest_cache",
+    "__pycache__",
+    "parser.py",
+    "tests"
+  ]
+}
